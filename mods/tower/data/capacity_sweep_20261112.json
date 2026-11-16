@@ -1,0 +1,2892 @@
+{
+ "schema": "tower-capacity-sweep/1",
+ "created": "2026-11-12",
+ "note": "每个不重复场地两例：3 Boss 同时（正式层的玩家周围搜索）、2 Boss + 6 小怪（小怪走波次区域）；站位 inward（落点往场地中心挪 60%）。Boss 池排除吃场景、只能原生场地、舞狮/左殇/大师兄/魂/暂译。",
+ "eligible_bosses": [
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+   "name": "白衣鬼差（变体）"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+   "name": "琴女烟千岁"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+   "name": "灭法之法：寒岁"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+   "name": "少主护卫：玉妖"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+   "name": "神医：谢秋冬"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+   "name": "少主护卫：铁鬼"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+   "name": "“玉琮”：寒冰"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+   "name": "“玉琮”：混沌"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+   "name": "“玉琮”：钢刃"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+   "name": "铁面杀手"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+   "name": "操偶师：荡秽"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+   "name": "吞噬尸体的小雪"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+   "name": "玉面郎君"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+   "name": "红衣女剑客"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+   "name": "红衣女剑客"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+   "name": "痴狂暴徒：残钢"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+   "name": "女妖骨婉约"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+   "name": "灭法之法：蛊鹤"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+   "name": "鬼差高手：斩骑"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C",
+   "name": "鬼差高手：断肠"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C",
+   "name": "廿一号·剑偶：“玉璧”"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C",
+   "name": "十二号·偃月刀偶：“玉鼎”"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+   "name": "癫狂暴徒：铁杀"
+  },
+  {
+   "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+   "name": "守门人拙壁"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+   "name": "横刀：毕峰"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+   "name": "疯婆子奎艳艳"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+   "name": "雷当：独臂虎"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+   "name": "发狂的水行帮主：游龙"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+   "name": "独眼弓客"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+   "name": "鬼差高手：勾魂"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+   "name": "双蛇夫人：白赤练"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+   "name": "金面具黑衣人"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+   "name": "金面具黑衣人"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C",
+   "name": "金面具黑衣人"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C",
+   "name": "金面具黑衣人"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+   "name": "三号·乐师偶：“玉瓒”"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+   "name": "天玄派：毕远掌门残躯"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+   "name": "苦叶寺：碧海大师残躯"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+   "name": "风雪刀客"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+   "name": "拳痴：铁狂"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+   "name": "灭法之法：炎茹"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+   "name": "灭法之法：雷婷"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+   "name": "赤影骨刃：囚锋"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+   "name": "火刀：祝原"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+   "name": "新娘阿花"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C",
+   "name": "“虎炮”：雷当"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+   "name": "“虎炮”：雷当"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+   "name": "“雷枪”：长鸿"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C",
+   "name": "长鸿：雷电枪骑"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+   "name": "鬼差高手：斩骑"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+   "name": "白赤练：献祭之蛇"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+   "name": "鬼差高手：断肠"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+   "name": "梦差：冷荼"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+   "name": "救苦救难梦华圣母娘娘"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+   "name": "廿一号·剑偶：“玉璧”"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+   "name": "卅四号·混沌魔偶：“玉琮”"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+   "name": "三张脸的诡异魔偶"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+   "name": "十二号·偃月刀偶：“玉鼎”"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+   "name": "活人偶清道夫"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+   "name": "巨锤客：万钧"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger_LengTu.BP_Monster_Scavenger_LengTu_C",
+   "name": "活人偶清道夫"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+   "name": "斧老大：彭猛"
+  },
+  {
+   "path": "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+   "name": "亡命徒：荆野"
+  }
+ ],
+ "venues": [
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "fixed:rongshu_zdy",
+   "name": "人面榕树（正道大营）",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v00-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C"
+     ],
+     "boss_names": [
+      "红衣女剑客",
+      "白赤练：献祭之蛇",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v00-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+     ],
+     "boss_names": [
+      "红衣女剑客",
+      "横刀：毕峰"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_JiuHuanDao.BP_Monster_HuoJinRen_JiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_ZhaoDao.BP_Monster_AquaKiller_ZhaoDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_TwinHoe.BP_Monster_FemaleThug_TwinHoe_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_JiuHuanDao.BP_Monster_HuoJinRen_JiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C"
+     ],
+     "mob_names": [
+      "活金人·刀",
+      "长刀水行潜者",
+      "双镐疯妇",
+      "活金人·刀",
+      "紫衣刀卫",
+      "野火鬼差"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+   "name": "癫狂暴徒：铁杀",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v01-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+      "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+     ],
+     "boss_names": [
+      "吞噬尸体的小雪",
+      "鬼差高手：断肠",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v01-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C"
+     ],
+     "boss_names": [
+      "三号·乐师偶：“玉瓒”",
+      "红衣女剑客"
+     ],
+     "mobs": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_DogTamer.BP_Monster_DogTamer_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_Weaponless.BP_Monster_MaleDoll_Weaponless_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_BigShield.BP_Monster_MaleThug_BigShield_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Poison.BP_Monster_BombMan_Poison_C"
+     ],
+     "mob_names": [
+      "驯犬客",
+      "阳体人偶",
+      "紫衣刀卫",
+      "紫衣刀卫",
+      "大盾暴徒",
+      "毒爆客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+   "name": "横刀：毕峰",
+   "also": [],
+   "landing_bad": true,
+   "cases": [
+    {
+     "label": "v02-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+      "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+     ],
+     "boss_names": [
+      "鬼差高手：断肠",
+      "亡命徒：荆野",
+      "少主护卫：铁鬼"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v02-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+     ],
+     "boss_names": [
+      "金面具黑衣人",
+      "“虎炮”：雷当"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_JiuHuanDao.BP_Monster_HuoJinRen_JiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow_Shield.BP_Monster_MaleThug_Club_Yellow_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue_Shield.BP_Monster_MaleThug_Sword_Blue_Shield_C"
+     ],
+     "mob_names": [
+      "活金人·刀",
+      "猎人",
+      "荆棘暴徒",
+      "哈哈哈",
+      "活铁人·棍",
+      "刀盾暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+   "name": "玉面郎君",
+   "also": [
+    "荒行子：撕裂锯轮"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v03-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C"
+     ],
+     "boss_names": [
+      "“玉琮”：寒冰",
+      "灭法之法：炎茹",
+      "十二号·偃月刀偶：“玉鼎”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v03-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+     ],
+     "boss_names": [
+      "亡命徒：荆野",
+      "卅四号·混沌魔偶：“玉琮”"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_WaWaWa_Ice.BP_Monster_DaTouWaWa_WaWaWa_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_DouLi.BP_Monster_EMei_Sword_DouLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv.BP_Monster_FemaleDoll_GeNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_Gun.BP_Monster_GuiChai_Black_Gun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C"
+     ],
+     "mob_names": [
+      "哇哇哇",
+      "白山剑护法",
+      "歌女人偶",
+      "鬼差火枪手",
+      "长枪暴徒",
+      "长枪暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+   "name": "昆仑叛教者：荒行子",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v04-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C"
+     ],
+     "boss_names": [
+      "雷当：独臂虎",
+      "“雷枪”：长鸿",
+      "三张脸的诡异魔偶"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v04-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+     ],
+     "boss_names": [
+      "灭法之法：炎茹",
+      "斧老大：彭猛"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_Cyan.BP_Monster_YingMei_Cyan_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi_Ice.BP_Monster_RenTuZi_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_Normal.BP_Monster_FeiZei_Normal_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_White.BP_Monster_HuaShan_Normal_White_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C"
+     ],
+     "mob_names": [
+      "影魅杀手",
+      "冰封人屠",
+      "飞贼",
+      "紫衣刀卫",
+      "无面剑客",
+      "山贼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+   "name": "疯婆子奎艳艳",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v05-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+     ],
+     "boss_names": [
+      "火刀：祝原",
+      "天玄派：毕远掌门残躯",
+      "卅四号·混沌魔偶：“玉琮”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v05-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C"
+     ],
+     "boss_names": [
+      "鬼差高手：断肠",
+      "神医：谢秋冬"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_YuCha.BP_Monster_AquaKiller_YuCha_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_DouLi.BP_Monster_EMei_Sword_DouLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_TongGun.BP_Monster_HuoJinRen_TongGun_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_DogTamer.BP_Monster_DogTamer_C",
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_FireBow.BP_Monster_ArrowMan_FireBow_C"
+     ],
+     "mob_names": [
+      "哈哈哈",
+      "水行潜者",
+      "白山剑护法",
+      "活金人·棍",
+      "驯犬客",
+      "火弓客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_DengDingShanDao_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+   "name": "铁面杀手",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v06-3boss",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+     ],
+     "boss_names": [
+      "痴狂暴徒：残钢",
+      "“虎炮”：雷当",
+      "活人偶清道夫"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v06-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C"
+     ],
+     "boss_names": [
+      "赤影骨刃：囚锋",
+      "“玉琮”：钢刃"
+     ],
+     "mobs": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan.BP_Monster_IronMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Hoe.BP_Monster_FemaleThug_Hoe_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow_Shield.BP_Monster_MaleThug_Club_Yellow_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv_Ice.BP_Monster_FemaleDoll_GeNv_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_Fist.BP_Monster_HuoTieRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Ice.BP_Monster_BombMan_Ice_C"
+     ],
+     "mob_names": [
+      "铁面",
+      "疯妇",
+      "荆棘暴徒",
+      "冰雪歌女",
+      "活铁人·拳",
+      "冰爆客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Duanhun_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C",
+   "name": "力者和锯者",
+   "also": [
+    "力者：石破天惊之态"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v07-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+     ],
+     "boss_names": [
+      "风雪刀客",
+      "双蛇夫人：白赤练",
+      "鬼差高手：勾魂"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v07-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+     ],
+     "boss_names": [
+      "双蛇夫人：白赤练",
+      "十二号·偃月刀偶：“玉鼎”"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/009_HeavyCrossBowManNew/BP_Monster_CrossBow.BP_Monster_CrossBow_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Spear_Blue.BP_Monster_SpearMan_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_Ice.BP_Monster_MaleDoll_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_TieChiSan.BP_Monster_FemaleDoll_TieChiSan_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Dart.BP_Monster_FemaleThug_Dart_C"
+     ],
+     "mob_names": [
+      "重弩客",
+      "暴徒",
+      "无面枪兵队长",
+      "画戟战偶",
+      "铁齿伞偶",
+      "飞刀疯妇"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Duanhun_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+   "name": "梦差：冷荼",
+   "also": [
+    "救苦救难梦华圣母娘娘"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v08-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+     ],
+     "boss_names": [
+      "三张脸的诡异魔偶",
+      "白赤练：献祭之蛇",
+      "灭法之法：蛊鹤"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v08-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C"
+     ],
+     "boss_names": [
+      "灭法之法：雷婷",
+      "“玉琮”：寒冰"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv_Ice.BP_Monster_FemaleDoll_GeNv_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_White.BP_Monster_HuaShan_Normal_White_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Red.BP_Monster_HuaShan_Normal_Red_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow.BP_Monster_MaleThug_Club_Yellow_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_NiShuiZei.BP_Monster_FeiZei_NiShuiZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow.BP_Monster_MaleThug_Club_Yellow_C"
+     ],
+     "mob_names": [
+      "冰雪歌女",
+      "无面剑客",
+      "血剑客",
+      "黄袍暴徒",
+      "溺水贼",
+      "黄袍暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Fujizhilin_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C",
+   "name": "剑痴：花千笑",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v09-3boss",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+     ],
+     "boss_names": [
+      "痴狂暴徒：残钢",
+      "卅四号·混沌魔偶：“玉琮”",
+      "火刀：祝原"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v09-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+     ],
+     "boss_names": [
+      "赤影骨刃：囚锋",
+      "双蛇夫人：白赤练"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_Knife.BP_Monster_BaiheDisciple_Knife_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_jiuHuanDao.BP_Monster_HuoTieRen_jiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Dart.BP_Monster_FemaleThug_Dart_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan.BP_Monster_BombMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTongRen_BP/BP_Monster_HuoTongRen_Fist.BP_Monster_HuoTongRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C"
+     ],
+     "mob_names": [
+      "水行弟子",
+      "活铁人·刀",
+      "飞刀疯妇",
+      "爆弹客",
+      "活铜人·拳",
+      "活铁人·棍"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Fujizhilin_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+   "name": "亡命徒：荆野",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v10-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+     ],
+     "boss_names": [
+      "火刀：祝原",
+      "铁面杀手",
+      "卅四号·混沌魔偶：“玉琮”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v10-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+     ],
+     "boss_names": [
+      "琴女烟千岁",
+      "痴狂暴徒：残钢"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HeiHeiHei_LingGu.BP_Monster_DaTouWaWa_HeiHeiHei_LingGu_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder.BP_Monster_Vessel_Elder_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Dart.BP_Monster_FemaleThug_Dart_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Red.BP_Monster_HuaShan_Normal_Red_C"
+     ],
+     "mob_names": [
+      "哈哈哈",
+      "嘿嘿嘿",
+      "“和事佬”",
+      "野火鬼差",
+      "飞刀疯妇",
+      "血剑客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Fujizhilin_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+   "name": "拳痴：铁狂",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v11-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+     ],
+     "boss_names": [
+      "灭法之法：寒岁",
+      "金面具黑衣人",
+      "红衣女剑客"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v11-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+     ],
+     "boss_names": [
+      "十二号·偃月刀偶：“玉鼎”",
+      "红衣女剑客"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_jiuHuanDao.BP_Monster_HuoTieRen_jiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_Cannon.BP_Monster_MaleDoll_Cannon_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow.BP_Monster_MaleThug_Club_Yellow_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv_Ice.BP_Monster_FemaleDoll_GeNv_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C"
+     ],
+     "mob_names": [
+      "活铁人·刀",
+      "合金炮偶",
+      "暴徒",
+      "黄袍暴徒",
+      "冰雪歌女",
+      "鬼差"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Fujizhilin_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+   "name": "“玉琮”：寒冰",
+   "also": [
+    "“玉琮”：混沌",
+    "“玉琮”：钢刃",
+    "双蛇夫人：白赤练",
+    "白赤练：献祭之蛇",
+    "卅四号·混沌魔偶：“玉琮”"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v12-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+      "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+     ],
+     "boss_names": [
+      "救苦救难梦华圣母娘娘",
+      "癫狂暴徒：铁杀",
+      "发狂的水行帮主：游龙"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v12-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+      "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+     ],
+     "boss_names": [
+      "鬼差高手：勾魂",
+      "苦叶寺：碧海大师残躯"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HeiHeiHei_LingGu.BP_Monster_DaTouWaWa_HeiHeiHei_LingGu_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_Fist.BP_Monster_HuoTieRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/009_HeavyCrossBowManNew/BP_Monster_CrossBow.BP_Monster_CrossBow_C",
+      "/PBZCombatAsset/ActorData/Mobs/019_Vessel_Vagrant/BP_Monster_Vessel_Vagrant.BP_Monster_Vessel_Vagrant_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder.BP_Monster_Vessel_Elder_C"
+     ],
+     "mob_names": [
+      "嘿嘿嘿",
+      "哈哈哈",
+      "活铁人·拳",
+      "重弩客",
+      "“癫秀才”",
+      "“和事佬”"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Houjie_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+   "name": "灭法之法：雷婷",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v13-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+     ],
+     "boss_names": [
+      "斧老大：彭猛",
+      "少主护卫：玉妖",
+      "赤影骨刃：囚锋"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v13-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+     ],
+     "boss_names": [
+      "白赤练：献祭之蛇",
+      "卅四号·混沌魔偶：“玉琮”"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Dart.BP_Monster_FemaleThug_Dart_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_GuiQiangDun.BP_Monster_MaleDoll_GuiQiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue_Shield.BP_Monster_MaleThug_Sword_Blue_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_Fire.BP_Monster_Bandit_Sword_Fire_C"
+     ],
+     "mob_names": [
+      "鬼差",
+      "水行投者",
+      "飞刀疯妇",
+      "鬼枪盾偶",
+      "刀盾暴徒",
+      "狂焰山贼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Houjie_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+   "name": "“雷枪”：长鸿",
+   "also": [
+    "长鸿：雷电枪骑"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v14-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+     ],
+     "boss_names": [
+      "巨锤客：万钧",
+      "女妖骨婉约",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v14-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+     ],
+     "boss_names": [
+      "鬼差高手：斩骑",
+      "灭法之法：雷婷"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_Cannon.BP_Monster_MaleDoll_Cannon_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HengHengHeng_FengChe.BP_Monster_DaTouWaWa_HengHengHeng_FengChe_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_jiuHuanDao.BP_Monster_HuoTieRen_jiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Dart.BP_Monster_FemaleThug_Dart_C"
+     ],
+     "mob_names": [
+      "野火鬼差",
+      "合金炮偶",
+      "哼哼哼",
+      "活铁人·刀",
+      "巨刃疯妇",
+      "飞刀疯妇"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Houjie_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+   "name": "女妖骨婉约",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v15-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger_LengTu.BP_Monster_Scavenger_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+     ],
+     "boss_names": [
+      "活人偶清道夫",
+      "灭法之法：寒岁",
+      "苦叶寺：碧海大师残躯"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v15-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+     ],
+     "boss_names": [
+      "白赤练：献祭之蛇",
+      "活人偶清道夫"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HeiHeiHei_LingGu.BP_Monster_DaTouWaWa_HeiHeiHei_LingGu_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_jiuHuanDao.BP_Monster_HuoTieRen_jiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_ZongHuoZei.BP_Monster_FeiZei_ZongHuoZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_YuCha.BP_Monster_AquaKiller_YuCha_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Rock_Blue.BP_Monster_MaleThug_Throw_Rock_Blue_C"
+     ],
+     "mob_names": [
+      "水行投者",
+      "嘿嘿嘿",
+      "活铁人·刀",
+      "火蒺藜飞贼",
+      "水行潜者",
+      "投掷暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Houjie_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+   "name": "神医：谢秋冬",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v16-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C"
+     ],
+     "boss_names": [
+      "新娘阿花",
+      "“玉琮”：钢刃",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v16-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+     ],
+     "boss_names": [
+      "救苦救难梦华圣母娘娘",
+      "横刀：毕峰"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C",
+      "/PBZCombatAsset/ActorData/Mobs/020_Vessel_Woman/BP_Monster_Vessel_Woman.BP_Monster_Vessel_Woman_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_NiShuiZei.BP_Monster_FeiZei_NiShuiZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Red.BP_Monster_HuaShan_Normal_Red_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Spear_Blue.BP_Monster_SpearMan_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C"
+     ],
+     "mob_names": [
+      "山贼",
+      "“村花姐”",
+      "溺水贼",
+      "血剑客",
+      "无面枪兵队长",
+      "哈哈哈"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+   "name": "白衣鬼差（变体）",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v17-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C"
+     ],
+     "boss_names": [
+      "白赤练：献祭之蛇",
+      "癫狂暴徒：铁杀",
+      "“虎炮”：雷当"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v17-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+     ],
+     "boss_names": [
+      "廿一号·剑偶：“玉璧”",
+      "风雪刀客"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv.BP_Monster_FemaleDoll_QinNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Weaponless.BP_Monster_FemaleDoll_Weaponless_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi_Ice.BP_Monster_RenTuZi_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder_Poison.BP_Monster_Vessel_Elder_Poison_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuWei/BP_Monster_HuWei.BP_Monster_HuWei_C"
+     ],
+     "mob_names": [
+      "猎人",
+      "琴女人偶",
+      "阴体人偶",
+      "冰封人屠",
+      "“村中长老”",
+      "雷铳鬼差"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+   "name": "鬼差高手：斩骑",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v18-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+     ],
+     "boss_names": [
+      "女妖骨婉约",
+      "操偶师：荡秽",
+      "灭法之法：雷婷"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v18-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+     ],
+     "boss_names": [
+      "火刀：祝原",
+      "拳痴：铁狂"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_Bow.BP_Monster_ArrowMan_Bow_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi.BP_Monster_RenTuZi_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C"
+     ],
+     "mob_names": [
+      "羽弓客",
+      "哈哈哈",
+      "猎人",
+      "野火鬼差",
+      "人屠子",
+      "活铁人·棍"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+   "name": "灭法之法：寒岁",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v19-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+     ],
+     "boss_names": [
+      "鬼差高手：断肠",
+      "廿一号·剑偶：“玉璧”",
+      "女妖骨婉约"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v19-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C"
+     ],
+     "boss_names": [
+      "“玉琮”：混沌",
+      "“虎炮”：雷当"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_DouLi.BP_Monster_EMei_Sword_DouLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_QiangDun.BP_Monster_MaleDoll_QiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_TwinSword.BP_Monster_HuaShan_TwinSword_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_TwinAxe.BP_Monster_MaleThug_TwinAxe_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C"
+     ],
+     "mob_names": [
+      "白山剑护法",
+      "枪盾人偶",
+      "水行投者",
+      "紫衣双剑客",
+      "双斧暴徒",
+      "山贼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+   "name": "火刀：祝原",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v20-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+     ],
+     "boss_names": [
+      "白赤练：献祭之蛇",
+      "红衣女剑客",
+      "十二号·偃月刀偶：“玉鼎”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v20-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C"
+     ],
+     "boss_names": [
+      "巨锤客：万钧",
+      "雷当：独臂虎"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/019_Vessel_Vagrant/BP_Monster_Vessel_Vagrant.BP_Monster_Vessel_Vagrant_C",
+      "/PBZCombatAsset/ActorData/Mobs/020_Vessel_Woman/BP_Monster_Vessel_Woman.BP_Monster_Vessel_Woman_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_Bow.BP_Monster_ArrowMan_Bow_C"
+     ],
+     "mob_names": [
+      "“癫秀才”",
+      "“村花姐”",
+      "长枪暴徒",
+      "水行钓者",
+      "猎人",
+      "羽弓客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C",
+   "name": "鬼差队长：火流星",
+   "also": [
+    "火流星：磷火意识"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v21-3boss",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+      "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+      "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+     ],
+     "boss_names": [
+      "铁面杀手",
+      "亡命徒：荆野",
+      "三号·乐师偶：“玉瓒”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v21-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+     ],
+     "boss_names": [
+      "“玉琮”：钢刃",
+      "操偶师：荡秽"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_NiShuiZei.BP_Monster_FeiZei_NiShuiZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Hoe.BP_Monster_FemaleThug_Hoe_C",
+      "/PBZCombatAsset/ActorData/Mobs/020_Vessel_Woman/BP_Monster_Vessel_Woman.BP_Monster_Vessel_Woman_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_ZongHuoZei.BP_Monster_FeiZei_ZongHuoZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C"
+     ],
+     "mob_names": [
+      "溺水贼",
+      "疯妇",
+      "“村花姐”",
+      "哈哈哈",
+      "火蒺藜飞贼",
+      "水行投者"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+   "name": "鬼差高手：勾魂",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v22-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+     ],
+     "boss_names": [
+      "白衣鬼差（变体）",
+      "赤影骨刃：囚锋",
+      "新娘阿花"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v22-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+      "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+     ],
+     "boss_names": [
+      "独眼弓客",
+      "鬼差高手：断肠"
+     ],
+     "mobs": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Poison.BP_Monster_BombMan_Poison_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Golden.BP_Monster_FemaleDoll_Golden_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Poison.BP_Monster_BombMan_Poison_C"
+     ],
+     "mob_names": [
+      "金面",
+      "鬼差",
+      "水行钓者",
+      "毒爆客",
+      "黄金刺杀偶",
+      "毒爆客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+   "name": "风雪刀客",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v23-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+      "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+     ],
+     "boss_names": [
+      "金面具黑衣人",
+      "“玉琮”：寒冰",
+      "独眼弓客"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v23-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+      "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+     ],
+     "boss_names": [
+      "“雷枪”：长鸿",
+      "琴女烟千岁"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Fuhuai.BP_Monster_FemaleThug_Fuhuai_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/009_HeavyCrossBowManNew/BP_Monster_CrossBow.BP_Monster_CrossBow_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv.BP_Monster_FemaleDoll_QinNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv.BP_Monster_FemaleDoll_QinNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Weaponless.BP_Monster_FemaleDoll_Weaponless_C"
+     ],
+     "mob_names": [
+      "腐坏疯妇",
+      "巨刃疯妇",
+      "重弩客",
+      "琴女人偶",
+      "琴女人偶",
+      "阴体人偶"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+   "name": "琴女烟千岁",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v24-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+     ],
+     "boss_names": [
+      "女妖骨婉约",
+      "巨锤客：万钧",
+      "灭法之法：寒岁"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v24-2boss6mob",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+     ],
+     "boss_names": [
+      "玉面郎君",
+      "女妖骨婉约"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow_Shield.BP_Monster_MaleThug_Club_Yellow_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_GuiQiangDun.BP_Monster_MaleDoll_GuiQiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_Fist.BP_Monster_HuoTieRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Molotov_Corrupted.BP_Monster_MaleThug_Throw_Molotov_Corrupted_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C"
+     ],
+     "mob_names": [
+      "荆棘暴徒",
+      "鬼枪盾偶",
+      "活铁人·拳",
+      "腐坏纵火狂",
+      "长枪暴徒",
+      "哈哈哈"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+   "name": "发狂的水行帮主：游龙",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v25-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+     ],
+     "boss_names": [
+      "十二号·偃月刀偶：“玉鼎”",
+      "灭法之法：雷婷",
+      "红衣女剑客"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v25-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+     ],
+     "boss_names": [
+      "鬼差高手：斩骑",
+      "新娘阿花"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/019_Vessel_Vagrant/BP_Monster_Vessel_Vagrant.BP_Monster_Vessel_Vagrant_C",
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_Cyan.BP_Monster_YingMei_Cyan_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv.BP_Monster_FemaleDoll_QinNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_GuiQiangDun.BP_Monster_MaleDoll_GuiQiangDun_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_DogTamer.BP_Monster_DogTamer_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuWei/BP_Monster_HuWei.BP_Monster_HuWei_C"
+     ],
+     "mob_names": [
+      "“癫秀才”",
+      "影魅杀手",
+      "琴女人偶",
+      "鬼枪盾偶",
+      "驯犬客",
+      "雷铳鬼差"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+   "name": "灭法之法：蛊鹤",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v26-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+      "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+     ],
+     "boss_names": [
+      "发狂的水行帮主：游龙",
+      "疯婆子奎艳艳",
+      "灭法之法：雷婷"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v26-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+     ],
+     "boss_names": [
+      "灭法之法：炎茹",
+      "吞噬尸体的小雪"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C",
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_Knife.BP_Monster_BaiheDisciple_Knife_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_Fist.BP_Monster_HuoTieRen_Fist_C"
+     ],
+     "mob_names": [
+      "山贼",
+      "猎人",
+      "金面",
+      "水行钓者",
+      "水行弟子",
+      "活铁人·拳"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+   "name": "悲痛欲绝的阿瑾",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v27-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+     ],
+     "boss_names": [
+      "廿一号·剑偶：“玉璧”",
+      "红衣女剑客",
+      "灭法之法：炎茹"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v27-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C",
+      "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+     ],
+     "boss_names": [
+      "“虎炮”：雷当",
+      "梦差：冷荼"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_WaWaWa_Ice.BP_Monster_DaTouWaWa_WaWaWa_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_NiShuiZei.BP_Monster_FeiZei_NiShuiZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Poison.BP_Monster_BombMan_Poison_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HengHengHeng_FengChe.BP_Monster_DaTouWaWa_HengHengHeng_FengChe_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C"
+     ],
+     "mob_names": [
+      "哇哇哇",
+      "溺水贼",
+      "毒爆客",
+      "哼哼哼",
+      "紫衣刀卫",
+      "金面"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+   "name": "鬼差高手：断肠",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v28-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+     ],
+     "boss_names": [
+      "红衣女剑客",
+      "横刀：毕峰",
+      "火刀：祝原"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v28-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+     ],
+     "boss_names": [
+      "斧老大：彭猛",
+      "女妖骨婉约"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_Bow.BP_Monster_ArrowMan_Bow_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Rock_Blue.BP_Monster_MaleThug_Throw_Rock_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_ShuangCi.BP_Monster_EMei_ShuangCi_C"
+     ],
+     "mob_names": [
+      "羽弓客",
+      "鬼差",
+      "金面",
+      "投掷暴徒",
+      "暴徒",
+      "白山双刺护法"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Pangzhen_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+   "name": "独眼弓客",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v29-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C"
+     ],
+     "boss_names": [
+      "卅四号·混沌魔偶：“玉琮”",
+      "女妖骨婉约",
+      "神医：谢秋冬"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v29-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+     ],
+     "boss_names": [
+      "巨锤客：万钧",
+      "活人偶清道夫"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Golden.BP_Monster_FemaleDoll_Golden_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_TongGun.BP_Monster_HuoJinRen_TongGun_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Molotov.BP_Monster_FemaleThug_Molotov_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow.BP_Monster_MaleThug_Club_Yellow_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Spear_White.BP_Monster_SpearMan_Spear_White_C"
+     ],
+     "mob_names": [
+      "野火鬼差",
+      "黄金刺杀偶",
+      "活金人·棍",
+      "纵火疯妇",
+      "黄袍暴徒",
+      "无面枪兵"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+   "name": "活人偶清道夫",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v30-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+     ],
+     "boss_names": [
+      "拳痴：铁狂",
+      "火刀：祝原",
+      "救苦救难梦华圣母娘娘"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v30-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C"
+     ],
+     "boss_names": [
+      "灭法之法：寒岁",
+      "金面具黑衣人"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/HuWei/BP_Monster_HuWei.BP_Monster_HuWei_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_BigShield.BP_Monster_MaleThug_BigShield_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv.BP_Monster_FemaleDoll_GeNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_SnowKiller_Sickle.BP_Monster_SnowKiller_Sickle_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Red_TwinBlade.BP_Monster_GuiChai_Red_TwinBlade_C"
+     ],
+     "mob_names": [
+      "雷铳鬼差",
+      "大盾暴徒",
+      "歌女人偶",
+      "雪隐潜者",
+      "山贼",
+      "野火鬼差"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+   "name": "新娘阿花",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v31-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C"
+     ],
+     "boss_names": [
+      "斧老大：彭猛",
+      "横刀：毕峰",
+      "白赤练：献祭之蛇"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v31-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C"
+     ],
+     "boss_names": [
+      "女妖骨婉约",
+      "“玉琮”：钢刃"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Fuhuai.BP_Monster_FemaleThug_Fuhuai_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_TwinAxe.BP_Monster_MaleThug_TwinAxe_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_TieChiSan.BP_Monster_FemaleDoll_TieChiSan_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi_Ice.BP_Monster_RenTuZi_Ice_C"
+     ],
+     "mob_names": [
+      "腐坏疯妇",
+      "双斧暴徒",
+      "暴徒",
+      "铁齿伞偶",
+      "水行投者",
+      "冰封人屠"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C",
+   "name": "“组织”猎杀者：追命",
+   "also": [
+    "追命：六绝凶镰"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v32-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+     ],
+     "boss_names": [
+      "苦叶寺：碧海大师残躯",
+      "红衣女剑客",
+      "白衣鬼差（变体）"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v32-2boss6mob",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+     ],
+     "boss_names": [
+      "铁面杀手",
+      "玉面郎君"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Blue.BP_Monster_HuaShan_Normal_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue_Shield.BP_Monster_MaleThug_Sword_Blue_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_TwinSword.BP_Monster_HuaShan_TwinSword_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_YuCha.BP_Monster_AquaKiller_YuCha_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_DouLi.BP_Monster_EMei_Sword_DouLi_C"
+     ],
+     "mob_names": [
+      "无面剑客队长",
+      "刀盾暴徒",
+      "巨刃疯妇",
+      "紫衣双剑客",
+      "水行潜者",
+      "白山剑护法"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+   "name": "斧老大：彭猛",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v33-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+     ],
+     "boss_names": [
+      "操偶师：荡秽",
+      "女妖骨婉约",
+      "白衣鬼差（变体）"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v33-2boss6mob",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+     ],
+     "boss_names": [
+      "痴狂暴徒：残钢",
+      "灭法之法：炎茹"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow.BP_Monster_MaleThug_Club_Yellow_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Molotov.BP_Monster_FemaleThug_Molotov_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_TwinSword.BP_Monster_HuaShan_TwinSword_C"
+     ],
+     "mob_names": [
+      "猎人",
+      "黄袍暴徒",
+      "山贼",
+      "纵火疯妇",
+      "水行钓者",
+      "紫衣双剑客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+   "name": "金面具黑衣人",
+   "also": [
+    "金面具黑衣人",
+    "金面具黑衣人",
+    "金面具黑衣人",
+    "暗魔天堡之主：魔渊"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v34-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+     ],
+     "boss_names": [
+      "灭法之法：雷婷",
+      "“虎炮”：雷当",
+      "救苦救难梦华圣母娘娘"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v34-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C"
+     ],
+     "boss_names": [
+      "灭法之法：雷婷",
+      "“虎炮”：雷当"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_NiShuiZei.BP_Monster_FeiZei_NiShuiZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Blue.BP_Monster_HuaShan_Normal_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_Normal.BP_Monster_FeiZei_Normal_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Molotov_Corrupted.BP_Monster_MaleThug_Throw_Molotov_Corrupted_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White.BP_Monster_GuiChai_White_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_Gun.BP_Monster_GuiChai_Black_Gun_C"
+     ],
+     "mob_names": [
+      "溺水贼",
+      "无面剑客队长",
+      "飞贼",
+      "腐坏纵火狂",
+      "白衣鬼差",
+      "鬼差火枪手"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+   "name": "痴狂暴徒：残钢",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v35-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+     ],
+     "boss_names": [
+      "白赤练：献祭之蛇",
+      "疯婆子奎艳艳",
+      "灭法之法：寒岁"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v35-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C"
+     ],
+     "boss_names": [
+      "“玉琮”：混沌",
+      "十二号·偃月刀偶：“玉鼎”"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HengHengHeng_FengChe.BP_Monster_DaTouWaWa_HengHengHeng_FengChe_C",
+      "/PBZCombatAsset/ActorData/Mobs/001_ArrowMan/BP_Monster_ArrowMan_Sword.BP_Monster_ArrowMan_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_RongZhuang.BP_Monster_FemaleThug_RongZhuang_C",
+      "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_MadDoctor.BP_Monster_MadDoctor_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTongRen_BP/BP_Monster_HuoTongRen_Fist.BP_Monster_HuoTongRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C"
+     ],
+     "mob_names": [
+      "哼哼哼",
+      "猎人",
+      "戎装疯妇",
+      "失心医者",
+      "活铜人·拳",
+      "活铁人·棍"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Xigu_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+   "name": "三张脸的诡异魔偶",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v36-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+     ],
+     "boss_names": [
+      "救苦救难梦华圣母娘娘",
+      "火刀：祝原",
+      "守门人拙壁"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v36-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+     ],
+     "boss_names": [
+      "横刀：毕峰",
+      "玉面郎君"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Blue.BP_Monster_HuaShan_Normal_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan.BP_Monster_IronMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/FeiZei/BP_Monster_FeiZei_ZongHuoZei.BP_Monster_FeiZei_ZongHuoZei_C",
+      "/PBZCombatAsset/ActorData/Mobs/009_HeavyCrossBowManNew/BP_Monster_CrossBow.BP_Monster_CrossBow_C"
+     ],
+     "mob_names": [
+      "无面剑客队长",
+      "巨刃疯妇",
+      "鬼差",
+      "铁面",
+      "火蒺藜飞贼",
+      "重弩客"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Ximeng_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+   "name": "赤影骨刃：囚锋",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v37-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+      "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+     ],
+     "boss_names": [
+      "十二号·偃月刀偶：“玉鼎”",
+      "独眼弓客",
+      "风雪刀客"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v37-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+      "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C"
+     ],
+     "boss_names": [
+      "白衣鬼差（变体）",
+      "雷当：独臂虎"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_Bow.BP_Monster_ArrowMan_Bow_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_GuiQiangDun.BP_Monster_MaleDoll_GuiQiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Axe_Corrupted.BP_Monster_MaleThug_Axe_Corrupted_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_ShieldBroken.BP_Monster_Bandit_Sword_ShieldBroken_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Axe_Corrupted.BP_Monster_MaleThug_Axe_Corrupted_C"
+     ],
+     "mob_names": [
+      "羽弓客",
+      "鬼枪盾偶",
+      "腐坏暴徒",
+      "山贼",
+      "巨刃疯妇",
+      "腐坏暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Ximeng_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+   "name": "雷当：独臂虎",
+   "also": [
+    "“虎炮”：雷当"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v38-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C"
+     ],
+     "boss_names": [
+      "赤影骨刃：囚锋",
+      "金面具黑衣人",
+      "“玉琮”：混沌"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v38-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+      "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+     ],
+     "boss_names": [
+      "操偶师：荡秽",
+      "梦差：冷荼"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_ShuangCi.BP_Monster_EMei_ShuangCi_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuWei/BP_Monster_HuWei.BP_Monster_HuWei_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue_Shield.BP_Monster_MaleThug_Sword_Blue_Shield_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder.BP_Monster_Vessel_Elder_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Weaponless.BP_Monster_FemaleDoll_Weaponless_C"
+     ],
+     "mob_names": [
+      "白山双刺护法",
+      "雷铳鬼差",
+      "刀盾暴徒",
+      "水行钓者",
+      "“和事佬”",
+      "阴体人偶"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Ximeng_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+   "name": "十二号·偃月刀偶：“玉鼎”",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v39-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C"
+     ],
+     "boss_names": [
+      "少主护卫：铁鬼",
+      "十二号·偃月刀偶：“玉鼎”",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v39-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+     ],
+     "boss_names": [
+      "灭法之法：炎茹",
+      "横刀：毕峰"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_GuiQiangDun.BP_Monster_MaleDoll_GuiQiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Rock_Blue.BP_Monster_MaleThug_Throw_Rock_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan_Ice.BP_Monster_BombMan_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishRod.BP_Monster_BaiheDisciple_FishRod_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HengHengHeng_FengChe.BP_Monster_DaTouWaWa_HengHengHeng_FengChe_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C"
+     ],
+     "mob_names": [
+      "鬼枪盾偶",
+      "投掷暴徒",
+      "冰爆客",
+      "水行钓者",
+      "哼哼哼",
+      "暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+   "name": "少主护卫：玉妖",
+   "also": [
+    "少主护卫：铁鬼",
+    "“组织”少主：沐小葵",
+    "沐小葵：铁玉女王"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v40-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+     ],
+     "boss_names": [
+      "双蛇夫人：白赤练",
+      "红衣女剑客",
+      "白衣鬼差（变体）"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v40-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C"
+     ],
+     "boss_names": [
+      "灭法之法：蛊鹤",
+      "鬼差高手：斩骑"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_BigShield.BP_Monster_MaleThug_BigShield_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_DogTamer.BP_Monster_DogTamer_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_BigShield.BP_Monster_MaleThug_BigShield_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuWei/BP_Monster_HuWei.BP_Monster_HuWei_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv.BP_Monster_FemaleDoll_QinNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C"
+     ],
+     "mob_names": [
+      "大盾暴徒",
+      "驯犬客",
+      "大盾暴徒",
+      "雷铳鬼差",
+      "琴女人偶",
+      "活铁人·棍"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+   "name": "三号·乐师偶：“玉瓒”",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v41-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C"
+     ],
+     "boss_names": [
+      "卅四号·混沌魔偶：“玉琮”",
+      "女妖骨婉约",
+      "金面具黑衣人"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v41-2boss6mob",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+     ],
+     "boss_names": [
+      "少主护卫：玉妖",
+      "卅四号·混沌魔偶：“玉琮”"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Hoe.BP_Monster_FemaleThug_Hoe_C",
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Blue.BP_Monster_HuaShan_Normal_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_Knife.BP_Monster_BaiheDisciple_Knife_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_TwinBlade.BP_Monster_GuiChai_Black_TwinBlade_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_TongGun.BP_Monster_HuoTieRen_TongGun_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv.BP_Monster_FemaleDoll_GeNv_C"
+     ],
+     "mob_names": [
+      "疯妇",
+      "无面剑客队长",
+      "水行弟子",
+      "鬼差",
+      "活铁人·棍",
+      "歌女人偶"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+   "name": "苦叶寺：碧海大师残躯",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v42-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+     ],
+     "boss_names": [
+      "疯婆子奎艳艳",
+      "灭法之法：蛊鹤",
+      "鬼差高手：勾魂"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v42-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C"
+     ],
+     "boss_names": [
+      "三号·乐师偶：“玉瓒”",
+      "金面具黑衣人"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HouHouHou.BP_Monster_DaTouWaWa_HouHouHou_C",
+      "/PBZCombatAsset/ActorData/Mobs/010_BombMan/BP_Monster_BombMan.BP_Monster_BombMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Molotov.BP_Monster_FemaleThug_Molotov_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_QinNv_Ice.BP_Monster_FemaleDoll_QinNv_Ice_C"
+     ],
+     "mob_names": [
+      "吼吼吼",
+      "爆弹客",
+      "长枪暴徒",
+      "纵火疯妇",
+      "哈哈哈",
+      "冰雪琴女"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+   "name": "灭法之法：炎茹",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v43-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+     ],
+     "boss_names": [
+      "三张脸的诡异魔偶",
+      "鬼差高手：勾魂",
+      "救苦救难梦华圣母娘娘"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v43-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+     ],
+     "boss_names": [
+      "十二号·偃月刀偶：“玉鼎”",
+      "救苦救难梦华圣母娘娘"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_FishingNet.BP_Monster_BaiheDisciple_FishingNet_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_SnowKiller_Sickle.BP_Monster_SnowKiller_Sickle_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_ZhaoDao.BP_Monster_AquaKiller_ZhaoDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HouHouHou.BP_Monster_DaTouWaWa_HouHouHou_C",
+      "/PBZCombatAsset/ActorData/Mobs/052_BaiheDisciple/BP_Monster_BaiheDisciple_Knife.BP_Monster_BaiheDisciple_Knife_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_YuCha.BP_Monster_AquaKiller_YuCha_C"
+     ],
+     "mob_names": [
+      "水行投者",
+      "雪隐潜者",
+      "长刀水行潜者",
+      "吼吼吼",
+      "水行弟子",
+      "水行潜者"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+   "name": "天玄派：毕远掌门残躯",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v44-3boss",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+     ],
+     "boss_names": [
+      "癫狂暴徒：铁杀",
+      "廿一号·剑偶：“玉璧”",
+      "灭法之法：炎茹"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v44-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+     ],
+     "boss_names": [
+      "活人偶清道夫",
+      "癫狂暴徒：铁杀"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Normal_Blue.BP_Monster_HuaShan_Normal_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_YuGu.BP_Monster_MaleDoll_YuGu_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv.BP_Monster_FemaleDoll_GeNv_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder.BP_Monster_Vessel_Elder_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_QiangDun.BP_Monster_MaleDoll_QiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Club_Yellow_Shield.BP_Monster_MaleThug_Club_Yellow_Shield_C"
+     ],
+     "mob_names": [
+      "无面剑客队长",
+      "大司乐",
+      "歌女人偶",
+      "“和事佬”",
+      "枪盾人偶",
+      "荆棘暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+   "name": "守门人拙壁",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v45-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+      "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+     ],
+     "boss_names": [
+      "双蛇夫人：白赤练",
+      "疯婆子奎艳艳",
+      "玉面郎君"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v45-2boss6mob",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+     ],
+     "boss_names": [
+      "痴狂暴徒：残钢",
+      "天玄派：毕远掌门残躯"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_TwinSword.BP_Monster_HuaShan_TwinSword_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_WaWaWa_Ice.BP_Monster_DaTouWaWa_WaWaWa_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/022_Vessel_Elder/BP_Monster_Vessel_Elder_Poison.BP_Monster_Vessel_Elder_Poison_C",
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoTieRen_BP/BP_Monster_HuoTieRen_jiuHuanDao.BP_Monster_HuoTieRen_jiuHuanDao_C",
+      "/PBZCombatAsset/ActorData/Mobs/007_ArrowMan_Bow/BP_Monster_ArrowMan_Bow.BP_Monster_ArrowMan_Bow_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi.BP_Monster_RenTuZi_C"
+     ],
+     "mob_names": [
+      "紫衣双剑客",
+      "哇哇哇",
+      "“村中长老”",
+      "活铁人·刀",
+      "羽弓客",
+      "人屠子"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+   "name": "操偶师：荡秽",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v46-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+     ],
+     "boss_names": [
+      "灭法之法：雷婷",
+      "火刀：祝原",
+      "白衣鬼差（变体）"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v46-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+     ],
+     "boss_names": [
+      "灭法之法：蛊鹤",
+      "横刀：毕峰"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_Fire.BP_Monster_Bandit_Sword_Fire_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_SnowKiller_Sickle.BP_Monster_SnowKiller_Sickle_C",
+      "/PBZCombatAsset/ActorData/Mobs/MaleDoll/BP_Monster_MaleDoll_QiangDun.BP_Monster_MaleDoll_QiangDun_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Throw_Rock_Blue.BP_Monster_MaleThug_Throw_Rock_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/041_Bandit/BP_Monster_Bandit_Sword_Fire.BP_Monster_Bandit_Sword_Fire_C"
+     ],
+     "mob_names": [
+      "狂焰山贼",
+      "雪隐潜者",
+      "枪盾人偶",
+      "哈哈哈",
+      "投掷暴徒",
+      "狂焰山贼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+   "name": "吞噬尸体的小雪",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v47-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+      "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+     ],
+     "boss_names": [
+      "天玄派：毕远掌门残躯",
+      "雷当：独臂虎",
+      "三号·乐师偶：“玉瓒”"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v47-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C"
+     ],
+     "boss_names": [
+      "活人偶清道夫",
+      "“玉琮”：钢刃"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_Sword.BP_Monster_FemaleDoll_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Molotov.BP_Monster_FemaleThug_Molotov_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_TwinAxe.BP_Monster_MaleThug_TwinAxe_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_TieChiSan.BP_Monster_FemaleDoll_TieChiSan_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan.BP_Monster_IronMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_MadDoctor.BP_Monster_MadDoctor_C"
+     ],
+     "mob_names": [
+      "剑盾人偶",
+      "纵火疯妇",
+      "双斧暴徒",
+      "铁齿伞偶",
+      "铁面",
+      "失心医者"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+   "name": "红衣女剑客",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v48-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+     ],
+     "boss_names": [
+      "苦叶寺：碧海大师残躯",
+      "灭法之法：炎茹",
+      "女妖骨婉约"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v48-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+     ],
+     "boss_names": [
+      "梦差：冷荼",
+      "痴狂暴徒：残钢"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_BigKnife.BP_Monster_FemaleThug_BigKnife_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_SnowKiller_Sickle.BP_Monster_SnowKiller_Sickle_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Spear_White.BP_Monster_SpearMan_Spear_White_C",
+      "/PBZCombatAsset/ActorData/Mobs/038_AquaKiller/BP_Monster_AquaKiller_YuCha.BP_Monster_AquaKiller_YuCha_C",
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HouHouHou.BP_Monster_DaTouWaWa_HouHouHou_C"
+     ],
+     "mob_names": [
+      "巨刃疯妇",
+      "雪隐潜者",
+      "无面枪兵",
+      "水行潜者",
+      "金面",
+      "吼吼吼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+   "name": "巨锤客：万钧",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v49-3boss",
+     "bosses": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+     ],
+     "boss_names": [
+      "玉面郎君",
+      "天玄派：毕远掌门残躯",
+      "火刀：祝原"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v49-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C",
+      "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+     ],
+     "boss_names": [
+      "金面具黑衣人",
+      "灭法之法：炎茹"
+     ],
+     "mobs": [
+      "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_GoldMaskMan.BP_Monster_GoldMaskMan_C",
+      "/PBZCombatAsset/ActorData/Mobs/037_GuiChai/Blueprints/BP_Monster_GuiChai_Black_Gun.BP_Monster_GuiChai_Black_Gun_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HaHaHa_Sword.BP_Monster_DaTouWaWa_HaHaHa_Sword_C",
+      "/PBZCombatAsset/ActorData/Mobs/036_SpearMan/BP_Monster_SpearMan_Purple.BP_Monster_SpearMan_Purple_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_Molotov.BP_Monster_FemaleThug_Molotov_C",
+      "/PBZCombatAsset/ActorData/Mobs/DaTouWaWa/BP_Monster_DaTouWaWa_HouHouHou.BP_Monster_DaTouWaWa_HouHouHou_C"
+     ],
+     "mob_names": [
+      "金面",
+      "鬼差火枪手",
+      "哈哈哈",
+      "紫衣刀卫",
+      "纵火疯妇",
+      "吼吼吼"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+   "name": "廿一号·剑偶：“玉璧”",
+   "also": [],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v50-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+      "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+     ],
+     "boss_names": [
+      "“虎炮”：雷当",
+      "三张脸的诡异魔偶",
+      "鬼差高手：斩骑"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v50-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+     ],
+     "boss_names": [
+      "天玄派：毕远掌门残躯",
+      "双蛇夫人：白赤练"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_ShuangCi.BP_Monster_EMei_ShuangCi_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Sword_Blue.BP_Monster_MaleThug_Sword_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/025_FemaleThug/BP_Monster_FemaleThug_RongZhuang.BP_Monster_FemaleThug_RongZhuang_C",
+      "/PBZCombatAsset/ActorData/Mobs/024_Vessel_Giant/BP_Monster_Vessel_Giant.BP_Monster_Vessel_Giant_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Axe_Corrupted.BP_Monster_MaleThug_Axe_Corrupted_C"
+     ],
+     "mob_names": [
+      "长枪暴徒",
+      "白山双刺护法",
+      "暴徒",
+      "戎装疯妇",
+      "“大娘亲”",
+      "腐坏暴徒"
+     ]
+    }
+   ]
+  },
+  {
+   "world": "PBZ_Zhengdaodaying_WP",
+   "venue": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+   "name": "红衣女剑客",
+   "also": [
+    "七星剑阵：大师兄"
+   ],
+   "landing_bad": false,
+   "cases": [
+    {
+     "label": "v51-3boss",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+      "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+      "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+     ],
+     "boss_names": [
+      "金面具黑衣人",
+      "神医：谢秋冬",
+      "白衣鬼差（变体）"
+     ],
+     "mobs": []
+    },
+    {
+     "label": "v51-2boss6mob",
+     "bosses": [
+      "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+      "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C"
+     ],
+     "boss_names": [
+      "“玉琮”：钢刃",
+      "金面具黑衣人"
+     ],
+     "mobs": [
+      "/PBZCombatAsset/ActorData/Mobs/HuoTongRen/HuoJinRen_BP/BP_Monster_HuoJinRen_Fist.BP_Monster_HuoJinRen_Fist_C",
+      "/PBZCombatAsset/ActorData/Mobs/066_RenTuZi/BP_Monster_RenTuZi.BP_Monster_RenTuZi_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv_Ice.BP_Monster_FemaleDoll_GeNv_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_Spear_Blue.BP_Monster_MaleThug_Spear_Blue_C",
+      "/PBZCombatAsset/ActorData/Mobs/FemaleDoll/BP_Monster_FemaleDoll_GeNv_Ice.BP_Monster_FemaleDoll_GeNv_Ice_C",
+      "/PBZCombatAsset/ActorData/Mobs/003_MaleThug/BP_Monster_MaleThug_BigShield.BP_Monster_MaleThug_BigShield_C"
+     ],
+     "mob_names": [
+      "活金人·拳",
+      "人屠子",
+      "冰雪歌女",
+      "长枪暴徒",
+      "冰雪歌女",
+      "大盾暴徒"
+     ]
+    }
+   ]
+  }
+ ]
+}

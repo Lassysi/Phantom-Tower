@@ -1,0 +1,2433 @@
+{
+  "schema": 1,
+  "source": "notes/tower-floors.md sections 4 and 5; native item and loot tables",
+  "generated": "2026-10-30",
+  "items": [
+    {
+      "id": "weapon_drop_01",
+      "kind": "weapon_drops",
+      "identity": "PengMeng_Axe",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+      ],
+      "items": [
+        {
+          "id": "BrutalAxe",
+          "name": "巨凶斧",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#BrutalAxe"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#BrutalAxe"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_02",
+      "kind": "weapon_drops",
+      "identity": "Danghui",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+      ],
+      "items": [
+        {
+          "id": "CaoOuSiXian",
+          "name": "操偶铃铛",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#CaoOuSiXian"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#CaoOuSiXian"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_03",
+      "kind": "weapon_drops",
+      "identity": "YanQianSui",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+      ],
+      "items": [
+        {
+          "id": "CuiXinPiPa",
+          "name": "催心琵琶",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#CuiXinPiPa"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#CuiXinPiPa"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_04",
+      "kind": "weapon_drops",
+      "identity": "DuYanBoss",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+      ],
+      "items": [
+        {
+          "id": "DuYanGong",
+          "name": "独眼弓",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#DuYanGong"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#DuYanGong"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_05",
+      "kind": "weapon_drops",
+      "identity": "GuiChai_Red",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C",
+        "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C"
+      ],
+      "items": [
+        {
+          "id": "HuoLiuXing",
+          "name": "火流星",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#HuoLiuXing"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#HuoLiuXing"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_06",
+      "kind": "weapon_drops",
+      "identity": "WanJun_JinGua",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C"
+      ],
+      "items": [
+        {
+          "id": "JinGua",
+          "name": "长柄金瓜",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#JinGua"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#JinGua"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_07",
+      "kind": "weapon_drops",
+      "identity": "LionDancer",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer.BP_Monster_LionDancer_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C"
+      ],
+      "items": [
+        {
+          "id": "LionHead",
+          "name": "烈焰狮头",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#LionHead"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#LionHead"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_08",
+      "kind": "weapon_drops",
+      "identity": "HookMan",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C"
+      ],
+      "items": [
+        {
+          "id": "ShachiHook",
+          "name": "追命锁镰",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ShachiHook"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ShachiHook"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_09",
+      "kind": "weapon_drops",
+      "identity": "ChangHong_Spear",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+        "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C"
+      ],
+      "items": [
+        {
+          "id": "ThunderSpear",
+          "name": "雷霆枪",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ThunderSpear"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ThunderSpear"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_10",
+      "kind": "weapon_drops",
+      "identity": "LeiDang",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C",
+        "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+        "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C"
+      ],
+      "items": [
+        {
+          "id": "TigerCannon",
+          "name": "虎炮",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#TigerCannon"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#TigerCannon"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_11",
+      "kind": "weapon_drops",
+      "identity": "LuanShi",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+      ],
+      "items": [
+        {
+          "id": "TieGongZhuQuanTao",
+          "name": "铁拳套",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#TieGongZhuQuanTao"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#TieGongZhuQuanTao"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_12",
+      "kind": "weapon_drops",
+      "identity": "YouLong_Harpoon",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+      ],
+      "items": [
+        {
+          "id": "YouLongCha",
+          "name": "游龙叉",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#YouLongCha"
+          ],
+          "association_verified": true
+        },
+        {
+          "id": "YouLongTou",
+          "name": "游龙头",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#YouLongTou"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": false,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "unverified",
+      "selection_evidence": "unverified",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#YouLongCha",
+        "shared/items.json#YouLongTou"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_13",
+      "kind": "weapon_drops",
+      "identity": "Zhuobi",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+      ],
+      "items": [
+        {
+          "id": "ZhuoBiDun",
+          "name": "拙壁盾",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ZhuoBiDun"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ZhuoBiDun"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_14",
+      "kind": "weapon_drops",
+      "identity": "AHua_GuiTouDao",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+      ],
+      "items": [
+        {
+          "id": "GuiTouBlade",
+          "name": "红妆鬼斩",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#GuiTouBlade"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#GuiTouBlade"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_15",
+      "kind": "weapon_drops",
+      "identity": "Yuu",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C"
+      ],
+      "items": [
+        {
+          "id": "YuuBlade",
+          "name": "妖锯",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#YuuBlade"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#YuuBlade"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_16",
+      "kind": "weapon_drops",
+      "identity": "ChiLian",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+        "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C"
+      ],
+      "items": [
+        {
+          "id": "SnakeDual",
+          "name": "白蟒赤练",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#SnakeDual"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#SnakeDual"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_17",
+      "kind": "weapon_drops",
+      "identity": "JingYe",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+      ],
+      "items": [
+        {
+          "id": "ZhanMaBlade",
+          "name": "亡命斩马刀",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ZhanMaBlade"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ZhanMaBlade"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_18",
+      "kind": "weapon_drops",
+      "identity": "MobMan_Elite_Sword",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+      ],
+      "items": [
+        {
+          "id": "IronBlade",
+          "name": "残钢刃",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#IronBlade"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#IronBlade"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_19",
+      "kind": "weapon_drops",
+      "identity": "FemaleVessel_YuDing",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C"
+      ],
+      "items": [
+        {
+          "id": "RenOuYanYueDao",
+          "name": "偃月刀",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#RenOuYanYueDao"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#RenOuYanYueDao"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_20",
+      "kind": "weapon_drops",
+      "identity": "MengHua",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "items": [
+        {
+          "id": "FangHuaXieShan",
+          "name": "圣母邪扇",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#FangHuaXieShan"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#FangHuaXieShan"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_21",
+      "kind": "weapon_drops",
+      "identity": "HuaQianXIao",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C"
+      ],
+      "items": [
+        {
+          "id": "ChiZheCanJian",
+          "name": "痴者残剑",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ChiZheCanJian"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ChiZheCanJian"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_22",
+      "kind": "weapon_drops",
+      "identity": "GuiChai_Cyan_ShuangYue",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C"
+      ],
+      "items": [
+        {
+          "id": "TianShaShuangYue",
+          "name": "天煞双钺",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#TianShaShuangYue"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#TianShaShuangYue"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_23",
+      "kind": "weapon_drops",
+      "identity": "GuiChai_Yellow_ShuangGou",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+      ],
+      "items": [
+        {
+          "id": "DualHook",
+          "name": "别离残钩",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#DualHook"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "strong",
+      "association_basis": "approved_design_name_match",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#DualHook"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_24",
+      "kind": "weapon_drops",
+      "identity": "GreatBladeMan",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+      ],
+      "items": [
+        {
+          "id": "HorizontalBlade",
+          "name": "荡寇凶刃",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#HorizontalBlade"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_019"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#HorizontalBlade",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/荡寇凶刃/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_019"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_25",
+      "kind": "weapon_drops",
+      "identity": "HuoDaoDuiZhang",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+      ],
+      "items": [
+        {
+          "id": "XieHuo",
+          "name": "炽刃",
+          "kind": "weapon",
+          "evidence": "unverified",
+          "source": [
+            "shared/items.json#XieHuo"
+          ],
+          "association_verified": false
+        }
+      ],
+      "chance": 1.0,
+      "verified": false,
+      "enabled": false,
+      "original_confidence": "medium",
+      "association_basis": "unresolved_design",
+      "lore_keys": [],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#XieHuo"
+      ],
+      "association_status": "unverified"
+    },
+    {
+      "id": "weapon_drop_26",
+      "kind": "weapon_drops",
+      "identity": "YuCong",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C"
+      ],
+      "items": [
+        {
+          "id": "CiGuHunDun",
+          "name": "刺骨混沌",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#CiGuHunDun"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_004"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#CiGuHunDun",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/刺骨混沌/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_004"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_27",
+      "kind": "weapon_drops",
+      "identity": "PowerMan",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan_Base.BP_Monster_PowerMan_Base_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan_P2.BP_Monster_PowerMan_P2_C"
+      ],
+      "items": [
+        {
+          "id": "Jigsaw",
+          "name": "断肢锯",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#Jigsaw"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_015"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#Jigsaw",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/断肢锯/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_015"
+      ],
+      "unverified_candidates": [
+        {
+          "identity": "MBoss",
+          "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#四、Boss → 兵器关联表"
+          ]
+        }
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_28",
+      "kind": "weapon_drops",
+      "identity": "BiYuan",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+      ],
+      "items": [
+        {
+          "id": "RenOuQingTongJian",
+          "name": "天玄青铜剑",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#RenOuQingTongJian"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_007"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#RenOuQingTongJian",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/天玄青铜剑/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_007"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_29",
+      "kind": "weapon_drops",
+      "identity": "HuaShan_Blue",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C",
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_JianOu.BP_Monster_HuaShan_JianOu_C"
+      ],
+      "items": [
+        {
+          "id": "BaiShanShuangJian",
+          "name": "白山风雷剑",
+          "kind": "weapon",
+          "evidence": "unverified",
+          "source": [
+            "shared/items.json#BaiShanShuangJian"
+          ],
+          "association_verified": false
+        },
+        {
+          "id": "JianKeZhaoJiLing",
+          "name": "剑客召集令",
+          "kind": "shaqi_weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#JianKeZhaoJiLing",
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_ShaqiWeaponData.json#Rows/剑客召集令/SimpleDesc",
+            "notes/dump/Game.zh-Hans.json#Default/PhantomEdgesDes_UI_026"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": false,
+      "enabled": false,
+      "original_confidence": "medium",
+      "association_basis": "unresolved_design",
+      "lore_keys": [
+        "WeaponDes_UI_010"
+      ],
+      "natural_grant_verified": false,
+      "selection": "unverified",
+      "selection_evidence": "unverified",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#BaiShanShuangJian",
+        "shared/items.json#JianKeZhaoJiLing",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/白山风雷剑/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_010",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_ShaqiWeaponData.json#Rows/剑客召集令/SimpleDesc",
+        "notes/dump/Game.zh-Hans.json#Default/PhantomEdgesDes_UI_026"
+      ],
+      "conflict": "Localized Simple names headmaster BiTaotao; no grant/identity link to HuaShan_Blue in current exports.",
+      "association_status": "partial"
+    },
+    {
+      "id": "weapon_drop_30",
+      "kind": "weapon_drops",
+      "identity": "EMei_Sword",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+      ],
+      "items": [
+        {
+          "id": "LuanYing",
+          "name": "乱莺剑",
+          "kind": "weapon",
+          "evidence": "unverified",
+          "source": [
+            "shared/items.json#LuanYing"
+          ],
+          "association_verified": false
+        }
+      ],
+      "chance": 1.0,
+      "verified": false,
+      "enabled": false,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_003"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#LuanYing",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/乱莺/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_003"
+      ],
+      "conflict": "Localized Simple names MuXiaoKui, not EMei_Sword; do not remap automatically.",
+      "association_status": "unverified"
+    },
+    {
+      "id": "weapon_drop_31",
+      "kind": "weapon_drops",
+      "identity": "JadeMaskMan",
+      "bosses": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+      ],
+      "items": [
+        {
+          "id": "JadeDualChakram",
+          "name": "玉双环",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#JadeDualChakram"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_029"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#JadeDualChakram",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/玉双环/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_029"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "weapon_drop_32",
+      "kind": "weapon_drops",
+      "identity": "ZuoShang",
+      "bosses": [
+        "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang.BP_Monster_ZuoShang_C",
+        "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang_Ending.BP_Monster_ZuoShang_Ending_C",
+        "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/BP_Monster_ZuoShang_P2.BP_Monster_ZuoShang_P2_C"
+      ],
+      "items": [
+        {
+          "id": "ZiMingJian",
+          "name": "紫冥剑",
+          "kind": "weapon",
+          "evidence": "static",
+          "source": [
+            "shared/items.json#ZiMingJian"
+          ],
+          "association_verified": true
+        }
+      ],
+      "chance": 1.0,
+      "verified": true,
+      "enabled": true,
+      "original_confidence": "medium",
+      "association_basis": "localized_lore",
+      "lore_keys": [
+        "WeaponDes_UI_011"
+      ],
+      "natural_grant_verified": false,
+      "selection": "all",
+      "selection_evidence": "static",
+      "scope": "run_then_optional_save",
+      "verification": "REWARD-AUDIT in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#四、Boss → 兵器关联表",
+        "shared/items.json#ZiMingJian",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/UI/DT_WeaponData.json#Rows/紫冥剑/Simple",
+        "notes/dump/Game.zh-Hans.json#Default/WeaponDes_UI_011"
+      ],
+      "association_status": "confirmed"
+    },
+    {
+      "id": "zone_pack_1",
+      "kind": "zone_packs",
+      "zone": 1,
+      "materials": [
+        {
+          "id": "Weapon_Material_01",
+          "amount": 2,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.001.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_01"
+          ]
+        },
+        {
+          "id": "Weapon_Material_10",
+          "amount": 2,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.003.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_10"
+          ]
+        }
+      ],
+      "dust": 6000,
+      "reference_dust_median": 6000.0,
+      "balance_evidence": "unverified",
+      "enabled": true,
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/MobMan_Elite_Sword/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_HuoDaoDuiZhang/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/AHua/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_Scavenger/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/PengMeng/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_Maddoctor_Elite/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_GuiChai_Yellow_MoDao/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_GuiChai_Yellow_ShuangGou/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_GuWanYue/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_MoTian_LongZhu_01/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_MoTian_LongZhu_02/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_MoTian_LongZhu_03/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_MoTian_LongZhu_04/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_QiShu_Bing/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_QiShu_Lei/EntryDatas/0/LootDusts"
+      ]
+    },
+    {
+      "id": "zone_pack_2",
+      "kind": "zone_packs",
+      "zone": 2,
+      "materials": [
+        {
+          "id": "Weapon_Material_07",
+          "amount": 4,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.003.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_07"
+          ]
+        },
+        {
+          "id": "Ac_Material_1",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.004.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Ac_Material_1"
+          ]
+        }
+      ],
+      "dust": 7000,
+      "reference_dust_median": 6000.0,
+      "balance_evidence": "unverified",
+      "enabled": true,
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/JingYe/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_YouLong_Harpoon/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_DuYanBoss/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_GuiChai_Cyan_ShuangYue/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/YanQianSui/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/FengXueDaoKe/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_FengXueDaoKe/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/HuaQianXiao/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/LuanShi/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_QiShu_Du/EntryDatas/0/LootDusts"
+      ]
+    },
+    {
+      "id": "zone_pack_3",
+      "kind": "zone_packs",
+      "zone": 3,
+      "materials": [
+        {
+          "id": "Weapon_Material_08",
+          "amount": 2,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiaCun.004.Weapon_Material_01/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_08"
+          ]
+        },
+        {
+          "id": "Ac_Material_1",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiaCun.001.Ac_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Ac_Material_1"
+          ]
+        }
+      ],
+      "dust": 8000,
+      "reference_dust_median": 6000.0,
+      "balance_evidence": "unverified",
+      "enabled": true,
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_Zhuobi/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/XiaoXue/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_EMei_Sword_JianZhen/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/WanJun/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_FemaleVessel_YuZan/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BiYuan/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_ZhangMen_01/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_CanQu_BiHai/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_Danghui/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_QiShu_Huo/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/YuBi/EntryDatas/0/LootDusts"
+      ]
+    },
+    {
+      "id": "zone_pack_4",
+      "kind": "zone_packs",
+      "zone": 4,
+      "materials": [
+        {
+          "id": "Weapon_Material_02",
+          "amount": 8,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.Traversing.001/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_02"
+          ]
+        },
+        {
+          "id": "Ac_Material_4",
+          "amount": 2,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.Traversing.003/EntryDatas/0/LootItems",
+            "shared/items.json#Ac_Material_4"
+          ]
+        }
+      ],
+      "dust": 9000,
+      "reference_dust_median": 6000.0,
+      "balance_evidence": "unverified",
+      "enabled": true,
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_JadeMaskMan/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/MobMan_Elite/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/GreatBladeMan/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/YanYan/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_YingMei_RedShadowBoneBlade/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_FemaleVessel_YuDing/EntryDatas/0/LootDusts"
+      ]
+    },
+    {
+      "id": "zone_pack_5",
+      "kind": "zone_packs",
+      "zone": 5,
+      "materials": [
+        {
+          "id": "Weapon_Material_03",
+          "amount": 10,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DuanHunYa.wmA.001/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_03"
+          ]
+        },
+        {
+          "id": "Ac_Material_4",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DuanHunYa.Medi.002/EntryDatas/0/LootItems",
+            "shared/items.json#Ac_Material_4"
+          ]
+        }
+      ],
+      "dust": 10000,
+      "reference_dust_median": 6000.0,
+      "balance_evidence": "unverified",
+      "enabled": true,
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/抱头哥/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_GuiChai_White_PangZhenBoss/EntryDatas/0/LootDusts",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_CombatLootDataTable.json#Rows/BP_Monster_MengHua/EntryDatas/0/LootDusts"
+      ]
+    },
+    {
+      "id": "accessory_box_1",
+      "kind": "accessory_boxes",
+      "zone": 1,
+      "candidates": [
+        {
+          "id": "AC_ActHit",
+          "name": "影动猎杀仪",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_ActHit/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ActHit"
+          ]
+        },
+        {
+          "id": "AC_AnimMovement",
+          "name": "舞扇",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_AnimMovement/EntryDatas/0/Accessories",
+            "shared/items.json#AC_AnimMovement"
+          ]
+        },
+        {
+          "id": "AC_Attack",
+          "name": "筋力绑带",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_Attack/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Attack"
+          ]
+        },
+        {
+          "id": "AC_Bleed",
+          "name": "雪与血",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.001.A2_05002/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Bleed"
+          ]
+        },
+        {
+          "id": "AC_BreakAttack",
+          "name": "追杀令",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_BreakAttack/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BreakAttack"
+          ]
+        },
+        {
+          "id": "AC_Combo",
+          "name": "碧血云天",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_Combo/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Combo"
+          ]
+        },
+        {
+          "id": "AC_Deflect",
+          "name": "神机指环",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_Deflect/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Deflect"
+          ]
+        },
+        {
+          "id": "AC_Drink",
+          "name": "香薰药盒",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_Drink/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Drink"
+          ]
+        },
+        {
+          "id": "AC_DrinkCost",
+          "name": "深宅药罐",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_DrinkCost/EntryDatas/0/Accessories",
+            "shared/items.json#AC_DrinkCost"
+          ]
+        },
+        {
+          "id": "AC_HealthResistance",
+          "name": "古甲残片",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_HealthResistance/EntryDatas/0/Accessories",
+            "shared/items.json#AC_HealthResistance"
+          ]
+        },
+        {
+          "id": "AC_HeavyAttackCost",
+          "name": "正气凌然",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_HeavyAttackCost/EntryDatas/0/Accessories",
+            "shared/items.json#AC_HeavyAttackCost"
+          ]
+        },
+        {
+          "id": "AC_Ignite",
+          "name": "瑞狮火球",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.001.A3_07001/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Ignite"
+          ]
+        },
+        {
+          "id": "AC_PerfectFrame",
+          "name": "浑源经脉仪",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_PerfectFrame/EntryDatas/0/Accessories",
+            "shared/items.json#AC_PerfectFrame"
+          ]
+        },
+        {
+          "id": "AC_RandomDrink",
+          "name": "开光玉佩",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.001.A3_05001/EntryDatas/0/Accessories",
+            "shared/items.json#AC_RandomDrink"
+          ]
+        },
+        {
+          "id": "AC_RangedWeapon",
+          "name": "无相神镜",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.AC_RangedWeapon/EntryDatas/0/Accessories",
+            "shared/items.json#AC_RangedWeapon"
+          ]
+        },
+        {
+          "id": "AC_ResistBleed",
+          "name": "凝血符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.AC_ResistBleed/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistBleed"
+          ]
+        },
+        {
+          "id": "AC_ResistFire",
+          "name": "辟火符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_ResistFire/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistFire"
+          ]
+        },
+        {
+          "id": "AC_ResistNonBreak",
+          "name": "坚岩护腕",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.AC_ResistNonBreak/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistNonBreak"
+          ]
+        },
+        {
+          "id": "AC_ResistThunder",
+          "name": "避雷符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HouJie.AC_ResistThunder/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistThunder"
+          ]
+        },
+        {
+          "id": "AC_ShachiRegen",
+          "name": "杀气头巾",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_ShachiRegen/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ShachiRegen"
+          ]
+        },
+        {
+          "id": "AC_ShachiWeapon",
+          "name": "暗源方块",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_ShachiWeapon/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ShachiWeapon"
+          ]
+        },
+        {
+          "id": "AC_UltimateBreak",
+          "name": "绝技护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/PangZhen.AC_UltimateBreak/EntryDatas/0/Accessories",
+            "shared/items.json#AC_UltimateBreak"
+          ]
+        }
+      ],
+      "draw": 3,
+      "choose": 1,
+      "without_replacement": true,
+      "enabled": true,
+      "verification": "ACCESSORY-SOURCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json"
+      ]
+    },
+    {
+      "id": "accessory_box_2",
+      "kind": "accessory_boxes",
+      "zone": 2,
+      "candidates": [
+        {
+          "id": "AC_BreakDrink",
+          "name": "静心小葫芦",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_BreakDrink/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BreakDrink"
+          ]
+        },
+        {
+          "id": "AC_BreakShield",
+          "name": "破盾符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_BreakShield/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BreakShield"
+          ]
+        },
+        {
+          "id": "AC_Double",
+          "name": "妙手连环",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Double/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Double"
+          ]
+        },
+        {
+          "id": "AC_ElementRegen",
+          "name": "灭法拂尘丝",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HuanShuShi.AC_ElementRegen/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ElementRegen"
+          ]
+        },
+        {
+          "id": "AC_Execution",
+          "name": "万杀巧锁",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.AC_Execution/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Execution"
+          ]
+        },
+        {
+          "id": "AC_Frost",
+          "name": "灭法冰棱",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/HuanShuShi.AC_Frost/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Frost"
+          ]
+        },
+        {
+          "id": "AC_HeavyAttackShachi",
+          "name": "独孤绝印",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_HeavyAttackShachi/EntryDatas/0/Accessories",
+            "shared/items.json#AC_HeavyAttackShachi"
+          ]
+        },
+        {
+          "id": "AC_Long",
+          "name": "妙手千钧",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Long/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Long"
+          ]
+        },
+        {
+          "id": "AC_Loot",
+          "name": "聚宝盆",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.AC_Loot/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Loot"
+          ]
+        },
+        {
+          "id": "AC_Poison",
+          "name": "猛毒袋",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.AC_Poison/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Poison"
+          ]
+        },
+        {
+          "id": "AC_Ranged",
+          "name": "神射之眼",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.AC_Ranged/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Ranged"
+          ]
+        },
+        {
+          "id": "AC_ResistPoison",
+          "name": "食物防腐罐",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_ResistPoison/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistPoison"
+          ]
+        },
+        {
+          "id": "AC_Rider",
+          "name": "斩骑符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Rider/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Rider"
+          ]
+        },
+        {
+          "id": "AC_Shachi",
+          "name": "弦音护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Shachi/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Shachi"
+          ]
+        },
+        {
+          "id": "AC_ShachiCool",
+          "name": "胭脂盒",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.AC_ShachiCool/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ShachiCool"
+          ]
+        },
+        {
+          "id": "AC_Stance",
+          "name": "机簧护心镜",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Stance/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Stance"
+          ]
+        },
+        {
+          "id": "AC_Stealth",
+          "name": "屏息绑带",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Stealth/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Stealth"
+          ]
+        },
+        {
+          "id": "AC_Tang",
+          "name": "妙手在握",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.AC_Tang/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Tang"
+          ]
+        },
+        {
+          "id": "AC_TimerEndure",
+          "name": "百战魔躯",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/MeiGuHu.ShaqiTa.AC_TimerEndure/EntryDatas/0/Accessories",
+            "shared/items.json#AC_TimerEndure"
+          ]
+        }
+      ],
+      "draw": 3,
+      "choose": 1,
+      "without_replacement": true,
+      "enabled": true,
+      "verification": "ACCESSORY-SOURCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json"
+      ]
+    },
+    {
+      "id": "accessory_box_3",
+      "kind": "accessory_boxes",
+      "zone": 3,
+      "candidates": [
+        {
+          "id": "AC_BreakRecover",
+          "name": "沉香念珠",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_BreakRecover/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BreakRecover"
+          ]
+        },
+        {
+          "id": "AC_BreakRegen",
+          "name": "慈母护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_BreakRegen/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BreakRegen"
+          ]
+        },
+        {
+          "id": "AC_Control",
+          "name": "细线球",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_Control/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Control"
+          ]
+        },
+        {
+          "id": "AC_Execution",
+          "name": "万杀巧锁",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_Execution/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Execution"
+          ]
+        },
+        {
+          "id": "AC_Health",
+          "name": "珍玩妖织",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_Health/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Health"
+          ]
+        },
+        {
+          "id": "AC_HeavyAttackDamage",
+          "name": "残破容器",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Zhengdaodaying.AC_HeavyAttackDamage/EntryDatas/0/Accessories",
+            "shared/items.json#AC_HeavyAttackDamage"
+          ]
+        },
+        {
+          "id": "AC_LowShachi",
+          "name": "同心双鱼佩",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Zhengdaodaying.AC_LowShachi/EntryDatas/0/Accessories",
+            "shared/items.json#AC_LowShachi"
+          ]
+        },
+        {
+          "id": "AC_PoisonRegen",
+          "name": "活木符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_PoisonRegen/EntryDatas/0/Accessories",
+            "shared/items.json#AC_PoisonRegen"
+          ]
+        },
+        {
+          "id": "AC_PowerWeapon",
+          "name": "力士神像",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Zhengdaodaying.AC_PowerWeapon/EntryDatas/0/Accessories",
+            "shared/items.json#AC_PowerWeapon"
+          ]
+        },
+        {
+          "id": "AC_ResistRanged",
+          "name": "避箭护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_ResistRanged/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ResistRanged"
+          ]
+        },
+        {
+          "id": "AC_Rider",
+          "name": "斩骑符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Zhengdaodaying.AC_Rider/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Rider"
+          ]
+        },
+        {
+          "id": "AC_SpiritShadow",
+          "name": "暗源小笼",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_SpiritShadow/EntryDatas/0/Accessories",
+            "shared/items.json#AC_SpiritShadow"
+          ]
+        },
+        {
+          "id": "AC_SummonDuration",
+          "name": "人偶木心",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiacCun.001.AC_SummonDuration/EntryDatas/0/Accessories",
+            "shared/items.json#AC_SummonDuration"
+          ]
+        },
+        {
+          "id": "AC_UltimateCharge",
+          "name": "无名大师的扳指",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Zhengdaodaying.AC_UltimateCharge/EntryDatas/0/Accessories",
+            "shared/items.json#AC_UltimateCharge"
+          ]
+        }
+      ],
+      "draw": 3,
+      "choose": 1,
+      "without_replacement": true,
+      "enabled": true,
+      "verification": "ACCESSORY-SOURCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json"
+      ]
+    },
+    {
+      "id": "accessory_box_4",
+      "kind": "accessory_boxes",
+      "zone": 4,
+      "candidates": [
+        {
+          "id": "AC_BigHit",
+          "name": "绝望护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.AC_BigHit/EntryDatas/0/Accessories",
+            "shared/items.json#AC_BigHit"
+          ]
+        },
+        {
+          "id": "AC_Electrified",
+          "name": "月雷华灯",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/XiMeng.001.AC_Electrified/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Electrified"
+          ]
+        },
+        {
+          "id": "AC_Elemental",
+          "name": "羽扇残羽",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/XiMeng.001.AC_Elemental/EntryDatas/0/Accessories",
+            "shared/items.json#AC_Elemental"
+          ]
+        },
+        {
+          "id": "AC_EvadePhantom",
+          "name": "影魅面具",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/XiMeng.001.AC_EvadePhantom/EntryDatas/0/Accessories",
+            "shared/items.json#AC_EvadePhantom"
+          ]
+        },
+        {
+          "id": "AC_ExecutionSwitchCool",
+          "name": "刽子手头巾",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/XiMeng.001.AC_ExecutionSwitchCool/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ExecutionSwitchCool"
+          ]
+        },
+        {
+          "id": "AC_LowHealth",
+          "name": "绝地求生令",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.AC_LowHealth/EntryDatas/0/Accessories",
+            "shared/items.json#AC_LowHealth"
+          ]
+        },
+        {
+          "id": "AC_MagicWeapon",
+          "name": "百相傩面",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/XiMeng.001.AC_MagicWeapon/EntryDatas/0/Accessories",
+            "shared/items.json#AC_MagicWeapon"
+          ]
+        },
+        {
+          "id": "AC_MartialWeapon",
+          "name": "粗糙煌心",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.AC_MartialWeapon/EntryDatas/0/Accessories",
+            "shared/items.json#AC_MartialWeapon"
+          ]
+        },
+        {
+          "id": "AC_ShachiAttack",
+          "name": "白山密令",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.AC_ShachiAttack/EntryDatas/0/Accessories",
+            "shared/items.json#AC_ShachiAttack"
+          ]
+        },
+        {
+          "id": "AC_UltimateBreak",
+          "name": "绝技护符",
+          "weight": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.AC_UltimateBreak/EntryDatas/0/Accessories",
+            "shared/items.json#AC_UltimateBreak"
+          ]
+        }
+      ],
+      "draw": 3,
+      "choose": 1,
+      "without_replacement": true,
+      "enabled": true,
+      "verification": "ACCESSORY-SOURCE in notes/codex-tower-rewards.md",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json"
+      ]
+    },
+    {
+      "id": "accessory_box_5",
+      "kind": "accessory_boxes",
+      "zone": 5,
+      "candidates": [],
+      "draw": 3,
+      "choose": 1,
+      "without_replacement": true,
+      "enabled": false,
+      "verification": "ACCESSORY-SOURCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算",
+        "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json"
+      ]
+    },
+    {
+      "id": "convert_1",
+      "kind": "convert",
+      "zone": 1,
+      "target": "already_owned_weapon",
+      "dust": 1500,
+      "materials": [
+        {
+          "id": "Weapon_Material_01",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/Xigu.001.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_01"
+          ]
+        }
+      ],
+      "enabled": false,
+      "dedupe": "save_identity+reward_id",
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算"
+      ]
+    },
+    {
+      "id": "convert_2",
+      "kind": "convert",
+      "zone": 2,
+      "target": "already_owned_weapon",
+      "dust": 1750,
+      "materials": [
+        {
+          "id": "Weapon_Material_07",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/FuJiZhiLin.003.Medi_Material_1/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_07"
+          ]
+        }
+      ],
+      "enabled": false,
+      "dedupe": "save_identity+reward_id",
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算"
+      ]
+    },
+    {
+      "id": "convert_3",
+      "kind": "convert",
+      "zone": 3,
+      "target": "already_owned_weapon",
+      "dust": 2000,
+      "materials": [
+        {
+          "id": "Weapon_Material_08",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/LuJiaCun.004.Weapon_Material_01/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_08"
+          ]
+        }
+      ],
+      "enabled": false,
+      "dedupe": "save_identity+reward_id",
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算"
+      ]
+    },
+    {
+      "id": "convert_4",
+      "kind": "convert",
+      "zone": 4,
+      "target": "already_owned_weapon",
+      "dust": 2250,
+      "materials": [
+        {
+          "id": "Weapon_Material_02",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DengDingShanDao.Traversing.001/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_02"
+          ]
+        }
+      ],
+      "enabled": false,
+      "dedupe": "save_identity+reward_id",
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算"
+      ]
+    },
+    {
+      "id": "convert_5",
+      "kind": "convert",
+      "zone": 5,
+      "target": "already_owned_weapon",
+      "dust": 2500,
+      "materials": [
+        {
+          "id": "Weapon_Material_03",
+          "amount": 1,
+          "evidence": "static",
+          "source": [
+            "notes/dump/tables/ProjectPBZ/Content/PBZContent/DataTable/DT_LevelLootDataTable.json#Rows/DuanHunYa.wmA.001/EntryDatas/0/LootItems",
+            "shared/items.json#Weapon_Material_03"
+          ]
+        }
+      ],
+      "enabled": false,
+      "dedupe": "save_identity+reward_id",
+      "verification": "PACK-BALANCE in notes/codex-tower-rewards.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#5.5 区结算"
+      ]
+    },
+    {
+      "id": "reward_policy",
+      "kind": "policy",
+      "jade": {
+        "base": 20,
+        "per_floor": 5,
+        "jitter": 0.2,
+        "zone_boss_multiplier": 3
+      },
+      "rarity_by_zone": [
+        [
+          70,
+          25,
+          5,
+          0
+        ],
+        [
+          58,
+          30,
+          11,
+          1
+        ],
+        [
+          45,
+          35,
+          17,
+          3
+        ],
+        [
+          35,
+          38,
+          22,
+          5
+        ],
+        [
+          25,
+          40,
+          28,
+          7
+        ]
+      ],
+      "shentong": {
+        "normal": {
+          "floor": 0.005,
+          "zone_boss": 0.02
+        },
+        "rare": {
+          "floor": 0.001,
+          "zone_boss": 0.005
+        },
+        "lingxi": {
+          "floor": 0.0,
+          "zone_boss": 0.01,
+          "eligible_floors": [
+            30,
+            40,
+            50
+          ],
+          "max_per_run": 1
+        },
+        "roll_unit": "once_per_tier_per_cleared_floor",
+        "capacity": 3,
+        "consumable": true,
+        "duration": "one_floor"
+      },
+      "native_rewards": {
+        "default_enabled": true,
+        "backup_required": true,
+        "session_check_required": true,
+        "paid_dlc_cosmetics": false,
+        "dedupe": "save_identity+reward_id"
+      },
+      "spectate_weapon_drops": false,
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.4 神通",
+        "mods/tower/src/tower_economy.h"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+ "source": "E:\\Phantom_Blade_Zero\\build\\lion-replay-research\\batch-20261103-flows",
+ "policy": "reachable GetItems/GiveItems/LootItems in Boss death flows; F_* memory flowers, Item_Piece*, Item_001/002 excluded (tower owns stats)",
+ "rows": [
+  {
+   "stem": "BP_Monster_MengHua",
+   "item": "TU_14001",
+   "count": 1,
+   "flow": "BPF_MengHua_Death",
+   "flow_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "stem": "BP_Monster_MengHua",
+   "item": "TU_18011",
+   "count": 1,
+   "flow": "BPF_MengHua_Death",
+   "flow_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "stem": "BP_Monster_YuCong",
+   "item": "TU_150022",
+   "count": 1,
+   "flow": "BPF_SanTouMoOuDeath",
+   "flow_sha256": "4ee062c8a0a155e50b5324b910119b46873758cade45c37c91ecc5d27d8b555c"
+  },
+  {
+   "stem": "BP_Monster_YuCong_Bing",
+   "item": "TU_150022",
+   "count": 1,
+   "flow": "BPF_SanTouMoOuDeath",
+   "flow_sha256": "4ee062c8a0a155e50b5324b910119b46873758cade45c37c91ecc5d27d8b555c"
+  },
+  {
+   "stem": "BP_Monster_YuCong_HunDun",
+   "item": "TU_150022",
+   "count": 1,
+   "flow": "BPF_SanTouMoOuDeath",
+   "flow_sha256": "4ee062c8a0a155e50b5324b910119b46873758cade45c37c91ecc5d27d8b555c"
+  },
+  {
+   "stem": "BP_Monster_YuCong_WuLi",
+   "item": "TU_150022",
+   "count": 1,
+   "flow": "BPF_SanTouMoOuDeath",
+   "flow_sha256": "4ee062c8a0a155e50b5324b910119b46873758cade45c37c91ecc5d27d8b555c"
+  },
+  {
+   "stem": "BP_Monster_MuXiaoKui",
+   "item": "K_05002",
+   "count": 1,
+   "flow": "BPF_MuXiaoKuiDeath",
+   "flow_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "stem": "BP_Monster_MuXiaoKui",
+   "item": "TU_02002",
+   "count": 1,
+   "flow": "BPF_MuXiaoKuiDeath",
+   "flow_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "stem": "BP_Monster_MuXiaoKui_P2",
+   "item": "K_05002",
+   "count": 1,
+   "flow": "BPF_MuXiaoKuiDeath",
+   "flow_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "stem": "BP_Monster_MuXiaoKui_P2",
+   "item": "TU_02002",
+   "count": 1,
+   "flow": "BPF_MuXiaoKuiDeath",
+   "flow_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "stem": "BP_Monster_Danghui",
+   "item": "I_05001",
+   "count": 1,
+   "flow": "BPF_DangHuiDeath",
+   "flow_sha256": "c4bc7112f26c47912535cfbd63683baa5f5a69566168f0c20f01df3a0e24501a"
+  },
+  {
+   "stem": "BP_Monster_YouLong_Harpoon",
+   "item": "TU_10003",
+   "count": 1,
+   "flow": "BPF_YouLong_Death",
+   "flow_sha256": "18fa1fe82a78d89ae0d44378fef300cc566f66700b5f11fbdce89b9af0f54411"
+  },
+  {
+   "stem": "BP_Monster_YanQianSui",
+   "item": "I_08002",
+   "count": 1,
+   "flow": "BPF_YanQianSuiDeath",
+   "flow_sha256": "35c12506a793684c3e92d19f18ac5e6272abadae3b2a132697d4373208d75ccb"
+  },
+  {
+   "stem": "BP_Monster_YanQianSui",
+   "item": "TU_07002",
+   "count": 1,
+   "flow": "BPF_YanQianSuiDeath",
+   "flow_sha256": "35c12506a793684c3e92d19f18ac5e6272abadae3b2a132697d4373208d75ccb"
+  },
+  {
+   "stem": "BP_Monster_QiShu_Bing",
+   "item": "K_16001",
+   "count": 1,
+   "flow": "BPF_DHS_SuiHanDeath",
+   "flow_sha256": "09294f91f4659fd9c5113b884da62fa5f714797b265e99cb416b20e22fdea5de"
+  },
+  {
+   "stem": "BP_Monster_QiShu_Huo",
+   "item": "K_05003",
+   "count": 1,
+   "flow": "BPF_LJC_YanRuDeath",
+   "flow_sha256": "8897b96904b265c22410c1fddd11e922e26d912c4778b0f3775ab9fbd9d0d44f"
+  },
+  {
+   "stem": "BP_Monster_QiShu_Du",
+   "item": "K_08001",
+   "count": 1,
+   "flow": "BPF_MGH_GuheDeath",
+   "flow_sha256": "fa0d83f8dadf7db46dc7f44c34aee3d90f7cb2b06739b1abba2f64c66e135d82"
+  },
+  {
+   "stem": "BP_Monster_QiShu_Lei",
+   "item": "K_12001",
+   "count": 1,
+   "flow": "BPF_YDZZ_LeiTingDeath",
+   "flow_sha256": "1ae0236b39db109a6993df1fcd758e534e8bfb0f14c7b8f16c7fa6993bd40aad"
+  },
+  {
+   "stem": "BP_Monster_GuWanYue",
+   "item": "TU_05001",
+   "count": 1,
+   "flow": "BPF_GuWanYueChuChang",
+   "flow_sha256": "f85c0c73211e578beead41b689457b5b252a07bb64e0c6c65fa029add442793e"
+  },
+  {
+   "stem": "BP_Monster_HuoDaoDuiZhang",
+   "item": "TU_150012",
+   "count": 1,
+   "flow": "BPF_HuoDaoDuiZhuang_Death",
+   "flow_sha256": "708aed2064f21e6434db02f1f150884b7b1931fed747b6c3aabdbfbd5e617067"
+  },
+  {
+   "stem": "BP_Monster_PengMeng_Axe",
+   "item": "R_01002",
+   "count": 1,
+   "flow": "BPF_FuLaoDaDeath",
+   "flow_sha256": "d49a05ea895753c0cb44f7b9659856d52de7b35b39ef6f2d53a9d1f782df27c6"
+  },
+  {
+   "stem": "BP_Monster_LionDancer",
+   "item": "I_06004",
+   "count": 1,
+   "flow": "BPF_WuShiZunZhu_Death",
+   "flow_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "stem": "BP_Monster_LionDancer_P2",
+   "item": "I_06004",
+   "count": 1,
+   "flow": "BPF_WuShiZunZhu_Death",
+   "flow_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "stem": "BP_Monster_XiaoXue",
+   "item": "R_03007",
+   "count": 1,
+   "flow": "BPF_XiaoXueDeath",
+   "flow_sha256": "a843775ccf33ab18d627927123ac16962f02328f069635aeebce549cb75723a2"
+  },
+  {
+   "stem": "BP_Monster_HuaShan_Blue",
+   "item": "K_03004",
+   "count": 1,
+   "flow": "BPF_JianZhenDeath",
+   "flow_sha256": "f28-32-34-export (OfflineProbe 2026-11-05)"
+  },
+  {
+   "stem": "BP_Monster_HuaShan_JianOu",
+   "item": "K_03004",
+   "count": 1,
+   "flow": "BPF_JianZhenDeath",
+   "flow_sha256": "f28-32-34-export (OfflineProbe 2026-11-05)"
+  },
+  {
+   "stem": "BP_Monster_ZuoShang_P2",
+   "item": "TU_18008",
+   "count": 1,
+   "flow": "TowerLink_ZiMingJian",
+   "note": "用户 2026-11-06：塔联动，非原生死亡 Flow；破碎龙体用于紫冥剑铸魂（Item_WeaponFunc_TierUp_065）"
+  }
+ ],
+ "evidence": [
+  {
+   "flow": "BPF_MengHua_Death",
+   "node": "21032DBE-469403FE-96D873AA-927E4F30",
+   "type": "GetItems_C",
+   "item": "TU_18011",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "node": "D6DE7726-43CF362B-8811C0A5-5996B895",
+   "type": "GetItems_C",
+   "item": "TU_14001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "node": "B649F1F8-4ED81A8E-9E7F9B96-A8A7D35A",
+   "type": "GetItems_C",
+   "item": "TU_14001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "node": "6049EE87-4889012D-75C155BC-9255BEE1",
+   "type": "GetItems_C",
+   "item": "TU_18011",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_SanTouMoOuDeath",
+   "node": "5BE04F7C-4223A218-7A18F5BF-3BAE70D0",
+   "type": "GetItems_C",
+   "item": "TU_150022",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node": "3135FE0C-4C694A9A-0C9D1CB6-41C384E3",
+   "type": "GetItems_C",
+   "item": "K_05002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node": "E3292A37-4B2B0654-2E4F10A5-A0BB5D40",
+   "type": "GetItems_C",
+   "item": "K_05002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node": "C87C7707-4092634B-83103293-D52BCFDB",
+   "type": "GetItems_C",
+   "item": "TU_02002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_DangHuiDeath",
+   "node": "3E93F360-432CA444-755AA9B4-A7568CEC",
+   "type": "GetItems_C",
+   "item": "I_05001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_YouLong_Death",
+   "node": "93B78AAF-4F77F978-A6A9ED8B-7A7DC94C",
+   "type": "LootItems_C",
+   "item": "TU_10003",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_YanQianSuiDeath",
+   "node": "ABB2E9C1-4F7E1B6C-95DF5090-20D84095",
+   "type": "GetItems_C",
+   "item": "TU_07002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_YanQianSuiDeath",
+   "node": "A1589158-4CA11054-A30768AF-E7650ADE",
+   "type": "GetItems_C",
+   "item": "I_08002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_DHS_SuiHanDeath",
+   "node": "9F9ECC05-4F4E771D-3F4C1A90-D12B3232",
+   "type": "GetItems_C",
+   "item": "K_16001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_LJC_YanRuDeath",
+   "node": "53BE7A5F-4E17A740-5F33AF9B-7D8CA6B8",
+   "type": "GetItems_C",
+   "item": "K_05003",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_MGH_GuheDeath",
+   "node": "D5F545AB-4124E25E-CDD60596-8F774B95",
+   "type": "GetItems_C",
+   "item": "K_08001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_YDZZ_LeiTingDeath",
+   "node": "EC58DCFD-41DF3A1F-FD6651B5-573FF855",
+   "type": "GetItems_C",
+   "item": "K_12001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_GuWanYueChuChang",
+   "node": "7FA10B1C-45FD6336-D5D1B8B1-2C837F6E",
+   "type": "GetItems_C",
+   "item": "TU_05001",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_GuWanYueChuChang",
+   "node": "A614CD90-41583239-F17876A2-66EA39DE",
+   "type": "GetItems_C",
+   "item": "ShaqiHexin",
+   "count": 1,
+   "reachable": false,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_HuoDaoDuiZhuang_Death",
+   "node": "D2EEA7D7-404176D5-CEA138A4-0EE7E824",
+   "type": "GetItems_C",
+   "item": "TU_150012",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_DuYanGongKe_Death",
+   "node": "A3DD1365-411C7501-EBEACE98-D837B70D",
+   "type": "GetItems_C",
+   "item": "TU_06005",
+   "count": 1,
+   "reachable": false,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_FuLaoDaDeath",
+   "node": "27FEF30D-4A8BA88F-B48E7CA0-E1B065EB",
+   "type": "GetItems_C",
+   "item": "R_01002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_FuLaoDaDeath",
+   "node": "B69CC740-4A5475B2-EE8EC3B2-E64D8C73",
+   "type": "GetItems_C",
+   "item": "R_01002",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "node": "1F803982-48D6F2F5-5EAB16BF-9562A7F9",
+   "type": "GetItems_C",
+   "item": "I_06004",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_XiPiaoGuaiWu_Death",
+   "node": "E4181240-4E92CCBF-33CDDAA9-6C6718A4",
+   "type": "GetItems_C",
+   "item": "K_07001",
+   "count": 1,
+   "reachable": false,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_XiaoXueDeath",
+   "node": "1000A458-440A8C99-E254BD9F-79940B8A",
+   "type": "GetItems_C",
+   "item": "R_03007",
+   "count": 1,
+   "reachable": true,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_YuZanDeath",
+   "node": "6E2AB1C4-47476557-12B9DD8F-E0CEE8CF",
+   "type": "GetItems_C",
+   "item": "I_05004",
+   "count": 1,
+   "reachable": false,
+   "excluded": false
+  },
+  {
+   "flow": "BPF_JianZhenDeath",
+   "node": "GetItems_C",
+   "type": "GetItems_C",
+   "item": "K_03004",
+   "count": 1,
+   "reachable": true,
+   "excluded": false,
+   "source": "E:/Phantom_Blade_Zero/build/lion-replay-research/f28-32-34-export"
+  }
+ ],
+ "flows_without_items": []
+}

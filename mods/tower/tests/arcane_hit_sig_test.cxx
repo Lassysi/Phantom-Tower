@@ -1,0 +1,18 @@
+#include "../src/tower_arcane_hit_sig.h"
+#include <array>
+#include <cstring>
+#include <cstdio>
+int main(){
+    const unsigned char wa[]={0x48,0x85,0xc0,0x49,0x8b,0xcf,0x48,0x89,0x74,0x24,0x20,0x40,0x0f,0x95,0xc7,0x48,0x03,0xf8,0x48,0x89,0x7b,0x20};
+    const unsigned char wb[]={0x4c,0x8d,0x9c,0x24,0x90,0,0,0,0x49,0x8b,0x5b,0x20};
+    const unsigned char la[]={0x48,0x8b,0xce,0x48,0x89,0x44,0x24,0x20};
+    const unsigned char lb[]={0x48,0x8b,0x5c,0x24,0x50,0x48,0x8b,0x74,0x24,0x58};
+    const unsigned char in[]={0x40,0x55,0x53,0x56,0x57,0x41,0x54,0x41,0x55,0x41,0x56,0x41,0x57,0x48,0x8d,0x6c,0x24,0xd8,0x48,0x81,0xec,0x28,0x01,0,0};
+    std::array<unsigned char,512>w{},l{},body{};std::memcpy(w.data()+100,wa,sizeof wa);w[100+sizeof wa]=0xe8;std::memcpy(w.data()+100+sizeof wa+5,wb,sizeof wb);
+    std::memcpy(l.data()+32,la,sizeof la);l[32+sizeof la]=0xe8;std::memcpy(l.data()+32+sizeof la+5,lb,sizeof lb);std::memcpy(body.data(),in,sizeof in);
+    if(tower::arcanehit::WrapperCall(w.data(),w.size())!=100+sizeof wa || tower::arcanehit::LeafCall(l.data(),l.size())!=32+sizeof la || !tower::arcanehit::InnerSignature(body.data(),body.size()))return 1;
+    body[3]^=1;if(tower::arcanehit::InnerSignature(body.data(),body.size()))return 2;
+    std::memcpy(w.data()+250,wa,sizeof wa);w[250+sizeof wa]=0xe8;std::memcpy(w.data()+250+sizeof wa+5,wb,sizeof wb);
+    if(tower::arcanehit::WrapperCall(w.data(),w.size())!=-1)return 3;
+    std::puts("TOWER_ARCANE_HIT_SIGNATURE_OK");
+}

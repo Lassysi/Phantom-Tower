@@ -1,0 +1,3027 @@
+{
+  "schema": 1,
+  "candidate": "30324ba",
+  "plan": "v4",
+  "plan_source": "mods\\tower\\src\\floors.generated.h",
+  "source_sha256": "b79d835ac37dbf9ac91e287b24d39c4d2e0b07f2685696a276bae41cd38254a1",
+  "assists": {
+    "player.god": true,
+    "combat.one_hit": false,
+    "combat.dmg_mul": 3,
+    "player.inf_hp": true
+  },
+  "scope": "Map/Boss/venue/floor-type logic only; no numerical balance, normal damage, complete intrinsic phase, shop or item-use acceptance",
+  "full_50_accepted": false,
+  "items": [
+    {
+      "floor": 1,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step8-floor1-reward-overflow",
+          "user_report": "无异常",
+          "actual_spawned_classes": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_record": 38.6
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 3,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log_count": 2,
+          "opened_log": "observed_on_next_floor_begin"
+        },
+        "doors_block_player": "pending_specific_visual_or_collision_confirmation",
+        "native_story_enemies_absent": "user_reports_no_anomaly",
+        "hull_or_circle": "hull_8_points",
+        "player_boss_boundary": "player_returned_twice; boss_boundary_unverified",
+        "victory": "pass_observed",
+        "elapsed_time": 38.6,
+        "hud": "floor_ahead_on_reward_page_in_floor1_screenshot"
+      },
+      "planned_names": [
+        "痴狂暴徒：残钢"
+      ]
+    },
+    {
+      "floor": 2,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step11-floor2",
+          "user_report": "无异常",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_record": 42.0
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 3,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log_count": 2,
+          "opened_log": "observed_on_next_floor_begin"
+        },
+        "doors_block_player": "pending_specific_visual_or_collision_confirmation",
+        "native_story_enemies_absent": "user_reports_no_anomaly",
+        "hull_or_circle": "circle_45_m",
+        "player_boss_boundary": "no_boundary_excursion_test",
+        "victory": "pass_observed",
+        "elapsed_time": 42.0,
+        "hud": "not_separately_graded"
+      },
+      "planned_names": [
+        "斧老大：彭猛"
+      ]
+    },
+    {
+      "floor": 3,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step12-floor3",
+          "user_report": "已过；高空落点/门碰撞未单独回答",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_record": 11.8
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset": [
+            0,
+            0,
+            0
+          ]
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 5,
+          "groups": 5
+        },
+        "doors_closed_opened": {
+          "closed_log_count": 1,
+          "opened_log": [
+            "[23:14:37.680] 影塔场地：开雾门 1 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_visual_or_collision_confirmation",
+        "native_story_enemies_absent": "no_anomaly_reported_but_not_explicit",
+        "hull_or_circle": "circle_33_m",
+        "player_boss_boundary": "no_boundary_excursion_test",
+        "victory": "pass_observed",
+        "elapsed_time": 11.8,
+        "hud": "not_separately_graded"
+      },
+      "planned_names": [
+        "金面具黑衣人"
+      ]
+    },
+    {
+      "floor": 4,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step13-floor4",
+          "user_report": "用户未见奖励页；日志显示奖励弹出158ms后触发修为点+2，疑似输入穿透，交互失败。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 15.3
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / -0"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:14:37.776] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[23:16:07.085] 影塔场地：开雾门 2 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 5 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 15.3,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "新娘阿花"
+      ]
+    },
+    {
+      "floor": 5,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step13-floor5",
+          "user_report": "用户确认第五层有奖励，已进驿站；明确拒绝当前灰底自制商店。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 16.4
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / -0 / -0"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 2,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:16:07.185] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[23:37:33.190] 影塔场地：开雾门 2 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 8 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 16.4,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "追命：六绝凶镰"
+      ]
+    },
+    {
+      "floor": 6,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "fail_boss_ai_inactive_despite_victory",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step14-floor6",
+          "user_report": "用户反馈活人偶清道夫不攻击；可以击败领奖但AI战斗失败。名单与此前两张图是否一致待复核。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 13.5
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / 0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:37:33.315] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[23:39:34.716] 影塔场地：开雾门 0 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 11 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 13.5,
+        "hud": "not_separately_graded",
+        "boss_ai": "fail_user_reports_no_attacks_after_release"
+      },
+      "planned_names": [
+        "活人偶清道夫"
+      ]
+    },
+    {
+      "floor": 7,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "fail_original_venue_then_fallback_victory",
+      "attempts": [
+        {
+          "outcome": "failed_original_venue",
+          "world": "PBZ_Pangzhen_WP",
+          "actual_spawned_classes": [],
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step14-floor7\\initial-venue-failed.log"
+        },
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step14-floor7",
+          "user_report": "用户反馈长时间悬空，随后回退阿花场地打寒岁，现第8层准备。原场地失败，替代场地结算成功。",
+          "actual_spawned_classes": [],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 27.8,
+          "fallback_venue_evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step14-floor7\\timeline.log"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": "full-path owned capture unavailable during monitor gap; runtime short class observed in native isolation log",
+        "alternative_used": {
+          "boss_alternative": false,
+          "venue_fallback": "AHua_GuiTouDao in PBZ_Xigu_WP"
+        },
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / -0",
+          "scope": "fallback AHua venue only; original QiShu_Bing not reached"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:39:34.852] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[23:45:43.718] 影塔场地：开雾门 0 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 5 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 27.8,
+        "hud": "pending",
+        "actual_spawned_class_names": [
+          "BP_Monster_QiShu_Bing_C"
+        ],
+        "original_venue": {
+          "world": "PBZ_Pangzhen_WP",
+          "found": false,
+          "reason": "two point-teleport attempts each failed 20s ground wait",
+          "target": [
+            -179164.7,
+            -1401.4,
+            2001790.8
+          ],
+          "initial_plan_time": "23:38:33.634",
+          "fallback_plan_time": "23:39:28.193",
+          "wait_before_fallback_s": 54.559,
+          "world_coordinates_static_verified": false
+        }
+      },
+      "planned_names": [
+        "灭法之法：寒岁"
+      ]
+    },
+    {
+      "floor": 8,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step16-floor8",
+          "user_report": "用户确认第8、9层已过；当前准备页。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 321.9
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / 0"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:45:43.849] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[23:51:33.566] 影塔场地：开雾门 2 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "圆，半径 32 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 321.9,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "剑痴：花千笑"
+      ]
+    },
+    {
+      "floor": 9,
+      "zone": 1,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step16-floor9",
+          "user_report": "用户确认第9层游戏名铁狂，符合原生游玩流程；已过并停在准备页。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 50.5
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          3,
+          3
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 2,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[23:51:33.668] 影塔场地：关雾门 3 扇"
+          ],
+          "opened_log": [
+            "[00:01:58.135] 影塔场地：开雾门 3 扇",
+            "[00:02:15.274] 影塔场地：开雾门 0 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 6 点（场地数据）",
+        "player_boss_boundary": [
+          "[23:51:55.462] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[23:51:56.472] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[23:52:10.643] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）"
+        ],
+        "victory": "pass_observed",
+        "elapsed_time": 50.5,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "拳痴：铁狂"
+      ]
+    },
+    {
+      "floor": 10,
+      "zone": 1,
+      "mode": "Zone",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "fail_story_native_progression_and_boss_vanished",
+      "attempts": [
+        {
+          "run_id": "d65df0b32af2672c",
+          "txn": 3,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step17-floor10-story-failure",
+          "user_report": "用户报告长剧情不可跳过；随后原生Boss武器掉落并自动来到下一地图钟旁；塔无奖励。第10层失败。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": null,
+          "outcome": "failed_no_tower_victory_native_story_progressed"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / -0 / -0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 9,
+          "groups": 4
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[00:01:58.340] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[00:52:33.694] 影塔场地：开雾门 0 扇",
+            "[00:52:58.212] 影塔场地：开雾门 3 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail_Seq035_and_native_weapon_reward_and_cross_map",
+        "hull_or_circle": "圆，半径 45 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "fail_no_death_record_no_tower_reward",
+        "elapsed_time": null,
+        "hud": "pending",
+        "failure_timeline": {
+          "plan": "00:01:58.072",
+          "sequence_skip": "00:02:00.789",
+          "release": "00:02:06.599",
+          "cancel": "00:02:15.275",
+          "no_death_record": true,
+          "tower_state_after": "ready/floor9/inside txn3",
+          "observed_world_after": "PBZ_Zhengdaodaying_WP",
+          "native_main_slots_after": [
+            "SnakeDual",
+            "IronBlade"
+          ],
+          "full_original_save_hashes_unchanged": true,
+          "diag": 0
+        }
+      },
+      "planned_names": [
+        "白赤练：献祭之蛇"
+      ]
+    },
+    {
+      "floor": 11,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "fail_initial_spawn_no_ground_then_fallback_boss_out_of_bounds",
+      "attempts": [
+        {
+          "run_id": "de4935b94278b84d",
+          "txn": 5,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step25-floor11-failure",
+          "user_report": "用户反馈初到异常位置，等待后转铁狂场地；荆野血条出现但Boss不可见，随后消失，无奖励。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": null,
+          "outcome": "failed_original_venue_and_failed_fallback_combat"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+        ],
+        "alternative_used": {
+          "boss_alternative": false,
+          "venue_fallback": "LuanShi / 拳痴：铁狂 / PBZ_Fujizhilin_WP"
+        },
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / -0",
+          "scope": "first GreatBladeMan venue; second LuanShi venue also found"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 13,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[00:52:18.768] 影塔场地：关雾门 1 扇",
+            "[00:52:33.846] 影塔场地：关雾门 3 扇"
+          ],
+          "opened_log": "pending_at_next_begin"
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "not_explicitly_answered",
+        "hull_or_circle": "雾门凸包 6 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "fail_floor_cancelled_without_death_or_reward",
+        "elapsed_time": null,
+        "hud": "pending",
+        "boss_visible": "fail_user_cannot_see_actor_despite_bar",
+        "initial_venue": {
+          "class": "GreatBladeMan",
+          "world": "PBZ_DengDingShanDao_WP",
+          "spawner_found": true,
+          "offset": [
+            0,
+            0,
+            0
+          ],
+          "doors": [
+            1,
+            1
+          ],
+          "silenced_spawners": 13,
+          "silenced_groups": 2,
+          "spawn_failures": 7,
+          "rejection_each": "无地面36",
+          "player_z": 18381,
+          "outcome": "no_ground; fallback"
+        },
+        "fallback_venue": {
+          "class": "LuanShi",
+          "doors": [
+            3,
+            3
+          ],
+          "silenced_spawners": 2,
+          "silenced_groups": 1,
+          "boundary": "hull 6 points",
+          "release_time": "00:52:42.980",
+          "cancel_time": "00:52:58.212",
+          "cancel_reason": "Boss outside combat area more than15s",
+          "actual_actor_location_not_captured": true
+        }
+      },
+      "planned_names": [
+        "亡命徒：荆野"
+      ]
+    },
+    {
+      "floor": 12,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_native_boss_intrusion",
+      "attempts": [
+        {
+          "run_id": "aed9283c8aced1c0",
+          "txn": 7,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step34-floor12-countdown-intrusion",
+          "user_report": "白赤练在倒计时攻击玩家，倒计时结束消失；混沌击败后停在奖励页",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 713.3,
+          "outcome": "failed_native_boss_intrusion_victory_and_reward_observed",
+          "evidence_level": "live_runtime_logs_and_user_report",
+          "settlement_evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step35-floor12-reward",
+          "elapsed_scope": "Includes user/observer pauses and scene-preservation waiting; not pure combat time"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 9,
+          "groups": 4
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[01:19:38.929] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[01:46:05.500] 影塔场地：开雾门 0 扇",
+            "[01:46:30.233] 影塔场地：开雾门 3 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail",
+          "user_report": "白赤练在倒计时期间攻击玩家，倒计时结束即消失",
+          "native_class_observed_in_log": "BP_Monster_ChiLian_P2_C",
+          "native_remove_local_time": "01:19:42.420",
+          "sequence_skip_local_time": "01:19:40.864",
+          "first_countdown_local_time": "01:19:43.331",
+          "timing_limit": "日志移除实例早于读秒3约0.911秒；用户报告可见于倒计时中。尚未采到连续画面/原生实例，不能据一次移除断言后续没有重生或血条残留。",
+          "attack_during_countdown": "confirmed_by_user",
+          "later_native_intrusion_log": "[01:23:10.140] 影塔清场：移除别的 Boss BP_Monster_ChiLian_C（场地原生）",
+          "later_sequence_log": "[01:23:09.310] Seq034跳到结尾；具体生成节点待核"
+        },
+        "hull_or_circle": "圆，半径 39 米（场地数据）",
+        "player_boss_boundary": [
+          "[01:20:19.547] 玩家越过39米边界，放回已记录",
+          "[01:22:28.446] 玩家越过39米边界，放回已记录"
+        ],
+        "victory": "pass_observed_isolation_still_failed",
+        "elapsed_time": 713.3,
+        "hud": "pending",
+        "reward": "reward_phase_and_offered_3_confirmed"
+      },
+      "planned_names": [
+        "“玉琮”：混沌"
+      ]
+    },
+    {
+      "floor": 13,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_boss_outside_boundary_and_native_interaction_leak",
+      "attempts": [
+        {
+          "run_id": "aed9283c8aced1c0",
+          "txn": 7,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step36-floor13-boundary-failure",
+          "user_report": "Boss被空气墙隔在外面，随后消失；场内仍有原生宝箱交互和可拾取物。",
+          "actual_spawned_classes": [],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": null,
+          "outcome": "failed_boundary_separation_cancelled_no_reward",
+          "observability": "step33 guard exhausted bounded request ack retries at 01:46:04; later native full log and independent checkpoint retained; exact Owned path not captured",
+          "runtime_hp_log": {
+            "native": 10000,
+            "target_rounded": 10326
+          }
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": "exact_path_not_captured_monitor_gap",
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          3,
+          3
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 5,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[01:46:05.648] 影塔场地：关雾门 3 扇"
+          ],
+          "opened_log": [
+            "[01:46:30.233] 影塔场地：开雾门 3 扇（取消本层时）"
+          ]
+        },
+        "doors_block_player": "user_reports_boss_separated_by_invisible_wall_not_door_collision_verified",
+        "native_story_enemies_absent": "native_chest_and_interaction_prompt_visible_user_reports_collectibles",
+        "hull_or_circle": "雾门凸包 11 点（场地数据）",
+        "player_boss_boundary": {
+          "status": "fail",
+          "arm_local": "01:46:14.817",
+          "player_return_local": "01:46:14.870",
+          "boss_timeout_local": "01:46:30.234",
+          "reason": "Boss outside arena for >15s; native cancellation no reward",
+          "root_position_collision_or_hull_cause": "unresolved_no_actor_position_capture"
+        },
+        "victory": "fail_floor_cancelled_not_a_kill",
+        "elapsed_time": null,
+        "hud": "pending",
+        "actual_spawned_class_short_runtime": "BP_Monster_Zhuobi_C",
+        "native_interactions": {
+          "status": "fail_visible_prompt_user_reports_interactable",
+          "chest_visible": true,
+          "interaction_prompt_visible": true,
+          "actual_open_and_item_grant": "not_independently_verified",
+          "lifecycle": "ready after cancellation; interaction filter removed by End while trip remains inside"
+        }
+      },
+      "planned_names": [
+        "守门人拙壁"
+      ]
+    },
+    {
+      "floor": 14,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_native_notice_leakage_victory_observed",
+      "attempts": [
+        {
+          "run_id": "6995206e033839a3",
+          "txn": 9,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step45-floor14-native-notices",
+          "user_report": "倒计时出现新武器介绍，开打出现‘村口的线消失了’提示；Boss已击败，停在塔奖励页。",
+          "actual_spawned_classes": [],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 16.1,
+          "outcome": "failed_native_notice_leakage_victory_reward_observed",
+          "inventory_evidence": "build/tower-growth-live/30324ba-20261102T055637Z/step46-floor14-native-inventory.json",
+          "observability": "step44 monitor own ack timeout during map loading; native log recovered; short class only"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": "exact_path_not_captured_monitor_gap",
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          4,
+          4
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 28,
+          "groups": 8
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[02:09:13.594] 影塔场地：关雾门 4 扇"
+          ],
+          "opened_log": [
+            "[02:30:59.743] 影塔场地：开雾门 4 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail_native_weapon_and_world_notices",
+          "weapon_popup": "天玄青铜剑；用户截图与倒计时反馈",
+          "world_notice_user_verbatim": "村口的线消失了",
+          "quest_progression": "not_verified_user_hypothesis",
+          "inventory_readback": "RenOuQingTongJian level1 present; only2main+2shaqi equipped",
+          "tower_settlement_weapon_count": 0,
+          "weapon_acquisition_source": "unresolved_no_instrumented_grant_provenance"
+        },
+        "hull_or_circle": "圆，半径 32 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed_isolation_still_failed",
+        "elapsed_time": 16.1,
+        "hud": "pending",
+        "actual_spawned_class_short_runtime": "BP_Monster_BiYuan_C",
+        "reward": "reward_phase_offered3_jade147",
+        "challenge": {
+          "kind": "NoHit",
+          "log": "complete +49jade +1prep_item",
+          "acceptance": "not_graded_player.god_enabled"
+        }
+      },
+      "planned_names": [
+        "天玄派：毕远掌门残躯"
+      ]
+    },
+    {
+      "floor": 15,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_native_precombat_settlement_victory_observed",
+      "attempts": [
+        {
+          "run_id": "6995206e033839a3",
+          "txn": 9,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step48-floor15-native-settlement",
+          "user_report": "刚来场地就出现原生斩标识并获得苦叶寺珠串，随后Boss又出现继续战斗；本层已打完。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 38.5,
+          "outcome": "failed_native_precombat_settlement_victory_reward_observed",
+          "inventory_delta_evidence": "build/tower-growth-live/30324ba-20261102T055637Z/step48-floor15-native-settlement/weapon-delta.json"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / -0"
+        },
+        "fog_resolved_count": [
+          3,
+          3
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 32,
+          "groups": 9
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[02:30:59.876] 影塔场地：关雾门 3 扇"
+          ],
+          "opened_log": [
+            "[02:31:59.703] 影塔场地：开雾门 3 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail",
+          "user_report": "入场先出现原生斩/获得苦叶寺珠串，再看到Boss继续打",
+          "native_standins_removed": [
+            "[02:31:06.869] BP_Monster_CanQu_BiHai_Stand_C",
+            "[02:31:06.871] BP_Monster_CanQu_BiHai_Stand_C"
+          ],
+          "tower_actor_already_present_before_cleanup": "[02:31:00.245] BP_Monster_CanQu_BiHai_C; Owned before 02:31:06 cleanup",
+          "first_countdown": "02:31:08.021",
+          "release": "02:31:11.025",
+          "inventory_delta": "KuYeSiZhuChuan ShaChiWeaponLevel1 added between snapshots step46 and step49; equipped unchanged",
+          "tower_settlement_weapon_count": 0,
+          "causality": "native cleanup/death/clear/destroy/Flow grant callback not instrumented; do not claim same actor died and respawned"
+        },
+        "hull_or_circle": "雾门凸包 7 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed_isolation_still_failed",
+        "elapsed_time": 38.5,
+        "hud": "pending",
+        "reward": "reward_dispatch_observed",
+        "challenge": {
+          "kind": "Timed120",
+          "log": "complete +50jade",
+          "acceptance": "logic observed under god+one_hit; balance not graded"
+        }
+      },
+      "planned_names": [
+        "苦叶寺：碧海大师残躯"
+      ]
+    },
+    {
+      "floor": 16,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "victory_observed_with_open_checks",
+      "attempts": [
+        {
+          "run_id": "6995206e033839a3",
+          "txn": 9,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step48-floor16-reward",
+          "user_report": "第16层正常，停在第16层奖励页。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 44.8,
+          "outcome": "victory_reward_observed_user_normal_under_assists"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          3,
+          3
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[02:31:59.838] 影塔场地：关雾门 3 扇"
+          ],
+          "opened_log": [
+            "[02:58:03.582] 影塔场地：开雾门 3 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "no_anomaly_reported_by_user",
+        "hull_or_circle": "雾门凸包 9 点（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed",
+        "elapsed_time": 44.8,
+        "hud": "pending",
+        "reward": "reward_phase_offered3_confirmed"
+      },
+      "planned_names": [
+        "三号·乐师偶：“玉瓒”"
+      ]
+    },
+    {
+      "floor": 17,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "failed_native_precombat_settlement_victory_observed",
+      "attempts": [
+        {
+          "run_id": "6995206e033839a3",
+          "txn": 9,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step50-floor17-entry-settlement",
+          "user_report": "与14/15一样：倒计时显示斩、获得Boss武器，读秒后Boss模型正常对战，异常集中在入场。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 30.8,
+          "outcome": "failed_native_entry_settlement_original_sky_venue_combat_reward_observed",
+          "inventory_evidence": "build/tower-growth-live/30324ba-20261102T055637Z/step50-floor17-entry-settlement/native-delta.json"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[02:58:03.703] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[03:05:03.863] 影塔场地：开雾门 1 扇",
+            "[03:05:27.095] 影塔场地：开雾门 2 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail",
+          "user_report": "倒计时显示斩、获得Boss武器，读秒后对战正常；14/15同类",
+          "new_weapon_ids_readback": [],
+          "new_native_stack_readback": {
+            "id": "K_05003",
+            "CurrentAmount": 1,
+            "HasMaxAmount": 1
+          },
+          "equipped_unchanged": true,
+          "origin": "not_instrumented; weapon popup report retained separately from inventory delta"
+        },
+        "hull_or_circle": "圆，半径 29 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "pass_observed_isolation_still_failed",
+        "elapsed_time": 30.8,
+        "hud": "pending",
+        "reward": "reward_phase_offered3_jade503",
+        "original_high_space_venue": {
+          "travel_target": [
+            -48620,
+            96773,
+            2001571
+          ],
+          "world": "PBZ_Zhengdaodaying_WP",
+          "arrival_local": "02:58:03.557",
+          "runtime_spawner_found": true,
+          "fallback_observed": false,
+          "combat_completed": true,
+          "scope": "Native arrival/found and normal combat; static transform proof and physical gate collision not separately completed"
+        }
+      },
+      "planned_names": [
+        "灭法之法：炎茹"
+      ]
+    },
+    {
+      "floor": 18,
+      "zone": 2,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_boundary_cancel_and_native_boss_intrusion",
+      "attempts": [
+        {
+          "run_id": "6995206e033839a3",
+          "txn": 9,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step53-current-boss-mismatch",
+          "user_report": "用户认为Boss身份不对，似乎是荡秽或其他Boss；过一会消失，没有任何奖励界面。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": null,
+          "outcome": "failed_boundary_cancel_no_reward_native_intruder",
+          "runtime_hp_log": {
+            "native": 12000,
+            "target_rounded": 22571
+          }
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+        ],
+        "alternative_used": {
+          "boss_alternative": false,
+          "venue": "planned borrowed WanJun venue; not a runtime fallback"
+        },
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / 0"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 31,
+          "groups": 7
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[03:05:03.995] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[03:05:27.095] 开雾门2扇（取消时）"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail",
+          "intruder_class": "BP_Monster_WanJun_JinGua_C",
+          "remove_time_local": "03:05:03.849",
+          "report": "用户认为所见Boss身份不符；可见模型身份待核",
+          "actual_tower_owned_class": "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+        },
+        "hull_or_circle": "雾门凸包 6 点（场地数据）",
+        "player_boss_boundary": {
+          "status": "fail",
+          "actual_area": "6-point fog-door XY hull",
+          "release": "03:05:11.518",
+          "player_return": "03:05:11.805",
+          "boss_timeout_cancel": "03:05:27.096",
+          "reason": "outside area >15s; actual position/collision not sampled"
+        },
+        "victory": "fail_floor_cancelled_no_death_or_reward",
+        "elapsed_time": null,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "操偶师：荡秽"
+      ]
+    },
+    {
+      "floor": 19,
+      "zone": 2,
+      "mode": "Relay",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+      ],
+      "expected_active_count": 2,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "failed_native_boss_intrusion_relay_completed",
+      "attempts": [
+        {
+          "run_id": "cca5929fdd67ef41",
+          "txn": 11,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step64-floor19-muxiaokui-intrusion",
+          "user_report": "第二只Boss战斗期间沐小葵出现，过一会消失，类似白赤练乱入混沌；现停在奖励页。",
+          "actual_spawned_classes": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 93.8,
+          "outcome": "failed_native_muk_intrusion_relay_victory_reward_observed"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+          "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 4,
+          "groups": 3
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[04:07:23.052] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[04:16:41.243] 影塔场地：开雾门 1 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "status": "fail",
+          "user_report": "第二只战斗期间沐小葵出现后消失",
+          "logs": [
+            "[04:07:29.054] 移除BP_NPC_MuXiaoKui_C（原生）",
+            "[04:08:36.411] 移除BP_Monster_MuXiaoKui_C（原生）",
+            "[04:08:37.764] Seq045跳到结尾",
+            "[04:08:43.505] 再次移除BP_Monster_MuXiaoKui_C（原生）"
+          ]
+        },
+        "hull_or_circle": "雾门凸包 14 点（场地数据）",
+        "player_boss_boundary": [
+          "[04:07:46.968] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[04:07:58.633] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[04:08:04.212] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[04:08:06.779] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）"
+        ],
+        "victory": "pass_observed_isolation_still_failed",
+        "elapsed_time": 93.8,
+        "hud": "pending",
+        "reward": "one_dispatch_after_both_deaths_observed",
+        "relay": {
+          "first_dead_local": "04:08:05.050",
+          "second_dispatch_local": "04:08:07.050",
+          "dispatch_gap_s": 2.0,
+          "second_owned_sample_utc": "2026-11-02T12:08:07.877473+00:00",
+          "second_dead_local": "04:09:04.494",
+          "all_dead_local": "04:09:04.494",
+          "reward_dispatch_local": "04:09:06.997",
+          "hud_visual_transition": "not_explicitly_confirmed",
+          "guard_one_second_and_no_heal": "not_graded_god_enabled"
+        }
+      },
+      "planned_names": [
+        "少主护卫：玉妖",
+        "少主护卫：铁鬼"
+      ]
+    },
+    {
+      "floor": 20,
+      "zone": 2,
+      "mode": "Zone",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "zero_hp_reward_observed_death_cause_unresolved",
+      "attempts": [
+        {
+          "run_id": "cca5929fdd67ef41",
+          "txn": 11,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step65-floor20-death-or-disappearance",
+          "user_report": "用户战斗时卡了一下，没看到击杀/湮灭动画，怀疑Boss自行消失；现停在商店，请核对死亡与消失。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": true,
+            "combat.dmg_mul": 1
+          },
+          "elapsed_s_log": 48.8,
+          "outcome": "zero_hp_settlement_observed_final_hit_and_native_death_unresolved"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / -0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 4,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[04:16:41.351] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[05:09:01.762] 影塔场地：开雾门 0 扇",
+            "[05:10:56.938] 影塔场地：开雾门 1 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": {
+          "other_native_standins_cleared": [
+            "BP_Monster_TieGui_Stand_C",
+            "BP_Monster_Yuu_Stand_C"
+          ],
+          "visible_intrusion_user": "not_reported"
+        },
+        "hull_or_circle": "圆，半径 45 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "tower_zero_hp_reward_observed_not_independent_native_death",
+        "elapsed_time": 48.8,
+        "hud": "pending",
+        "reward": "three_choices_pending_shop_not_open_at_checkpoint",
+        "death_evidence": {
+          "last_full_hp_sample_utc": "2026-11-02T12:17:31.491519+00:00",
+          "last_full_hp": 18888.953125,
+          "zero_hp_local": "04:17:36.200",
+          "zero_hp_readback_utc": "2026-11-02T12:17:37.101278+00:00",
+          "reward_dispatch_local": "04:17:38.697",
+          "tower_dead_definition": "hp<=0.5; not native IsDead/OnDeath event",
+          "damage_instigator": "not_recorded",
+          "disappearance_cancel": "not_observed",
+          "death_animation": "user did not see it during stutter; unverified"
+        }
+      },
+      "planned_names": [
+        "沐小葵：铁玉女王"
+      ]
+    },
+    {
+      "floor": 21,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_native_camera_and_protection_defeat",
+      "attempts": [
+        {
+          "run_id": "cca5929fdd67ef41",
+          "txn": 11,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step67-floor21-grab-defeat-overflow",
+          "user_report": "入场几秒出现短暂运镜又恢复，必须修；一记投技导致判负，结算页溢出点不到底部。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": false
+          },
+          "elapsed_s_log": null,
+          "outcome": "lost; no victory or floor reward"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / 0 / 0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 10,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[05:09:01.961] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": "[05:10:56.938] isolation ended; one fog door opened"
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail: user observed short entry camera; Seq051 skipped after release",
+        "hull_or_circle": "圆，半径 27 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "not_passed: floor21 lost at 05:10:56.935",
+        "elapsed_time": null,
+        "hud": "fail: left HUD shows22 while result is lost21",
+        "assist_protection": "god true but grab followed by HP1 and Tower defeat; inf_hp was false; damage source not traced",
+        "result_exit_accessibility": "fail_original; UI-only repair visually verified, user clicked exit successfully"
+      },
+      "planned_names": [
+        "火流星：磷火意识"
+      ],
+      "failure_evidence": [
+        "step67-floor21-grab-defeat-overflow/defeat-camera-timeline.log",
+        "step68-result-ui-fix/user-remove-result-detail-boxes.png",
+        "step68-result-ui-readback.json"
+      ]
+    },
+    {
+      "floor": 22,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "victory_observed_venue_selection_pending",
+      "attempts": [
+        {
+          "run_id": "41b8c07e7eee6f7e",
+          "txn": 13,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step75-floor22-result",
+          "user_report": "用户正常击败、无战斗异常；但指出斩骑有原生场地及雾门，本次选址不好，要求优先原生场地和必要战斗依赖。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": true
+          },
+          "elapsed_s_log": 79.1
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "-0 / -0 / 0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 10,
+          "groups": 3
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[05:41:30.562] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": [
+            "[07:26:58.449] 影塔场地：开雾门 0 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "user_reports_none; not proof all native entrypoints blocked",
+        "hull_or_circle": "圆，半径 35 米（场地数据）",
+        "player_boss_boundary": [
+          "[05:42:26.901] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）",
+          "[05:42:29.429] 影塔战斗区：玩家越过边界（半径 35 米），放回边界内（已放回）"
+        ],
+        "victory": "pass_observed",
+        "elapsed_time": 79.1,
+        "hud": "pending",
+        "venue_selection": {
+          "status": "pending_user_disputes_venue",
+          "actual_world": "PBZ_Pangzhen_WP",
+          "actual_arrival_log": "(-33810,54587,2001034); Bell_SZ_030",
+          "spawner": "BP_AISpawner_C_UAID_E89C25A750C7C9E902_1168949990",
+          "fallback_observed": false,
+          "static_group": "Hu_G3; MoDao and ShuangGou; ExcludeFromBossRecord tag",
+          "explanation": "Native placement selected, but no evidence this is preferred dedicated boss arena. User requests native boss arena and fog doors, especially required battle dependencies."
+        }
+      },
+      "planned_names": [
+        "鬼差高手：斩骑"
+      ]
+    },
+    {
+      "floor": 23,
+      "zone": 3,
+      "mode": "Duo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+        "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C"
+      ],
+      "expected_active_count": 2,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "failed_non_native_pair_and_story_hitability",
+      "attempts": [
+        {
+          "run_id": "41b8c07e7eee6f7e",
+          "txn": 13,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step77-floor23-after-counter",
+          "user_report": "用户：开场原生材料弹窗；短剧情运镜后骨婉约普通攻击不能命中，靠红蓝光反制打死。该任意双Boss组合不符合原生遭遇要求，本层不认定通过；继续测试原生Boss与原生场地联动。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+            "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": true
+          },
+          "elapsed_s_log": 384.3,
+          "outcome": "engine HP-zero reward observed; user rejects acceptance; normal-hit failure retained"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+          "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / -0"
+        },
+        "fog_resolved_count": [
+          2,
+          2
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 15,
+          "groups": 6
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[07:26:58.644] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": [
+            "[07:38:57.868] 影塔场地：开雾门 2 扇",
+            "[07:39:18.622] 影塔场地：开雾门 1 扇"
+          ]
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail: original item popup, subtitles and Seq061/Seq060 camera leakage",
+        "hull_or_circle": "圆，半径 45 米（场地数据）",
+        "player_boss_boundary": "not_challenged",
+        "victory": "engine_zero_health_reward_only; acceptance_failed",
+        "elapsed_time": 384.3,
+        "hud": "pending",
+        "ordinary_hitability": "fail_user_reports_GuWanYue_unhittable_after_camera_only_counters_work",
+        "native_encounter_composition": "rejected_by_user: GuWanYue plus MadDoctor is arbitrary composition, not an approved native encounter",
+        "challenge": "not_accepted: god and lock-health enabled; no-hit bonus cannot establish legitimate challenge pass"
+      },
+      "planned_names": [
+        "女妖骨婉约",
+        "神医：谢秋冬"
+      ]
+    },
+    {
+      "floor": 24,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "failed_native_item_and_boss_outside_fog_boundary",
+      "attempts": [
+        {
+          "run_id": "41b8c07e7eee6f7e",
+          "txn": 13,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step78-floor24-failure",
+          "user_report": "用户：原生剧情道具雷婷的霹雳面具提示；Boss闪现到雾门外，过一会消失。保留失败，不认定击杀或通过。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": true
+          },
+          "elapsed_s_log": null,
+          "outcome": "cancelled after Boss outside area15s; no floor reward; no victory"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / 0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 1,
+          "groups": 1
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[07:38:57.977] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": "[07:39:18.622] 影塔场地：开雾门 1 扇"
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail: user native quest-item screenshot 雷婷的霹雳面具",
+        "hull_or_circle": "雾门凸包 13 点（场地数据）",
+        "player_boss_boundary": "fail: user Boss flashed outside fog; 13point hull release07:39:03.267, player first return144ms later, Boss outside15s cancelled; actual movement root cause pending",
+        "victory": "not_passed: entry_cancel at07:39:18.623",
+        "elapsed_time": null,
+        "hud": "pending"
+      },
+      "planned_names": [
+        "灭法之法：雷婷"
+      ]
+    },
+    {
+      "floor": 25,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_loading_readiness_and_native_reward_leak",
+      "attempts": [
+        {
+          "run_id": "dc73f4fe914eb705",
+          "txn": 15,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step85-floor25-loading-loot",
+          "user_report": "用户：倒计时仍在虚空，加载未就绪；开场又弹出原生武学雷霆枪获取/装备提示，要求阻断原生结算奖励；倒计时结束后战斗正常。",
+          "actual_spawned_classes": [
+            "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": true
+          },
+          "elapsed_s_log": 73.3
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / -0 / 0"
+        },
+        "fog_resolved_count": [
+          1,
+          1
+        ],
+        "native_spawners_groups_silenced": {
+          "spawners": 2,
+          "groups": 2
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[07:55:55.475] 影塔场地：关雾门 1 扇"
+          ],
+          "opened_log": "[08:02:22.655] previous venue fog1 opened on floor26 begin"
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail: native 雷霆枪 popup at countdown; Seq107 and Seq108 skipped before countdown",
+        "hull_or_circle": "雾门凸包 10 点（场地数据）",
+        "player_boss_boundary": "player returned37ms after release with10point hull; battle later normal per user; further returns logged",
+        "victory": "zero_health_and_reward_observed_but_overall_failed",
+        "elapsed_time": 73.3,
+        "hud": "pending",
+        "loading_readiness": "fail_user_void_during_countdown: visible/fade gate does not establish scene rendering/geometry/landing readiness"
+      },
+      "planned_names": [
+        "长鸿：雷电枪骑"
+      ]
+    },
+    {
+      "floor": 26,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer.BP_Monster_LionDancer_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "failed_native_venue_fallback_missing_battle_dependencies",
+      "attempts": [
+        {
+          "run_id": "dc73f4fe914eb705",
+          "txn": 15,
+          "evidence": "build\\tower-growth-live\\30324ba-20261102T055637Z\\step86-floor26-wrong-venue",
+          "user_report": "用户：最初场地正确，稍后被传送到错误场地；大量原生道具、教学、交互提示。此Boss二阶段需要原生柱子升起、Boss和舞狮在柱上对抗，必须保留战斗场地依赖。其他E交互/提示不要。整体失败。",
+          "actual_spawned_classes": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C"
+          ],
+          "assists": {
+            "player.god": true,
+            "combat.one_hit": false,
+            "combat.dmg_mul": 3,
+            "player.inf_hp": true
+          },
+          "elapsed_s_log": null,
+          "outcome": "original venue7x36 no-ground spawn rejection; fallback Wanjun then Boss outside15s cancelled without reward"
+        }
+      ],
+      "checks": {
+        "actual_spawned_classes": [
+          "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C"
+        ],
+        "alternative_used": false,
+        "spawner_found_offset": {
+          "found": true,
+          "offset_log": "0 / 0 / -0"
+        },
+        "fog_resolved_count": {
+          "original": [
+            2,
+            2
+          ],
+          "fallback": [
+            2,
+            2
+          ]
+        },
+        "native_spawners_groups_silenced": {
+          "original": {
+            "spawners": 5,
+            "groups": 2
+          },
+          "fallback": {
+            "spawners": 30,
+            "groups": 7
+          }
+        },
+        "doors_closed_opened": {
+          "closed_log": [
+            "[08:02:22.776] 影塔场地：关雾门 2 扇",
+            "[08:02:39.532] 影塔场地：关雾门 2 扇"
+          ],
+          "opened_log": "[08:03:03.579] fallback fog2 opened"
+        },
+        "doors_block_player": "pending_specific_collision_confirmation",
+        "native_story_enemies_absent": "fail: native items/tutorial and E interaction shown in user images, Seq075 skipped in fallback",
+        "hull_or_circle": "fallback fog hull6points; original phase arena never released",
+        "player_boss_boundary": "fallback6point hull, Boss outside15s then cancelled",
+        "victory": "not_passed: cancelled08:03:03.580; no kill or reward",
+        "elapsed_time": null,
+        "hud": "pending",
+        "venue_fallback": {
+          "used": true,
+          "original": "LionDancer_P2, PBZ_Houjie_WP, found2/2fog,5spawners/2groups;7spawn attempts all36positions no-ground",
+          "fallback": "WanJun_JinGua PBZ_Zhengdaodaying_WP 2/2fog,30spawners/7groups,6point hull",
+          "same_boss_class": true,
+          "why_unacceptable": "user requires original arena phase dependencies, especially rising poles; generic fallback does not establish native battle linkage"
+        },
+        "required_phase_dependencies": "FAIL_unverified: user states second phase rises poles for boss/lion combat; original phase arena was not exercised"
+      },
+      "planned_names": [
+        "舞狮尊主的最后一舞"
+      ]
+    },
+    {
+      "floor": 27,
+      "zone": 3,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "鬼差高手：勾魂"
+      ]
+    },
+    {
+      "floor": 28,
+      "zone": 3,
+      "mode": "Brawl",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+        "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+      ],
+      "expected_active_count": 3,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "deferred_non_native_composition_user_requirement",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "not_tested; user requires native encounters; no fabricated pass",
+        "elapsed_time": "pending",
+        "hud": "pending",
+        "native_encounter_composition": "hold_before_live: selected placements are distinct native groups; no approved native simultaneous encounter established; do not test arbitrary composition"
+      },
+      "planned_names": [
+        "吞噬尸体的小雪",
+        "巨锤客：万钧",
+        "红衣女剑客"
+      ]
+    },
+    {
+      "floor": 29,
+      "zone": 3,
+      "mode": "SoloTimed",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "廿一号·剑偶：“玉璧”"
+      ]
+    },
+    {
+      "floor": 30,
+      "zone": 3,
+      "mode": "Zone",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_JianOu.BP_Monster_HuaShan_JianOu_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_JianOu.BP_Monster_HuaShan_JianOu_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "大师兄的绝望剑意"
+      ]
+    },
+    {
+      "floor": 31,
+      "zone": 4,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "火刀：祝原"
+      ]
+    },
+    {
+      "floor": 32,
+      "zone": 4,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "悲痛欲绝的阿瑾"
+      ]
+    },
+    {
+      "floor": 33,
+      "zone": 4,
+      "mode": "Duo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+      ],
+      "expected_active_count": 2,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending",
+        "native_encounter_composition": "hold_before_live: selected placements are distinct native groups; no approved native simultaneous encounter established; do not test arbitrary composition"
+      },
+      "planned_names": [
+        "独眼弓客",
+        "发狂的水行帮主：游龙"
+      ]
+    },
+    {
+      "floor": 34,
+      "zone": 4,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "琴女烟千岁"
+      ]
+    },
+    {
+      "floor": 35,
+      "zone": 4,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "鬼差高手：断肠"
+      ]
+    },
+    {
+      "floor": 36,
+      "zone": 4,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "灭法之法：蛊鹤"
+      ]
+    },
+    {
+      "floor": 37,
+      "zone": 4,
+      "mode": "Relay",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C"
+      ],
+      "expected_active_count": 3,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending",
+        "native_encounter_composition": "audit_before_live: relay/final must distinguish native phase chain from arbitrary same-map sequence; no inference from suffix or planned mode"
+      },
+      "planned_names": [
+        "癫狂暴徒：铁杀",
+        "横刀：毕峰",
+        "疯婆子奎艳艳"
+      ]
+    },
+    {
+      "floor": 38,
+      "zone": 4,
+      "mode": "SoloTimed",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "玉面郎君"
+      ]
+    },
+    {
+      "floor": 39,
+      "zone": 4,
+      "mode": "Team",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "铁面杀手",
+        "风雪刀客"
+      ]
+    },
+    {
+      "floor": 40,
+      "zone": 4,
+      "mode": "Zone",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBossVariants.BP_Monster_MBossVariants_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "荒行子：撕裂锯轮"
+      ]
+    },
+    {
+      "floor": 41,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "赤影骨刃：囚锋"
+      ]
+    },
+    {
+      "floor": 42,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "十二号·偃月刀偶：“玉鼎”"
+      ]
+    },
+    {
+      "floor": 43,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "雷当：独臂虎"
+      ]
+    },
+    {
+      "floor": 44,
+      "zone": 5,
+      "mode": "Trio",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C",
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C"
+      ],
+      "expected_active_count": 3,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending",
+        "native_encounter_composition": "hold_before_live: selected placements are distinct native groups; no approved native simultaneous encounter established; do not test arbitrary composition"
+      },
+      "planned_names": [
+        "金面具黑衣人",
+        "金面具黑衣人",
+        "金面具黑衣人"
+      ]
+    },
+    {
+      "floor": 45,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C"
+      ],
+      "special_high_space": true,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "暗魔天堡之主：魔渊"
+      ]
+    },
+    {
+      "floor": 46,
+      "zone": 5,
+      "mode": "Bet",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "白衣鬼差（变体）",
+        "斧老大：彭猛"
+      ]
+    },
+    {
+      "floor": 47,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "梦差：冷荼"
+      ]
+    },
+    {
+      "floor": 48,
+      "zone": 5,
+      "mode": "SoloTimed",
+      "planned_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "alternative_classes": [
+        "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "救苦救难梦华圣母娘娘"
+      ]
+    },
+    {
+      "floor": 49,
+      "zone": 5,
+      "mode": "Solo",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan_P2.BP_Monster_PowerMan_P2_C"
+      ],
+      "expected_active_count": 1,
+      "planned_venue_class": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan_P2.BP_Monster_PowerMan_P2_C",
+      "alternative_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C"
+      ],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending"
+      },
+      "planned_names": [
+        "力者：石破天惊之态"
+      ]
+    },
+    {
+      "floor": 50,
+      "zone": 5,
+      "mode": "Final",
+      "planned_classes": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_UltimateBoss.BP_Monster_UltimateBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/BP_Monster_ZuoShang_P2.BP_Monster_ZuoShang_P2_C"
+      ],
+      "expected_active_count": 2,
+      "planned_venue_class": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "alternative_classes": [],
+      "special_high_space": false,
+      "logic_status": "pending",
+      "attempts": [],
+      "checks": {
+        "actual_spawned_classes": "pending",
+        "alternative_used": "pending",
+        "spawner_found_offset": "pending",
+        "fog_resolved_count": "pending",
+        "native_spawners_groups_silenced": "pending",
+        "doors_closed_opened": "pending",
+        "doors_block_player": "pending",
+        "native_story_enemies_absent": "pending",
+        "hull_or_circle": "pending",
+        "player_boss_boundary": "pending",
+        "victory": "pending",
+        "elapsed_time": "pending",
+        "hud": "pending",
+        "native_encounter_composition": "audit_before_live: relay/final must distinguish native phase chain from arbitrary same-map sequence; no inference from suffix or planned mode"
+      },
+      "planned_names": [
+        "终极首领（暂译）",
+        "左殇：真龙之躯"
+      ]
+    }
+  ],
+  "runtime_ui_adapter": {
+    "scope": "reward text only; no combat/save changes",
+    "module_sha256": "28e4ce56c25eda774cb9536c8f2c535ed3017e1c0fe0f3146d42e77f110cba7d",
+    "main_tower_unchanged": true,
+    "full_50_accepted": false,
+    "additional_adapters": [
+      {
+        "module_id": "tower_ready_text_session_303",
+        "scope": "ready text only; previously recorded"
+      },
+      {
+        "module_id": "tower_result_text_session_303",
+        "sha256": "058808ef7efbdf6b2940e3d7c3e1f66add907048781ca9e3daaf5c1cda208ab9",
+        "scope": "result text only; removed user-boxed detail and floor times; existing exit action unchanged",
+        "evidence": "step68-result-ui-fix; 94 offline checks, live screenshot, successful user exit"
+      }
+    ]
+  },
+  "display_names_source": {
+    "path": "mods/tower/src/boss_pool.generated.h",
+    "sha256": "182bbd46c4510ba8b8e71f3c66ac7ec024651a703d60b8354533ae98bcf74dd7"
+  },
+  "death_evidence_definition": "Tower dead flag in these logs is computed from HP<=0.5 only; earlier zero-HP/dead statements are not independent engine death or damage-instigator confirmation.",
+  "assists_initial": {
+    "player.god": true,
+    "combat.one_hit": true,
+    "combat.dmg_mul": 1
+  },
+  "assists_note": "Current default for new attempts only; historical attempts retain their original captured assists.",
+  "assists_epochs": [
+    {
+      "through_floor": 20,
+      "settings": {
+        "player.god": true,
+        "combat.one_hit": true,
+        "combat.dmg_mul": 1
+      }
+    },
+    {
+      "from_floor": 21,
+      "settings": {
+        "player.god": true,
+        "combat.one_hit": false,
+        "combat.dmg_mul": 3,
+        "player.inf_hp": false
+      },
+      "evidence": "build/tower-growth-live/30324ba-20261102T055637Z/step66-assist-settings.json",
+      "through_floor": 21
+    },
+    {
+      "from_floor": 22,
+      "settings": {
+        "player.god": true,
+        "combat.one_hit": false,
+        "combat.dmg_mul": 3,
+        "player.inf_hp": true
+      },
+      "evidence": "build/tower-growth-live/30324ba-20261102T055637Z/step73-segment22-features.json",
+      "scope": "Existing Core lock-health added as test assist. Grab survival remains unverified; do not mark god bug fixed."
+    }
+  ],
+  "venue_acceptance_policy": {
+    "prefer_native_boss_arena": true,
+    "required_battle_dependencies": "Audit per identity and encounter including phase, AI, navigation, collision and fog doors; do not activate native story/reward/travel.",
+    "placement_selection": "A native spawner is not sufficient proof of correct arena. Distinguish story/sidequest/challenge/stand-in placements; record fallback separately.",
+    "user_example": "大师兄 and other venue-dependent bosses",
+    "native_multi_boss_only": true,
+    "multi_boss_examples_pending_static_audit": [
+      "少主护卫玉妖+铁鬼",
+      "用户所述混沌三兄弟；需确认精确身份、同组机制和阶段"
+    ],
+    "runtime_route_rule": "User directs continued per-floor native boss/venue validation. Audit multi-enemy compositions before asking user to play them; defer arbitrary groupings, do not hot-edit engine or claim native phases are preserved.",
+    "native_group_evidence": [
+      {
+        "identities": [
+          "Yuu",
+          "TieGui"
+        ],
+        "evidence": "static selected placements share MobGroup_2; guides describe simultaneous guard phase; actual arena and combat dependency initialization require independent review"
+      },
+      {
+        "identities": [
+          "YuCong_Bing",
+          "YuCong_HunDun",
+          "YuCong_WuLi"
+        ],
+        "evidence": "static selected placements share MobGroup_1; whether simultaneous, sequencing and phase contracts remain pending"
+      }
+    ],
+    "guide_sources": [
+      {
+        "url": "https://www.gamersky.com/handbook/202610/2236698.shtml",
+        "scope": "Original Mu Xiaokui guide describes two guards fighting while Mu Xiaokui withdraws; not proof this Tower implementation reproduces it"
+      },
+      {
+        "url": "https://www.3dmgame.com/gl/3993074_240.html",
+        "scope": "Walkthrough guard-phase cross-check; runtime and exact selected placements still pending"
+      }
+    ],
+    "phase_environment_contract": "Retain boss-required pillars, platforms, collision, navigation, transformation and phase handoff. Isolate unrelated world interactions, E prompts, chest/pickup, tutorial, quest, native rewards and travel through the entire tower session.",
+    "venue_dependent_fallback": "No acceptance of generic substitute arenas when required native phase environment is absent. Return an explainable unavailable result until actual dependencies are initialized; do not silently degrade."
+  }
+}

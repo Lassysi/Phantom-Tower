@@ -1,0 +1,687 @@
+{
+  "schema": 1,
+  "source": "notes/bossrush-plan.md; Codex proposed bilingual encounters",
+  "generated": "2026-10-30",
+  "items": [
+    {
+      "id": "lost_purse",
+      "name": "遗落钱袋",
+      "name_en": "Lost Purse",
+      "text": "路边有一只钱袋。",
+      "text_en": "A purse lies beside the path.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "lost_purse_1",
+          "text": "取走",
+          "text_en": "Take it",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": 60
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "lost_purse_2",
+          "text": "留下",
+          "text_en": "Leave it",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "peddler",
+      "name": "行脚货郎",
+      "name_en": "Wandering Peddler",
+      "text": "货郎拿出一枚铁甲符：开层前预装，本层受到伤害 -20%。",
+      "text_en": "A peddler offers an Iron Armor Charm: prepare it before combat for 20% less damage taken this floor.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "peddler_1",
+          "text": "买下 · 40 魂玉",
+          "text_en": "Buy · 40 jade",
+          "requires": {
+            "jade_at_least": 40
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": -40
+            },
+            {
+              "kind": "item",
+              "id": "guard",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "peddler_2",
+          "text": "离开",
+          "text_en": "Leave",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "old_forge",
+      "name": "旧炉",
+      "name_en": "Old Forge",
+      "text": "炉中仍有余火。",
+      "text_en": "Embers still glow in the forge.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "old_forge_1",
+          "text": "磨刃 · 50 魂玉",
+          "text_en": "Sharpen · 50 jade",
+          "requires": {
+            "jade_at_least": 50
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": -50
+            },
+            {
+              "kind": "card",
+              "id": "blade_1"
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "old_forge_2",
+          "text": "收下炉灰",
+          "text_en": "Collect the ashes",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": 25
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "quiet_shrine",
+      "name": "静庙",
+      "name_en": "Quiet Shrine",
+      "text": "供台上有一碗清水。",
+      "text_en": "A bowl of clear water rests on the altar.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "quiet_shrine_1",
+          "text": "饮水",
+          "text_en": "Drink",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "max_hp",
+              "value": 0.1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "quiet_shrine_2",
+          "text": "供奉 · 30 魂玉",
+          "text_en": "Offer · 30 jade",
+          "requires": {
+            "jade_at_least": 30
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": -30
+            },
+            {
+              "kind": "card",
+              "id": "heal_1"
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "blood_oath",
+      "name": "血契",
+      "name_en": "Blood Pact",
+      "text": "石碑许诺力量，也索取代价。",
+      "text_en": "The stone promises power at a price.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "blood_oath_1",
+          "text": "立契",
+          "text_en": "Make the pact",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_frail"
+            },
+            {
+              "kind": "jade",
+              "amount": 140
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "blood_oath_2",
+          "text": "拒绝",
+          "text_en": "Refuse",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "broken_armor",
+      "name": "残甲",
+      "name_en": "Broken Armor",
+      "text": "残甲中藏着一块魂玉。",
+      "text_en": "Jade gleams inside a broken breastplate.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "broken_armor_1",
+          "text": "取玉",
+          "text_en": "Take the jade",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_exposed"
+            },
+            {
+              "kind": "jade",
+              "amount": 120
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "broken_armor_2",
+          "text": "修补甲片",
+          "text_en": "Mend the armor",
+          "requires": {
+            "jade_at_least": 45
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": -45
+            },
+            {
+              "kind": "card",
+              "id": "guard_1"
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "silent_monk",
+      "name": "无言客",
+      "name_en": "Silent Stranger",
+      "text": "来客以刀势换一袋魂玉。",
+      "text_en": "A stranger offers jade for a measure of strength.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "silent_monk_1",
+          "text": "交换",
+          "text_en": "Trade",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_dull"
+            },
+            {
+              "kind": "jade",
+              "amount": 100
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "silent_monk_2",
+          "text": "离开",
+          "text_en": "Leave",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "sealed_chest",
+      "name": "封箱",
+      "name_en": "Sealed Chest",
+      "text": "箱上贴着枯煞符。",
+      "text_en": "A withering seal binds the chest.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "sealed_chest_1",
+          "text": "开箱",
+          "text_en": "Open",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_dry"
+            },
+            {
+              "kind": "item",
+              "id": "revive",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "sealed_chest_2",
+          "text": "绕行",
+          "text_en": "Walk away",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "training_post",
+      "name": "旧木桩",
+      "name_en": "Training Post",
+      "text": "木桩上尽是旧刀痕，旁边留着一枚锐锋符，须在开层前预装。",
+      "text_en": "Old blade marks cover the post; a Keen Edge Charm nearby must be prepared before combat.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "training_post_1",
+          "text": "练刀 · 35 魂玉",
+          "text_en": "Practice · 35 jade",
+          "requires": {
+            "jade_at_least": 35
+          },
+          "effects": [
+            {
+              "kind": "jade",
+              "amount": -35
+            },
+            {
+              "kind": "card",
+              "id": "break_1"
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "training_post_2",
+          "text": "取锐锋符",
+          "text_en": "Take the Keen Edge Charm",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "item",
+              "id": "edge",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "charm_cache",
+      "name": "符匣",
+      "name_en": "Charm Cache",
+      "text": "匣中两枚准备符咒只能取其一：定身符开战定住 Boss 4 秒；缓时符开战后 10 秒仅慢 Boss 40%。",
+      "text_en": "Choose a preparation charm: bind bosses for 4 seconds, or slow only bosses by 40% for the first 10 seconds.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "charm_cache_1",
+          "text": "定身符",
+          "text_en": "Binding Charm",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "item",
+              "id": "freeze",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "charm_cache_2",
+          "text": "缓时符",
+          "text_en": "Slowtime Charm",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "item",
+              "id": "slow",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "heavy_bargain",
+      "name": "沉腕交易",
+      "name_en": "Heavy Bargain",
+      "text": "商人愿用魂玉买下你的轻捷。",
+      "text_en": "A merchant offers jade for your swiftness.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "heavy_bargain_1",
+          "text": "成交",
+          "text_en": "Accept",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_heavy"
+            },
+            {
+              "kind": "jade",
+              "amount": 130
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "heavy_bargain_2",
+          "text": "拒绝",
+          "text_en": "Refuse",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    },
+    {
+      "id": "last_lantern",
+      "name": "末灯",
+      "name_en": "Last Lantern",
+      "text": "灯下留着一枚聚煞丹：开层前预装，本层杀气恢复速度 +40%。",
+      "text_en": "A Sha-Chi Pill waits beneath the lantern: prepare it before combat for 40% faster Sha-Chi recovery this floor.",
+      "weight": 10,
+      "choices": [
+        {
+          "id": "last_lantern_1",
+          "text": "取丹",
+          "text_en": "Take the pill",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "item",
+              "id": "shachi",
+              "amount": 1
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        },
+        {
+          "id": "last_lantern_2",
+          "text": "以势换玉",
+          "text_en": "Trade strength for jade",
+          "requires": {
+            "jade_at_least": 0
+          },
+          "effects": [
+            {
+              "kind": "curse_card",
+              "id": "curse_weak"
+            },
+            {
+              "kind": "jade",
+              "amount": 110
+            }
+          ],
+          "evidence": "static",
+          "source": [
+            "mods/tower/tools/tower_content.py"
+          ]
+        }
+      ],
+      "once_per_run": true,
+      "enabled": false,
+      "verification": "EVENT-TRANSACTION in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/tools/tower_content.py",
+        "notes/bossrush-plan.md",
+        "notes/tower-items-scheme.md"
+      ]
+    }
+  ]
+}

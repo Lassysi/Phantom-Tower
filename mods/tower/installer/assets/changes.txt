@@ -1,0 +1,349 @@
+﻿影塔·百战 4.1.1
+
+难度曲线调整，新增一些变化，等你在塔里发现。
+
+【存档】直接覆盖安装，4.0.0 以及 3.0.0 之后的爬塔局和无尽存档原样继续。
+
+调整
+· Boss 生命整体下调，前中期难度过渡更平滑；Boss 杀气随生命一起提高。
+· 部分关卡的 Boss 数值调整，更有挑战。
+· 锻造价格调整，锻造出的属性更偏向攻击、生命、破防和杀气。
+· 海克斯出现规则调整：升级卡不再频繁重复出现；出现过没选、被刷新掉的海克斯一段时间内不再出现，给其他海克斯留出机会。
+
+修复
+· 修复少数情况下 Boss 入场后不出招、无法击杀的问题。
+· 修复打完一层后有时要等很久才结算的问题。
+· 修复驿站中武器、饰品、药的图标有时显示为白块或色块的问题。
+
+影塔·百战 4.0.0
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局和无尽存档原样继续。
+
+新内容
+· 新增海克斯「破防连锁」「绝境时缓」「连跳」。
+
+调整
+· 渴血、血之契约、对冲基金调整。
+· 中后期与无尽层 Boss 血量提高，无尽层攻击成长降低。
+
+修复与优化
+· 修复无尽层 Boss 出现在场地外的问题。
+· 优化多 Boss、仆从和进入场地时的卡顿。
+
+影塔·百战 3.6.3
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局和无尽存档原样继续。
+
+修复
+· 修复敌方 Boss 转阶段、车轮换人时，仆从和助战 Boss 回满血的问题。
+
+影塔·百战 3.6.2
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局和无尽存档原样继续。
+
+修复
+· 修复飞身踢后部分 Boss 不转阶段、无法击杀的问题。
+· 修复已拥有海克斯的升级选项出现过于频繁、刷新掉的海克斯又被刷回来的问题。
+· 修复部分场地 Boss 陷入地面的问题。
+
+影塔·百战 3.6.1
+
+锻造器可以一次买多个了。
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局和无尽存档原样继续。
+
+驿站
+· 锻造可以输入数量一次购买多个，买下后一页多组一起选择。
+
+影塔·百战 3.6.0
+
+海克斯可以升级了，获得频率也大幅提高。
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局和无尽存档原样继续；海克斯改为每 5 层一次，老存档开下一层前会补发海克斯选择：前 100 层按当前层数补齐，已在无尽层的存档补 5 个。
+
+海克斯
+· 海克斯改为每 5 层一次。
+· 大部分海克斯可以升级：再次选到已拥有的海克斯即提升等级，等级显示在名称后面。
+· 新增海克斯「反震」「飞身踢」。
+· 苦修、对冲基金增强。
+· 仆从大师、投掷狂人调整。
+
+魂玉
+· 魂玉结算调整，结算时显示额外获得的魂玉。
+· 奖励页新增魂玉选项。
+· 悬赏令调整。
+
+无尽模式
+· Boss 与小怪强度提升。
+· 敌人长时间未受到伤害会逐渐恢复。
+· 场地调整。
+
+场地
+· 修复 Boss 与小怪出现在场地外、Boss 位移离开场地后打不到的问题。
+· 部分 Boss 之后的小怪层更换场地。
+
+调整
+· 伤害减免与减伤穿透调整。
+· 驿站武器补货调整。
+· 准备道具调整。
+
+影塔·百战 3.5.0
+
+现在可以直接开启无尽模式了——只要有一个无尽存档即可。
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局原样继续；已在无尽层的局自动成为无尽存档。
+
+无尽模式
+· 开局菜单新增「无尽模式」，从无尽存档直接继续。
+· 获得无尽存档的方式：自己打完第 99 层后选择进入无尽模式，或导入别人分享的无尽档。
+· 无尽存档与 100 层爬塔分开保存，重新爬塔不会影响无尽存档。
+· 无尽存档点改为第 100 层起每 20 层一次，倒下后可从最近的存档点继续。
+· 安装器新增「无尽档」：存档点可随时导出、导入；可以分享给别人，也可以导回自己的存档点重开。导入后的开局沿用原存档的数据，之后的内容各自随机。
+
+海克斯
+· 坦克引擎增强。
+· 缩小引擎增强。
+· 聚宝盆增强。
+· 有备而来描述修正。
+
+调整
+· 锻造调整。
+· 驿站的武器、影之武装、饰品、药改为图标显示。
+· Boss 血量与攻击调整。
+
+影塔·百战 3.4.4
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局原样继续。
+
+平衡调整
+· 新开的局中，祝原、游龙出场更靠后。
+· 雷当、长鸿、炎茹的伤害降低。
+· 前 50 层 Boss 血量略微提高，之后的 Boss 血量整体降低。
+
+影塔·百战 3.4.3
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局原样继续。
+
+修复
+· 修复部分情况下战斗菜单出现空白按钮、无法继续。
+
+影塔·百战 3.4.2
+
+【存档】直接覆盖安装，3.0.0 及以后的爬塔局原样继续。
+
+修复
+· 修复召唤型仆从召出的帮手会攻击玩家和仆从。
+· 修复继续游戏或回到无尽存档点后，部分驿站记录没有正确恢复。
+· 修复部分电脑上点「开始爬塔」提示存档备份失败、无法进塔。
+· 修复魂玉足够时锻造仍提示魂玉不足。
+· 修复舞狮二阶段最后一个召唤物打不死、进不了站桩对抗。
+
+调整
+· 锻造更常出现攻击、生命、破防、杀气等基础属性。
+
+影塔·百战 3.4.0
+
+【存档 · 重要】
+· 直接覆盖安装即可，3.0.0 及以后的爬塔局全部原样继续，层数、海克斯、武器、点数、魂玉都保留。
+· 海克斯改为每 10 层选一次（第 1、10、20、30 …… 层，无尽层同样每 10 层）。
+· 老存档按当前层数自动补发：进入后点「下一层」，会先依次弹出少选的海克斯，补齐后再开层。例如打到第 60 层、只选过 4 个海克斯，会先补选 3 次。
+· 停在海克斯选择页时退出的老存档，也能正常读入并继续选择。
+
+新内容
+· 新增三个影之武装相关海克斯。
+· 移除两个魂玉类海克斯（已选到的保留）。
+
+平衡调整
+· 60 层后 Boss 攻击成长放缓。
+· Boss 减伤穿透增长放缓。
+· 无尽层驿站和奖励可出现全部武器。
+· 回收武器的淬炼点改为按等级折半返还。
+
+修复
+· 修复部分海克斯无法选择、界面卡住的问题。
+· 锻造大师的武器等级上限正常生效。
+· 修复部分武器无法在驿站出现。
+· 修复饰品打磨后重进游戏等级退回。
+
+影塔·百战 3.3.3
+
+【存档】3.0.0 及以后的爬塔局可以直接继续，进度保留。
+
+新内容
+· 新增两个魂玉类海克斯。
+
+经济调整
+· 魂玉收入提高。
+· 驿站涨价放缓。
+· 悬赏令加强。
+· 锻造降价，可选属性更全。
+· 珍品抽奖价格下调。
+
+影塔·百战 3.3.2
+
+【存档】3.0.0 及以后的爬塔局可以直接继续，进度保留。
+
+修复
+· 修复回收 / 熔铸正在装备的兵器后，界面卡住、保存重进提示「塔档核验未通过」的问题。
+
+影塔·百战 3.3.1
+
+【存档】3.0.0 及以后的爬塔局可以直接继续。
+
+修复
+· 修复驿站回收、熔铸后兵器仍留在背包的问题（背包里已残留的兵器保留，并重新计入塔档）。
+
+调整
+· 珍品抽奖价格下调。
+
+影塔·百战 3.3.0
+
+【存档】3.0.0 及以后的爬塔局可以直接继续。
+
+新内容
+· 100 层后部分楼层会有 Boss 助战。
+· 驿站上架数量增加，并新增珍品抽奖货位。
+
+海克斯调整
+· 加强：以战养战。
+
+修复与优化
+· 修复同一种子开局海克斯不一致的问题。
+· 无尽模式：Boss 死亡后立即清场，换波更快。
+· 减少战斗中的卡顿。
+
+影塔·百战 3.2.0
+
+【存档】3.0.0 / 3.1.0 的爬塔局可以直接继续，已获得的加成保持不变。
+
+新内容
+· 驿站新增【交易】：回收、熔铸。
+· 新增一批海克斯符文与 MOD 道具。
+· 抗异常饰品在驿站常驻出售。
+
+海克斯调整
+· 削弱：火上浇油。
+· 加强：积少成多、对冲基金、速战速决。
+· 调整：有备而来、投掷狂人、定身先机、重量级打手。
+
+难度与经济
+· Boss 难度曲线调整，后期伤害成长放缓。
+· 驿站价格调整，部分属性不再设上限。
+
+修复与优化
+· 修复若干购买、奖励与界面问题。
+· 减少硬盘占用。
+
+影塔·百战 3.1.0
+
+【存档】3.0.0 的爬塔局可以直接继续，不用新开。新的数值、价格对旧局同样生效；已经打过的 Boss 不受影响，按原来的顺序继续爬。
+
+难度与节奏
+· 前期大幅减负：1–30 层 Boss 与小怪的血量约为原来的 55%、伤害约 75%，30–60 层逐步回升，到 90 层恢复原曲线。选满几个海克斯、成长起来以后再慢慢变难。
+· 悲痛欲绝的阿瑾、七星剑阵·大师兄、鬼差队长·火流星、碧海大师、舞狮尊主推迟到 61 层以后才会出现（新开的局生效）。
+· 驿站价格重做：前三次驿站的属性点数和道具约半价，20 层起逐渐回到原价，后期再慢慢涨价，想随心购买需要魂玉类海克斯。
+
+海克斯
+· 出现得更频繁：第 1 层之后，150 层前每 15 层选一个，150 层后每 20 层选一个，选完为止。旧局已经走过的新海克斯层，会在开下一层前依次补发选择。
+· 质变送的海克斯不再占用后面的选择机会。
+· 速战速决调整：开战 60 秒内击败本层 Boss（无尽层每层都算）额外获得 1 次属性成长，档位随层数；小怪层不触发，不再双倍魂玉。
+· 火上浇油：修复正式版完全不生效的问题。敌人受伤后灼烧 3 秒，每秒损失 1% 最大生命，再次受伤重新计时。
+· 绝技余韵：持续时间 3 秒 → 10 秒，10 秒内再放绝技重新计时并再叠 +50% 攻击。修复放了绝技也不触发的问题。
+· 秘术冲拳：修复部分情况下不生效的问题。
+· 科学狂人：修复在部分海克斯层选到后不生效的问题。
+· 狂徒豪气、绝技余韵的详情页显示游戏实际读到的受伤倍率与攻击力。
+
+修复与优化
+· 修复出塔时「原档核验未通过（材料 xxx → 0）」：核对材料数量改用游戏原生的持有数。
+· 修复能力修行最后一行经常点不了、需要重进游戏的问题。
+· 种子分享：修复导出提示「没有可导出的普通塔档」、导入的种子无效等问题；种子会记录 Boss 排列方式，导入后与原局一致。
+· 开层时如果内存对象累积过多会自动回收，减少连打多层后越来越卡的情况；正式版不再逐秒写战斗日志。
+
+影塔·百战 3.0.0（大更新）
+
+【重要】3.0.0 需要新开一局。更新时旧的爬塔局会自动移到 %LOCALAPPDATA%\PBZTower\legacy-旧版本号 留底，战绩记录保留；游戏原存档不受影响。若上次还在影塔里，请先进游戏选择「保存并退出」回到原存档，再更新。
+
+新内容
+· 新增类似"海克斯"的符文系统：分普通、稀有、传说三档，爬塔途中定期三选一，部分符文之间存在联动，具体效果请在游戏中探索。
+· 新增无尽模式：通关第 100 层后可以继续向上挑战，难度与成长持续提升，并设有存档点。
+· 新增大型战斗场地，后期会出现多 Boss、多波次的混战。
+· 新增饰品升级与多项抗性成长。
+· 无尽模式中可持续获得轮回点，继续提升修行能力。
+· 驿站与魂玉经济重做，商品与购买流程优化。
+· Boss 编排重做：前期能遇到更多不同的 Boss，各 Boss 出场阶段更合理。
+· 全程 Boss 与小怪数值重新调整，平滑难度断层。
+· 安装器战绩页升级：支持翻页、显示本局符文与种子（点击复制，方便分享）。
+
+兼容与优化
+· 兼容 UE4SS 及 ReShade 等常见 Mod；确实无法共存时会弹出提示并列出同目录的其他 Mod，游戏照常运行。
+· 安装器与所有文件附带完整文件信息，减少被安全软件误报。
+· 修复战斗中周期性卡顿，优化多人同屏性能。
+· 修复小怪打完不结算、换波卡住、Boss 被击败后本层作废、雾门锁不住等问题。
+· 获得物品的提示改为在菜单关闭后统一弹出。
+· 大量逻辑优化与稳定性修复。
+
+影塔·百战 2.2.0（实测候选）
+
+· 修复阿瑾入场倒计时期间红衣兵提前行动与攻击的问题。
+· 按简单 / 困难重新规划生命、攻击、破防、伤害减免和杀气上限的奖励档位及累计上限。
+· 生命吸取每次 +2%、本局最高 6%，第 71 层起极少出现；旧塔档超出新上限的部分会按新上限读取。
+· 修复吸血小额回血丢失及末击漏结算，改进回血时血条刷新；吸取按观测到的敌方掉血计算。
+· 驿站新增稀有吸血符：开层前准备，下一层额外获得 10% 生命吸取。
+· 安装器新增种子导入 / 导出；导入后从第 1 层开始，开始种子局时自动备份原塔档。
+· 前期 Boss 攻击大幅降低、血量部分回调；中后期逐步提高，70 层后 Boss 生命和杀气的额外倍率每显示层递增 10%。车轮战每只按完整单人份数值计算。
+· 取消绝影分身额外的伤害削减；舞狮二阶段、力者的角色伤害倍率下调。特定技能实际伤害仍需游戏内验收。
+· 吸血符、新数值、种子导入导出及跨机复现仍需游戏内验收；实测候选并非已完成全部验收的正式版。
+
+影塔·百战 2.1.0
+
+· 修复部分战斗被误判通关；遇到异常可在菜单选择“本层问题”。
+· 修复部分场景无法使用召唤类影之武装，优化原生遭遇与召唤物。
+· 调整开局兵器，新增破盾装备。
+· 新增驿站道具“透视眼”，小怪层结束后预告下一场 Boss。
+· 战斗菜单分为四个独立选项；兼容 2.0.0 爬塔存档。
+· 中英文菜单与说明；N 网手动包不含 EXE。
+
+---
+Phantom Tower 3.0.0 (major update)
+
+[Important] 3.0.0 starts a new tower run. Old run files move to %LOCALAPPDATA%\PBZTower\legacy-<old version>; records are kept and your campaign save is unaffected. If you are still inside a tower run, load the game, choose Save and Exit to return to your campaign save, then update.
+
+New
+· A hex-style rune system with Common, Rare and Legendary tiers. Pick one of three at set points during the climb; some runes work together. Discover the effects in game.
+· Endless mode: keep climbing after Floor 100, with growing difficulty, growing rewards and checkpoints.
+· New large arenas, with multi-boss, multi-wave fights later on.
+· Accessory upgrades and new resistance stats.
+· Endless mode keeps granting cycle points to keep raising your abilities.
+· Reworked shop and Soul Jade economy, with a smoother buying flow.
+· Reworked boss schedule: more variety early on and better placement of each boss.
+· Rebalanced bosses and mobs across the whole climb, without sudden difficulty spikes.
+· Records page: paging, plus this run's runes and seed (click to copy and share).
+
+Compatibility and polish
+· Works alongside common mods such as UE4SS and ReShade. If a real conflict remains, a notice lists the other mods in the game folder and the game keeps running.
+· The installer and every file carry full file details, which helps avoid false antivirus alerts.
+· Fixed periodic stutter during fights and improved performance in crowded fights.
+· Fixed waves not completing, stalls between waves, cleared boss floors being voided, and fog gates not staying closed.
+· Item pickup notices now appear together after menus close.
+· Many logic and stability fixes.
+
+Phantom Tower 2.2.0 (test candidate)
+
+· Prevent Ajin's red-clad soldiers from moving or attacking during the entry countdown.
+· Rebalanced life, attack, posture damage, damage reduction and shachi capacity rewards for each difficulty.
+· Lifesteal grants 2% per pick, up to 6%, rarely appearing from displayed floor 71. Existing values above the new cap are reduced to the cap.
+· Fixed lost small heals and missed final-hit settlement, and improved health bar refresh. Lifesteal is based on observed enemy health loss.
+· Added a rare Lifesteal Talisman that grants an extra 10% lifesteal for the next floor when prepared.
+· Added seed import / export in the installer. Imported seeds start at floor 1 and back up the previous tower run.
+· Lowered early boss damage and restored some health. Later health and shachi gain an extra 10% multiplier per displayed floor after 70. Relay bosses each receive the full solo budget.
+· Removed the additional clone damage penalty and reduced the Lion Dancer phase-two and PowerMan actor damage multipliers. Specific moves still need in-game verification.
+· Talisman, new balance and seed sharing still require in-game and cross-machine verification; this is a test candidate.
+
+Phantom Tower 2.1.0
+
+· Fixed incorrect battle completion; use “Floor issue” if a fight gets stuck.
+· Fixed summon weapons in affected arenas and improved native encounters and summons.
+· Updated starting weapons with shield-breaking options.
+· Added Foresight to preview the next boss after a wave floor.
+· Four separate battle menu options; 2.0.0 tower runs remain compatible.
+· Chinese and English menus and instructions; Nexus manual archive contains no EXE.

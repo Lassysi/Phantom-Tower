@@ -1,0 +1,705 @@
+{
+  "schema": 1,
+  "source": "mods/tower/src/tower_economy.h; notes/tower-floors.md; Codex proposed prices",
+  "generated": "2026-10-30",
+  "items": [
+    {
+      "id": "growth_damage",
+      "kind": "growth",
+      "name": "磨刃",
+      "name_en": "Sharpen",
+      "stat": "DmgDealt",
+      "value": 0.05,
+      "duration": "run",
+      "base_price": 60,
+      "purchase_multiplier": 1.35,
+      "max_purchases": 5,
+      "enabled": false,
+      "verification": "SHOP-BALANCE in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/src/tower_logic.h",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "growth_health",
+      "kind": "growth",
+      "name": "养元",
+      "name_en": "Fortify",
+      "stat": "MaxHp",
+      "value": 0.1,
+      "duration": "run",
+      "base_price": 55,
+      "purchase_multiplier": 1.35,
+      "max_purchases": 5,
+      "enabled": false,
+      "verification": "SHOP-BALANCE in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/src/tower_logic.h",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "growth_posture",
+      "kind": "growth",
+      "name": "练势",
+      "name_en": "Hone Stance",
+      "stat": "PostureDealt",
+      "value": 0.1,
+      "duration": "run",
+      "base_price": 50,
+      "purchase_multiplier": 1.35,
+      "max_purchases": 5,
+      "enabled": false,
+      "verification": "SHOP-BALANCE in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/src/tower_logic.h",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "growth_shachi",
+      "kind": "growth",
+      "name": "调息",
+      "name_en": "Gather Breath",
+      "stat": "ShachiGain",
+      "value": 0.1,
+      "duration": "run",
+      "base_price": 50,
+      "purchase_multiplier": 1.35,
+      "max_purchases": 5,
+      "enabled": false,
+      "verification": "SHOP-BALANCE in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/src/tower_logic.h",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "growth_heal",
+      "kind": "growth",
+      "name": "生息",
+      "name_en": "Recuperate",
+      "stat": "HealOnFloor",
+      "value": 0.05,
+      "duration": "run",
+      "base_price": 65,
+      "purchase_multiplier": 1.35,
+      "max_purchases": 5,
+      "enabled": false,
+      "verification": "SHOP-BALANCE in notes/codex-tower-cards.md",
+      "evidence": "unverified",
+      "source": [
+        "mods/tower/src/tower_logic.h",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_heal",
+      "kind": "item",
+      "item_id": "heal",
+      "name": "回春丹",
+      "name_en": "Healing Pill",
+      "text": "已退役，不进奖励池或商店",
+      "text_en": "Retired; excluded from rewards and shops",
+      "weight": 30,
+      "base_price": 45,
+      "consumable": true,
+      "duration": "one_use",
+      "use_timing": "retired",
+      "implemented": false,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_reroll",
+      "kind": "item",
+      "item_id": "reroll",
+      "name": "刷新令",
+      "name_en": "Reroll Token",
+      "text": "重抽三选一",
+      "text_en": "Reroll the reward choices",
+      "weight": 15,
+      "base_price": 60,
+      "consumable": true,
+      "duration": "one_use",
+      "use_timing": "settlement",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_freeze",
+      "kind": "item",
+      "item_id": "freeze",
+      "name": "定身符",
+      "name_en": "Binding Charm",
+      "text": "开层前预装；开战后 Boss 定住 4 秒",
+      "text_en": "Prepare before the floor; freeze bosses for 4 seconds at combat start",
+      "weight": 12,
+      "base_price": 70,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_slow",
+      "kind": "item",
+      "item_id": "slow",
+      "name": "缓时符",
+      "name_en": "Slowtime Charm",
+      "text": "开层前预装；开战后 10 秒内仅 Boss 动作放慢 40%",
+      "text_en": "Prepare before the floor; only bosses move 40% slower for the first 10 seconds",
+      "weight": 12,
+      "base_price": 70,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_sunder",
+      "kind": "item",
+      "item_id": "sunder",
+      "name": "破甲符",
+      "name_en": "Sundering Charm",
+      "text": "本层 Boss 受到伤害 +30%",
+      "text_en": "Bosses take +30% damage this floor",
+      "weight": 10,
+      "base_price": 75,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_shachi",
+      "kind": "item",
+      "item_id": "shachi",
+      "name": "聚煞丹",
+      "name_en": "Sha-Chi Pill",
+      "text": "开层前预装；本层杀气恢复速度 +40%",
+      "text_en": "Prepare before the floor; Sha-Chi recovery speed +40% this floor",
+      "weight": 10,
+      "base_price": 50,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_intel",
+      "kind": "item",
+      "item_id": "intel",
+      "name": "情报",
+      "name_en": "Intelligence",
+      "text": "揭示观看局情报",
+      "text_en": "Reveal spectator match information",
+      "weight": 6,
+      "base_price": 65,
+      "consumable": true,
+      "duration": "one_use",
+      "use_timing": "retired",
+      "implemented": false,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_borrow",
+      "kind": "item",
+      "item_id": "borrow",
+      "name": "借将令",
+      "name_en": "Ally Token",
+      "text": "下一场团战增援一人",
+      "text_en": "Add one ally to the next team fight",
+      "weight": 3,
+      "base_price": 120,
+      "consumable": true,
+      "duration": "one_use",
+      "use_timing": "retired",
+      "implemented": false,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_revive",
+      "kind": "item",
+      "item_id": "revive",
+      "name": "复活符",
+      "name_en": "Revival Charm",
+      "text": "倒下时以 50% 生命复活一次（自动）",
+      "text_en": "Automatically revive once at 50% health when defeated",
+      "weight": 2,
+      "base_price": 200,
+      "consumable": true,
+      "duration": "one_use",
+      "use_timing": "automatic",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_guard",
+      "kind": "item",
+      "item_id": "guard",
+      "name": "铁甲符",
+      "name_en": "Iron Armor Charm",
+      "text": "开层前预装；本层受到伤害 -20%",
+      "text_en": "Prepare before the floor; damage taken -20% this floor",
+      "weight": 10,
+      "base_price": 40,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_edge",
+      "kind": "item",
+      "item_id": "edge",
+      "name": "锐锋符",
+      "name_en": "Keen Edge Charm",
+      "text": "开层前预装；本层攻击 / 杀气攻击 +15%",
+      "text_en": "Prepare before the floor; attack and Sha-Chi attack +15% this floor",
+      "weight": 10,
+      "base_price": 40,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "item_break",
+      "kind": "item",
+      "item_id": "break",
+      "name": "破势符",
+      "name_en": "Posture Break Charm",
+      "text": "开层前预装；本层削杀气 +30%",
+      "text_en": "Prepare before the floor; posture damage +30% this floor",
+      "weight": 10,
+      "base_price": 40,
+      "consumable": true,
+      "duration": "one_floor",
+      "use_timing": "prep",
+      "implemented": true,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "prep_rules": {
+        "max_distinct": 3,
+        "stack_same_kind": false,
+        "consume_at": "countdown_release",
+        "consume_on_cancel": false,
+        "effects_after_blessing_caps": true
+      },
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-items-scheme.md",
+        "mods/tower/tools/tower_content.py"
+      ]
+    },
+    {
+      "id": "st_bati",
+      "kind": "shentong",
+      "shentong_id": "bati",
+      "name": "霸体",
+      "name_en": "Unshaken",
+      "feature": "player.no_stagger",
+      "value": 0,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_kuanxin",
+      "kind": "shentong",
+      "shentong_id": "kuanxin",
+      "name": "宽心",
+      "name_en": "Wider Window",
+      "feature": "player.deflect_window_mul",
+      "value": 2.0,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_baidu",
+      "kind": "shentong",
+      "shentong_id": "baidu",
+      "name": "百毒不侵",
+      "name_en": "Immunity",
+      "feature": "player.status_immune",
+      "value": 0,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_yingwu",
+      "kind": "shentong",
+      "shentong_id": "yingwu",
+      "name": "影武无尽",
+      "name_en": "Endless Phantoms",
+      "feature": "combat.phantom_inf",
+      "value": 0,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_jifeng",
+      "kind": "shentong",
+      "shentong_id": "jifeng",
+      "name": "疾风",
+      "name_en": "Gale",
+      "feature": "combat.atk_speed",
+      "value": 1.25,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_ponian",
+      "kind": "shentong",
+      "shentong_id": "ponian",
+      "name": "一念破防",
+      "name_en": "Instant Break",
+      "feature": "combat.instant_break",
+      "value": 0,
+      "tier": "normal",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": true,
+      "base_price": 800,
+      "enabled": true,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_huajin",
+      "kind": "shentong",
+      "shentong_id": "huajin",
+      "name": "化劲",
+      "name_en": "Flowing Guard",
+      "feature": "player.auto_deflect_normal",
+      "value": 0,
+      "tier": "rare",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": false,
+      "base_price": null,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_youshen",
+      "kind": "shentong",
+      "shentong_id": "youshen",
+      "name": "游身",
+      "name_en": "Flowing Dodge",
+      "feature": "player.auto_dodge_normal",
+      "value": 0,
+      "tier": "rare",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": false,
+      "base_price": null,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_zidong",
+      "kind": "shentong",
+      "shentong_id": "zidong",
+      "name": "自动出刀",
+      "name_en": "Automatic Strikes",
+      "feature": "player.auto_attack",
+      "value": 0,
+      "tier": "rare",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": false,
+      "base_price": null,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_lingxi_blue",
+      "kind": "shentong",
+      "shentong_id": "lingxi_blue",
+      "name": "灵犀·蓝",
+      "name_en": "Blue Insight",
+      "feature": "player.auto_deflect_blue",
+      "value": 0,
+      "tier": "lingxi",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": false,
+      "base_price": null,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "st_lingxi_red",
+      "kind": "shentong",
+      "shentong_id": "lingxi_red",
+      "name": "灵犀·红",
+      "name_en": "Red Insight",
+      "feature": "player.auto_dodge_red",
+      "value": 0,
+      "tier": "lingxi",
+      "consumable": true,
+      "duration": "one_floor",
+      "max_stock_per_refresh": 1,
+      "sold": false,
+      "base_price": null,
+      "enabled": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "mods/tower/src/tower_economy.h",
+        "notes/tower-floors.md#5.4 神通"
+      ]
+    },
+    {
+      "id": "shop_policy",
+      "kind": "policy",
+      "currency": "jade",
+      "zone_multipliers": [
+        1.0,
+        1.2,
+        1.45,
+        1.75,
+        2.1
+      ],
+      "price_rounding": "ceil",
+      "price_formula": "ceil(base_price * zone_multiplier * purchase_multiplier ** previous_purchases)",
+      "refresh": {
+        "base_price": 20,
+        "purchase_multiplier": 1.5,
+        "reset_count": "on_new_shop_visit"
+      },
+      "shentong": {
+        "chance_per_refresh": 0.03,
+        "roll_unit": "once_for_normal_pool_per_refresh",
+        "tiers_sold": [
+          "normal"
+        ],
+        "max_per_refresh": 1,
+        "duration": "one_floor",
+        "consumable": true
+      },
+      "engine_shop_implemented": false,
+      "balance_evidence": "unverified",
+      "evidence": "static",
+      "source": [
+        "notes/tower-floors.md#5.4 神通",
+        "mods/tower/tools/tower_content.py"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "candidate": "5f4f49f",
+  "docs_commit": "d14fa9a",
+  "module_abi": 6,
+  "tower_sha256": "f78c6a055b77c2354630aa16e58be2c85338a770bcc92d0f49bbcbbb8c4a8357",
+  "core_sha256": "be356329356ffbe916de599285d1578262f610f71e3f59b85a355880db9a9872",
+  "evidence_root": "build/tower-growth-live/5f4f49f-20261102T014700Z",
+  "prior_batch_coverage": "mods/tower/data/boss_live_coverage_32ffb7d.json",
+  "status": "in_progress_not_accepted",
+  "new_formal_admissions": [],
+  "scope": "Six representative exact classes only. Does not certify the full static pool, all identities, unassisted combat, balance or complete phases.",
+  "conditions": {
+    "run_id": "22d9ac97d5b35b6e",
+    "trip_transaction": 7,
+    "floors": 6,
+    "pool": "audit",
+    "hp0": 5000,
+    "trial_kit": true,
+    "god_setting": true,
+    "damage_multiplier_setting": 10,
+    "one_hit": false,
+    "automatic_defense": false,
+    "settings_evidence": "step22-assistance-readback.json",
+    "limits": "Setting acknowledgements/readback are not independent gameplay on/off evidence. No high-frequency object/HUD scan during first representative fight; native logs and bounded owned-actor/state IPC trace used."
+  },
+  "items": [
+    {
+      "floor": 1,
+      "name": "混沌",
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+      "status": "failed_encounter_isolation",
+      "kill_and_reward_observed": true,
+      "health_normalization_log": "Health6000>Max5000 set to maximum; owned attributes later reported max5000 and decreasing current health",
+      "foreign_actor": "BP_Monster_ChiLian_C",
+      "user_report": "White Chilian intruded for approximately ten-plus seconds, came down and attacked, then disappeared.",
+      "foreign_cleanup_log_time_local": "2026-11-01 19:17:32.641",
+      "story_skip_log_time_local": "2026-11-01 19:17:29.524 Seq034",
+      "duration_limit": "User estimate only; no independent first appearance timestamp. Log timestamp difference is not appearance duration.",
+      "evidence": ["step23-chaos-floor1", "step24-chaos-chilian-reproduced", "step24-user-reward-overflow.png"]
+    },
+    {
+      "floor": 2,
+      "name": "梦华",
+      "path": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "status": "basic_combat_reward_and_standin_cleanup_pass_this_sample",
+      "user_report": "Defeated, no anomaly after requested post-fight observation.",
+      "standin_cleanup_log_time_local": "2026-11-01 19:41:24.339 BP_NPC_MengHua_C",
+      "native_health_normalized": "10000 -> maximum6440",
+      "reward_observed": {"jade": 34, "tempering": 2, "cultivation": 2},
+      "limits": "Initial 600s owned/state trace expired before user started this floor; no target fighting samples in that file. Acceptance uses full native log, user report and later independent checkpoint. God10, no complete-phase/unassisted/parry admission guarantee.",
+      "evidence": ["step25-menghua-floor2", "step26-menghua-completed"]
+    },
+    {
+      "floor": 3,
+      "name": "玉鼎",
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "status": "not_yet_tested"
+    },
+    {
+      "floor": 4,
+      "name": "彭猛",
+      "path": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "status": "representative_boundary_test_not_yet_tested",
+      "earlier_evidence": "step7-cross-map-stutter: real Xigu entry, countdown/free-camera user report good, purposeful defeat and frozen result snapshot; no player attacks or 50m/8s boundary test. God off and damage1 in that earlier fixture."
+    },
+    {
+      "floor": 5,
+      "name": "烟千岁",
+      "path": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+      "status": "not_yet_tested"
+    },
+    {
+      "floor": 6,
+      "name": "骨婉约",
+      "path": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "status": "not_yet_tested"
+    }
+  ]
+}

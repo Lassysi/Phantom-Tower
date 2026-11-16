@@ -1,0 +1,390 @@
+{
+  "schema": "tower-trial-batches/1",
+  "created": "2026-11-12",
+  "note": "审计计划（start plan + pool:audit），每批最多 10 层；A=没进 50 层的 Boss 在自己原生场地；B=没有原生场地的 Boss 在榕树内场（@rongshu）；C=50 层借场地打的 Boss 回自己原生场地。排除：左殇二阶段 / 舞狮 / 大师兄、暂译条目（Hun、终极首领）、只作二阶段出现的 P2、吃场景且无场地的力者基础。",
+  "batches": {
+    "A": {
+      "why": "未进 50 层，原生场地",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C;/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C;/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C;/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C;/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C;/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C;/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C;/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C;/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+      "floors": [
+        {
+          "floor": 1,
+          "name": "白衣鬼差（变体）",
+          "class": "BP_Monster_GuiChai_White_PangZhenBoss_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+          "venue": "PBZ_Pangzhen_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+        },
+        {
+          "floor": 2,
+          "name": "吞噬尸体的小雪",
+          "class": "BP_Monster_XiaoXue_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+          "venue": "PBZ_Zhengdaodaying_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+        },
+        {
+          "floor": 3,
+          "name": "玉面郎君",
+          "class": "BP_Monster_JadeMaskMan_C",
+          "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+          "venue": "PBZ_DengDingShanDao_WP",
+          "spec": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+        },
+        {
+          "floor": 4,
+          "name": "红衣女剑客",
+          "class": "BP_Monster_EMei_Sword_JianZhen_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+          "venue": "PBZ_Zhengdaodaying_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C"
+        },
+        {
+          "floor": 5,
+          "name": "红衣女剑客",
+          "class": "BP_Monster_EMei_Sword_Top_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+          "venue": "PBZ_Zhengdaodaying_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C"
+        },
+        {
+          "floor": 6,
+          "name": "金面具黑衣人",
+          "class": "BP_Monster_MoTian_LongZhu_01_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+          "venue": "PBZ_Xigu_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C"
+        },
+        {
+          "floor": 7,
+          "name": "金面具黑衣人",
+          "class": "BP_Monster_MoTian_LongZhu_02_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+          "venue": "PBZ_Xigu_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C"
+        },
+        {
+          "floor": 8,
+          "name": "金面具黑衣人",
+          "class": "BP_Monster_MoTian_LongZhu_03_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C",
+          "venue": "PBZ_Xigu_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C"
+        },
+        {
+          "floor": 9,
+          "name": "金面具黑衣人",
+          "class": "BP_Monster_MoTian_LongZhu_04_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C",
+          "venue": "PBZ_Xigu_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C"
+        },
+        {
+          "floor": 10,
+          "name": "卅四号·混沌魔偶：“玉琮”",
+          "class": "BP_Monster_YuCong_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+          "venue": "PBZ_Fujizhilin_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+        }
+      ]
+    },
+    "B": {
+      "why": "无原生场地，榕树内场",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C@rongshu;/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C@rongshu;/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C@rongshu;/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C@rongshu;/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger_LengTu.BP_Monster_Scavenger_LengTu_C@rongshu;/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C@rongshu",
+      "floors": [
+        {
+          "floor": 1,
+          "name": "鬼差高手：斩骑",
+          "class": "BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C@rongshu"
+        },
+        {
+          "floor": 2,
+          "name": "鬼差高手：断肠",
+          "class": "BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C@rongshu"
+        },
+        {
+          "floor": 3,
+          "name": "廿一号·剑偶：“玉璧”",
+          "class": "BP_Monster_YuBi_LengTu_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C@rongshu"
+        },
+        {
+          "floor": 4,
+          "name": "十二号·偃月刀偶：“玉鼎”",
+          "class": "BP_Monster_FemaleVessel_YuDing_LengTu_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing_LengTu.BP_Monster_FemaleVessel_YuDing_LengTu_C@rongshu"
+        },
+        {
+          "floor": 5,
+          "name": "活人偶清道夫",
+          "class": "BP_Monster_Scavenger_LengTu_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger_LengTu.BP_Monster_Scavenger_LengTu_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger_LengTu.BP_Monster_Scavenger_LengTu_C@rongshu"
+        },
+        {
+          "floor": 6,
+          "name": "“虎炮”：雷当",
+          "class": "BP_Monster_LeiDang_JYX_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C",
+          "venue": "榕树内场",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang_JYX.BP_Monster_LeiDang_JYX_C@rongshu"
+        }
+      ]
+    },
+    "C": {
+      "why": "50 层借场地，回原生场地",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C;/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C;/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C;/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C;/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C;/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+      "floors": [
+        {
+          "floor": 1,
+          "name": "少主护卫：铁鬼",
+          "class": "BP_Monster_TieGui_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+          "venue": "PBZ_Zhengdaodaying_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+        },
+        {
+          "floor": 2,
+          "name": "“玉琮”：混沌",
+          "class": "BP_Monster_YuCong_HunDun_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+          "venue": "PBZ_Fujizhilin_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C"
+        },
+        {
+          "floor": 3,
+          "name": "“玉琮”：钢刃",
+          "class": "BP_Monster_YuCong_WuLi_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+          "venue": "PBZ_Fujizhilin_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C"
+        },
+        {
+          "floor": 4,
+          "name": "癫狂暴徒：铁杀",
+          "class": "BP_Monster_MobMan_Elite_C",
+          "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+          "venue": "PBZ_DengDingShanDao_WP",
+          "spec": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+        },
+        {
+          "floor": 5,
+          "name": "横刀：毕峰",
+          "class": "BP_Monster_GreatBladeMan_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+          "venue": "PBZ_DengDingShanDao_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+        },
+        {
+          "floor": 6,
+          "name": "疯婆子奎艳艳",
+          "class": "BP_Monster_YanYan_Club_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+          "venue": "PBZ_DengDingShanDao_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C"
+        },
+        {
+          "floor": 7,
+          "name": "沐小葵：铁玉女王",
+          "class": "BP_Monster_MuXiaoKui_P2_C",
+          "path": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C",
+          "venue": "PBZ_Zhengdaodaying_WP",
+          "spec": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C"
+        },
+        {
+          "floor": 8,
+          "name": "昆仑叛教者：荒行子",
+          "class": "BP_Monster_MBoss_C",
+          "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+          "venue": "PBZ_DengDingShanDao_WP",
+          "spec": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C"
+        }
+      ]
+    },
+    "E": {
+      "why": "无尽混编层场地第 1 批（大 / 中档场地）",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C@endless,rongshu;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C@endless;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C@endless;/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C@endless;/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C@endless;/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C@endless;/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C@endless;/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C@endless;/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C@endless;/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C@endless",
+      "floors": [
+        {
+          "floor": 1,
+          "venue": "人面榕树（正道大营）"
+        },
+        {
+          "floor": 2,
+          "venue": "铁面杀手"
+        },
+        {
+          "floor": 3,
+          "venue": "力者和锯者"
+        },
+        {
+          "floor": 4,
+          "venue": "梦差：冷荼"
+        },
+        {
+          "floor": 5,
+          "venue": "剑痴：花千笑"
+        },
+        {
+          "floor": 6,
+          "venue": "亡命徒：荆野"
+        },
+        {
+          "floor": 7,
+          "venue": "“玉琮”：寒冰"
+        },
+        {
+          "floor": 8,
+          "venue": "“雷枪”：长鸿"
+        },
+        {
+          "floor": 9,
+          "venue": "女妖骨婉约"
+        },
+        {
+          "floor": 10,
+          "venue": "神医：谢秋冬"
+        }
+      ]
+    },
+    "F": {
+      "why": "无尽混编层场地第 2 批（大 / 中档场地）",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C@endless;/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C@endless;/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C@endless;/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C@endless;/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C@endless;/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C@endless;/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C@endless;/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C@endless;/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C@endless;/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C@endless",
+      "floors": [
+        {
+          "floor": 1,
+          "venue": "白衣鬼差（变体）"
+        },
+        {
+          "floor": 2,
+          "venue": "灭法之法：寒岁"
+        },
+        {
+          "floor": 3,
+          "venue": "火刀：祝原"
+        },
+        {
+          "floor": 4,
+          "venue": "风雪刀客"
+        },
+        {
+          "floor": 5,
+          "venue": "发狂的水行帮主：游龙"
+        },
+        {
+          "floor": 6,
+          "venue": "鬼差高手：断肠"
+        },
+        {
+          "floor": 7,
+          "venue": "独眼弓客"
+        },
+        {
+          "floor": 8,
+          "venue": "新娘阿花"
+        },
+        {
+          "floor": 9,
+          "venue": "“组织”猎杀者：追命"
+        },
+        {
+          "floor": 10,
+          "venue": "斧老大：彭猛"
+        }
+      ]
+    },
+    "G": {
+      "why": "无尽混编层场地第 3 批（大 / 中档场地）",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C@endless;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C@endless;/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C@endless;/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C@endless;/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C@endless;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C@endless;/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C@endless;/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C@endless;/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C@endless;/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C@endless",
+      "floors": [
+        {
+          "floor": 1,
+          "venue": "金面具黑衣人"
+        },
+        {
+          "floor": 2,
+          "venue": "痴狂暴徒：残钢"
+        },
+        {
+          "floor": 3,
+          "venue": "三张脸的诡异魔偶"
+        },
+        {
+          "floor": 4,
+          "venue": "赤影骨刃：囚锋"
+        },
+        {
+          "floor": 5,
+          "venue": "雷当：独臂虎"
+        },
+        {
+          "floor": 6,
+          "venue": "少主护卫：玉妖"
+        },
+        {
+          "floor": 7,
+          "venue": "三号·乐师偶：“玉瓒”"
+        },
+        {
+          "floor": 8,
+          "venue": "灭法之法：炎茹"
+        },
+        {
+          "floor": 9,
+          "venue": "天玄派：毕远掌门残躯"
+        },
+        {
+          "floor": 10,
+          "venue": "操偶师：荡秽"
+        }
+      ]
+    },
+    "H": {
+      "why": "无尽混编层场地第 4 批（大 / 中档场地）",
+      "plan": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C@endless;/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C@endless;/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C@endless;/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C@endless;/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C@endless;/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C@endless;/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C@endless",
+      "floors": [
+        {
+          "floor": 1,
+          "venue": "吞噬尸体的小雪"
+        },
+        {
+          "floor": 2,
+          "venue": "廿一号·剑偶：“玉璧”"
+        },
+        {
+          "floor": 3,
+          "venue": "红衣女剑客"
+        },
+        {
+          "floor": 4,
+          "venue": "琴女烟千岁"
+        },
+        {
+          "floor": 5,
+          "venue": "活人偶清道夫"
+        },
+        {
+          "floor": 6,
+          "venue": "十二号·偃月刀偶：“玉鼎”"
+        },
+        {
+          "floor": 7,
+          "venue": "守门人拙壁"
+        }
+      ]
+    }
+  },
+  "note_endless": "E–H：容量实测大 / 中档场地，每层 @endless（最多 3 波、每波 ≤3 Boss + 少量小怪，按种子随机；圣母娘娘单独一波；不抽大师兄 / 舞狮 / 冷荼 / 左殇 / 吃场景 / 直刷不稳）"
+}

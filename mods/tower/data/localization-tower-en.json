@@ -1,0 +1,149 @@
+{
+  "schema": 1,
+  "source": "tower 1.1.0, tower_economy.h and tower_growth.h",
+  "status": "draft: gameplay terminology and presentation require review",
+  "categories": {
+    "items": {
+      "heal": {
+        "name_en": "Rejuvenation Pill",
+        "description_en": "Immediately restores 40% HP."
+      },
+      "reroll": {
+        "name_en": "Reroll Token",
+        "description_en": "Reroll one set of three choices."
+      },
+      "freeze": {
+        "name_en": "Binding Talisman",
+        "description_en": "Freezes the boss for 4 seconds after combat begins."
+      },
+      "slow": {
+        "name_en": "Slowing Talisman",
+        "description_en": "Slows the boss by 40% for the first 10 seconds of combat."
+      },
+      "sunder": {
+        "name_en": "Armor Break Talisman",
+        "description_en": "The boss takes 30% more damage on this floor."
+      },
+      "shachi": {
+        "name_en": "Sha-Chi Recovery Pill",
+        "description_en": "Increases Sha-Chi recovery by 40% on this floor."
+      },
+      "intel": {
+        "name_en": "Intelligence",
+        "description_en": "Reveals information about one side in a spectator battle (not yet active)."
+      },
+      "borrow": {
+        "name_en": "Reinforcement Token",
+        "description_en": "Adds one ally to the next team battle (not yet active)."
+      },
+      "revive": {
+        "name_en": "Revival Talisman",
+        "description_en": "Automatically revives you once with full HP, full Sha-Chi, and refilled medicine."
+      },
+      "guard": {
+        "name_en": "Iron Armor Talisman",
+        "description_en": "Reduces damage taken by 20% on this floor."
+      },
+      "edge": {
+        "name_en": "Sharp Edge Talisman",
+        "description_en": "Increases attack and guard-breaking power by 15% on this floor."
+      },
+      "break": {
+        "name_en": "Stance Break Talisman",
+        "description_en": "Increases Sha-Chi damage dealt to the boss by 30% on this floor."
+      },
+      "rebirth": {
+        "name_en": "Rebirth Talisman",
+        "description_en": "If you fall without a Revival Talisman, continue 10 floors earlier instead of restarting. If you fall within the first 10 floors, continue from floor 1."
+      }
+    },
+    "powers": {
+      "bati": {
+        "name_en": "Unshakable",
+        "description_en": "Prevents stagger on this floor."
+      },
+      "kuanxin": {
+        "name_en": "Open Mind",
+        "description_en": "Doubles the parry window on this floor."
+      },
+      "baidu": {
+        "name_en": "Immunity",
+        "description_en": "Grants immunity to status effects on this floor."
+      },
+      "yingwu": {
+        "name_en": "Endless Arsenal",
+        "description_en": "Grants unlimited Phantom Edges on this floor."
+      },
+      "jifeng": {
+        "name_en": "Swift Wind",
+        "description_en": "Increases attack speed by 25% on this floor."
+      },
+      "ponian": {
+        "name_en": "Instant Break",
+        "description_en": "Breaks enemy guard in one hit on this floor."
+      },
+      "huajin": {
+        "name_en": "Deflecting Force",
+        "description_en": "Automatically blocks normal attacks on this floor."
+      },
+      "youshen": {
+        "name_en": "Elusive Form",
+        "description_en": "Automatically dodges normal attacks on this floor."
+      },
+      "zidong": {
+        "name_en": "Auto Attack",
+        "description_en": "Automatically attacks on this floor."
+      },
+      "lingxi_blue": {
+        "name_en": "Instinct: Blue",
+        "description_en": "Automatically blocks blue-flash attacks on this floor."
+      },
+      "lingxi_red": {
+        "name_en": "Instinct: Red",
+        "description_en": "Automatically dodges red-flash attacks on this floor."
+      }
+    },
+    "blessings": {
+      "temper": {
+        "name_en": "Honed Edge",
+        "description_en": "Attack and Sha-Chi attack +8%."
+      },
+      "iron": {
+        "name_en": "Iron Bones",
+        "description_en": "Damage taken -8%."
+      },
+      "life": {
+        "name_en": "Vitality",
+        "description_en": "Maximum HP +10%."
+      },
+      "break": {
+        "name_en": "Guard Breaker",
+        "description_en": "Sha-Chi damage dealt +15%."
+      },
+      "gather": {
+        "name_en": "Gathering Force",
+        "description_en": "Sha-Chi recovery speed +15%."
+      },
+      "swift": {
+        "name_en": "Swift Wind",
+        "description_en": "Attack speed +5%."
+      },
+      "spring": {
+        "name_en": "Rejuvenation",
+        "description_en": "Restore 15% HP at the start of each floor (retired; no longer offered)."
+      },
+      "last_stand": {
+        "name_en": "Last Stand",
+        "description_en": "Attack +20% while HP is below 30%."
+      },
+      "riposte": {
+        "name_en": "Riposte",
+        "description_en": "Attack +15% for 3 seconds after a perfect block."
+      },
+      "feast": {
+        "name_en": "Blood Feast",
+        "description_en": "Restore 10% HP after an execution."
+      }
+    }
+  }
+}

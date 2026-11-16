@@ -1,0 +1,600 @@
+{
+ "schema": 0,
+ "game": {
+  "appid": 4115450,
+  "target_build": "26367565"
+ },
+ "conflicts": [
+  [
+   "player.god",
+   "player.demigod",
+   "player.inf_hp"
+  ],
+  [
+   "combat.enemy_freeze",
+   "combat.enemy_passive"
+  ],
+  [
+   "player.auto_deflect_normal",
+   "player.auto_dodge_normal",
+   "player.auto_mix_normal"
+  ]
+ ],
+ "events": [
+  "damage_dealt",
+  "damage_taken",
+  "parry",
+  "perfect_dodge",
+  "execution",
+  "enemy_killed",
+  "player_died",
+  "boss_phase"
+ ],
+ "features": [
+  {
+   "id": "player.god",
+   "name_zh": "无敌",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle",
+   "hotkey": "F1"
+  },
+  {
+   "id": "player.inf_hp",
+   "name_zh": "无限生命",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "player.demigod",
+   "name_zh": "不死",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "player.dmg_taken_mul",
+   "name_zh": "受伤倍率",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.maxhp_mul",
+   "name_zh": "生命上限倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.inf_shachi",
+   "name_zh": "无限杀气",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle",
+   "hotkey": "F2"
+  },
+  {
+   "id": "player.shachi_gain_mul",
+   "name_zh": "杀气回复倍率",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.shachi_max_mul",
+   "name_zh": "杀气上限倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.inf_ult",
+   "name_zh": "无限绝技",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "player.ult_charge_mul",
+   "name_zh": "绝技充能倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.inf_heal",
+   "name_zh": "无限回复道具",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "live",
+   "type": "toggle",
+   "hotkey": "F3"
+  },
+  {
+   "id": "player.no_stagger",
+   "name_zh": "不硬直",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "player.posture_lock",
+   "name_zh": "杀气不减",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "player.posture_taken_mul",
+   "name_zh": "受削杀气倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.break_duration_mul",
+   "name_zh": "自身破防时长",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.auto_deflect_blue",
+   "name_zh": "蓝光自动格挡",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "player.auto_dodge_red",
+   "name_zh": "红光自动闪避",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "player.auto_deflect_normal",
+   "name_zh": "完美格挡",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "player.auto_dodge_normal",
+   "name_zh": "完美闪避",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "player.auto_mix_normal",
+   "name_zh": "闪避格挡交替",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle"
+  },
+  {
+   "id": "player.auto_attack",
+   "name_zh": "自动攻击",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle"
+  },
+  {
+   "id": "player.deflect_window_mul",
+   "name_zh": "格挡窗口倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 1.0,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "player.status_immune",
+   "name_zh": "免疫异常",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "combat.one_hit",
+   "name_zh": "一击必杀",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle",
+   "hotkey": "F4"
+  },
+  {
+   "id": "combat.dmg_mul",
+   "name_zh": "伤害倍率",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 100.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.posture_dmg_mul",
+   "name_zh": "削杀气倍率",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.shachi_weapon_cd_mul",
+   "name_zh": "影之武装冷却倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.phantom_inf",
+   "name_zh": "影之武装无限",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "combat.atk_speed",
+   "name_zh": "角色速度",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.instant_break",
+   "name_zh": "一击破防",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "combat.status_mul",
+   "name_zh": "异常积累倍率",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.instant_exec",
+   "name_zh": "随时处决",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "combat.enemy_freeze",
+   "name_zh": "冻结敌人",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "toggle",
+   "hotkey": "F6"
+  },
+  {
+   "id": "combat.enemy_passive",
+   "name_zh": "敌人不攻击",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "combat.enemy_hp_mul",
+   "name_zh": "敌人血量倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.enemy_dmg_mul",
+   "name_zh": "敌人伤害倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.0,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.enemy_posture_mul",
+   "name_zh": "敌人杀气抗性",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.break_duration_mul",
+   "name_zh": "敌人破防时长",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.break_damage_mul",
+   "name_zh": "破防伤害倍率",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 10.0,
+   "default": 1.0
+  },
+  {
+   "id": "combat.enemy_atk_speed",
+   "name_zh": "敌人速度",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "time.game_speed",
+   "name_zh": "游戏速度",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "static",
+   "type": "slider",
+   "min": 0.1,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "time.day_lock",
+   "name_zh": "锁定天数",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "res.money_mul",
+   "name_zh": "意识尘埃倍率",
+   "owner": "codex",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "slider",
+   "min": 0,
+   "max": 10,
+   "default": 1,
+   "step": 1
+  },
+  {
+   "id": "res.item_mul",
+   "name_zh": "材料倍率",
+   "owner": "codex",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "slider",
+   "min": 0,
+   "max": 10,
+   "default": 1,
+   "step": 1
+  },
+  {
+   "id": "res.unlock_weapons",
+   "name_zh": "解锁全部武器",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "action"
+  },
+  {
+   "id": "res.unlock_cosmetics",
+   "name_zh": "解锁全部外观",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "assumption",
+   "type": "action"
+  },
+  {
+   "id": "res.upgrade_free",
+   "name_zh": "升级无消耗",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "static",
+   "type": "toggle",
+   "hotkey": null
+  },
+  {
+   "id": "world.move_speed",
+   "name_zh": "移动速度倍率",
+   "owner": "codex",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "slider",
+   "min": 0.5,
+   "max": 5.0,
+   "default": 1.0
+  },
+  {
+   "id": "world.inf_jump",
+   "name_zh": "无限空中跳",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle"
+  },
+  {
+   "id": "world.noclip",
+   "name_zh": "飞行穿墙",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle",
+   "hotkey": "F7"
+  },
+  {
+   "id": "world.map_tp",
+   "name_zh": "地图传送",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle",
+   "default": true
+  },
+  {
+   "id": "world.tp_enemy",
+   "name_zh": "传送到最近敌人",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "assumption",
+   "type": "action"
+  },
+  {
+   "id": "cam.fov",
+   "name_zh": "视野FOV",
+   "owner": "codex",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "slider",
+   "min": 60.0,
+   "max": 120.0,
+   "default": 1.0
+  },
+  {
+   "id": "cam.free",
+   "name_zh": "自由相机",
+   "owner": "codex",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle",
+   "hotkey": "F8"
+  },
+  {
+   "id": "train.dps",
+   "name_zh": "伤害统计",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "train.enemy_info",
+   "name_zh": "敌人数值显示",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "live",
+   "type": "toggle"
+  },
+  {
+   "id": "train.parry_stats",
+   "name_zh": "格挡闪避统计",
+   "owner": "claude",
+   "priority": "P2",
+   "evidence": "static",
+   "type": "toggle"
+  },
+  {
+   "id": "sys.restore_all",
+   "name_zh": "全部还原",
+   "owner": "claude",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "action",
+   "hotkey": "Ctrl+F12"
+  },
+  {
+   "id": "sys.save_backup",
+   "name_zh": "存档备份",
+   "owner": "codex",
+   "priority": "P0",
+   "evidence": "assumption",
+   "type": "action"
+  },
+  {
+   "id": "sys.overlay_menu",
+   "name_zh": "游戏内菜单",
+   "owner": "claude",
+   "priority": "P1",
+   "evidence": "assumption",
+   "type": "toggle",
+   "hotkey": "Insert"
+  }
+ ]
+}

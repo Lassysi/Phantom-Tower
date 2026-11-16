@@ -1,0 +1,3457 @@
+{
+ "schema": 1,
+ "evidence": "static: exact cooked Flow AssetGuid / NodeGuid joins",
+ "source_audit": "flow-audit.json",
+ "rules": [
+  {
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "node_guid": "373FF6EF-420EE840-AC9F45B6-02D7ABFE",
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.沐小葵.最终形态击杀",
+    "ljc.沐小葵.满足额外剧情条件"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuPan/BPF_MuXiaoKuiDeath.uasset",
+   "source_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "node_guid": "6DB86C26-4B1D7159-836E2A8D-34B3DFE3",
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.沐小葵.满足额外剧情条件",
+    "ljc.沐小葵.玉妖铁鬼死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuPan/BPF_MuXiaoKuiDeath.uasset",
+   "source_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "node_guid": "F17C3EAE-45A3DE95-632140B6-EF499717",
+   "flow": "BPF_MuXiaoKuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "hp.击杀.沐小葵二阶段"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuPan/BPF_MuXiaoKuiDeath.uasset",
+   "source_sha256": "509b58603a442a99a29c0330231f0ebe820bf4275ec55e7b16081817d21dcb03"
+  },
+  {
+   "asset_guid": "1D6432D2-4AD9D5FB-1EDF6E9E-4D58FCDC",
+   "node_guid": "C8513018-4134B378-752F4B9C-6362B954",
+   "flow": "BPF_HongYiGuiChai_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.红衣鬼差P2"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MainCh2/BPF_HongYiGuiChai_Death.uasset",
+   "source_sha256": "40f47e2ad7a7abb9d7ca74e1c1e629b5f4ccf233574326c9c48daf812ea5bb59"
+  },
+  {
+   "asset_guid": "1FDEF10C-4B7BA700-B94D889A-DE1FEA9E",
+   "node_guid": "E97E7D76-404CCECF-40C63C96-381A24E0",
+   "flow": "BPF_XiaoXueDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.小雪"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/ZhengDaoDaYing/BPF_XiaoXueDeath.uasset",
+   "source_sha256": "a843775ccf33ab18d627927123ac16962f02328f069635aeebce549cb75723a2"
+  },
+  {
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "node_guid": "27FF88B5-4B3945A4-0DAC5E8A-A8B814B3",
+   "flow": "BPF_WuShiZunZhu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.舞狮.结算完成"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiMengShanZhuang/BPF_WuShiZunZhu_Death.uasset",
+   "source_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "node_guid": "2E8813B7-42E68329-14580BBA-67214859",
+   "flow": "BPF_WuShiZunZhu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.舞狮尊主烈焰"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiMengShanZhuang/BPF_WuShiZunZhu_Death.uasset",
+   "source_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "node_guid": "31E55039-4C565048-56117CA6-B59AEF3D",
+   "flow": "BPF_WuShiZunZhu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.舞狮.完成任务"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiMengShanZhuang/BPF_WuShiZunZhu_Death.uasset",
+   "source_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "node_guid": "A7D81A9A-427AAE31-82D268BD-43588EDD",
+   "flow": "BPF_WuShiZunZhu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.舞狮.结算完成"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiMengShanZhuang/BPF_WuShiZunZhu_Death.uasset",
+   "source_sha256": "3f43161596b9e7770a23a15fef1279bcc006c1bd8ba7d133027b2c8d2bc957e8"
+  },
+  {
+   "asset_guid": "2907262D-483561D1-A2C44190-A110A5F6",
+   "node_guid": "994932B8-418364F0-EA85AAAF-40ECFC32",
+   "flow": "BPF_YouLong_No2_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.游龙二帮主"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HouJie/BPF_YouLong_No2_Death.uasset",
+   "source_sha256": "1585dbd214932c45be47acdfe393fa36879a257d31a62a6868786096415b1541"
+  },
+  {
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "node_guid": "1F82042B-4CBDA1E4-2C984DB9-A23E2DB0",
+   "flow": "BPF_ZhuiMingDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "xg.击杀.追命二阶段"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_ZhuiMingDeath.uasset",
+   "source_sha256": "c94ef9e0015182c0e4ac4ca743fea80a29ec814482c2ab55337543744da2ad8a"
+  },
+  {
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "node_guid": "86D3DB2B-41C20EDF-823B4CA2-59646D02",
+   "flow": "BPF_ZhuiMingDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "xg.击杀.追命二阶段",
+    "xg.杀气塔前.获得羽弓"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_ZhuiMingDeath.uasset",
+   "source_sha256": "c94ef9e0015182c0e4ac4ca743fea80a29ec814482c2ab55337543744da2ad8a"
+  },
+  {
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "node_guid": "F02D06C4-443A7BDA-4D031BA8-5C0D61A8",
+   "flow": "BPF_ZhuiMingDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "xg.击杀.追命二阶段"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_ZhuiMingDeath.uasset",
+   "source_sha256": "c94ef9e0015182c0e4ac4ca743fea80a29ec814482c2ab55337543744da2ad8a"
+  },
+  {
+   "asset_guid": "35E84737-4120D33C-537C47B2-87FBCBC7",
+   "node_guid": "3704DDCA-4F2A5494-34ABD0BE-BA0CF176",
+   "flow": "BPF_DuoLuoJiangJun_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.堕落将军"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HouJie/BPF_DuoLuoJiangJun_Death.uasset",
+   "source_sha256": "ba4a5b8162d497965c9546e4ab8e9a1a53ead2a0caf353374e2b61e79ae24340"
+  },
+  {
+   "asset_guid": "40513B8A-42CAA2B0-D1CABFB8-8C09612D",
+   "node_guid": "2C5F5D74-4F54FDB8-796A36AE-18769D7A",
+   "flow": "BPF_FengXueDaoKe_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.风雪刀客"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_FengXueDaoKe_Death.uasset",
+   "source_sha256": "f7d542cd42c307ed0a4effde993a155594ee817ed641b58a8250976cddf7147b"
+  },
+  {
+   "asset_guid": "43B2824F-46872C0A-BBD46295-B239DD6B",
+   "node_guid": "095B46F1-44E9DD07-2D5F50B8-08AEC15C",
+   "flow": "BPF_LJC_YanRuDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mfzf.击杀.炎茹"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MieFaZhiFa/BPF_LJC_YanRuDeath.uasset",
+   "source_sha256": "8897b96904b265c22410c1fddd11e922e26d912c4778b0f3775ab9fbd9d0d44f"
+  },
+  {
+   "asset_guid": "4CD89F3E-41EF7C33-61F2D4A7-2ACA7CC2",
+   "node_guid": "2A8E460A-47BE3E06-2EF235B6-47405B14",
+   "flow": "BPF_NongSheDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "fjzl.击杀.弄蛇"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/FuJiZhiLin/BPF_NongSheDeath.uasset",
+   "source_sha256": "43b11a6642c9fc6c5a928ed55b8783d1786e3c02698333cc8a456e42c4cb8a3b"
+  },
+  {
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "node_guid": "107D02BC-48976EA8-F186C18A-21B720C5",
+   "flow": "BPF_DangHuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.荡秽对话结束"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_DangHuiDeath.uasset",
+   "source_sha256": "c4bc7112f26c47912535cfbd63683baa5f5a69566168f0c20f01df3a0e24501a"
+  },
+  {
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "node_guid": "17AFD18A-4178A27E-7539D493-70ABC972",
+   "flow": "BPF_DangHuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.荡秽对话"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_DangHuiDeath.uasset",
+   "source_sha256": "c4bc7112f26c47912535cfbd63683baa5f5a69566168f0c20f01df3a0e24501a"
+  },
+  {
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "node_guid": "4F1875FD-450841CA-DFD491BA-43C2CF18",
+   "flow": "BPF_DangHuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.荡秽"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_DangHuiDeath.uasset",
+   "source_sha256": "c4bc7112f26c47912535cfbd63683baa5f5a69566168f0c20f01df3a0e24501a"
+  },
+  {
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "node_guid": "C5AB1E1E-44373620-068D6C9C-BF5D8B2C",
+   "flow": "BPF_DangHuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.荡秽对话"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_DangHuiDeath.uasset",
+   "source_sha256": "c4bc7112f26c47912535cfbd63683baa5f5a69566168f0c20f01df3a0e24501a"
+  },
+  {
+   "asset_guid": "4DA1AA3D-4D8EC587-8A029C84-B153C1DF",
+   "node_guid": "D0C747B1-4375C9FD-EB8D6CB4-20850096",
+   "flow": "BPF_MGH_GuheDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mfzf.击杀.蛊鹤"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MieFaZhiFa/BPF_MGH_GuheDeath.uasset",
+   "source_sha256": "fa0d83f8dadf7db46dc7f44c34aee3d90f7cb2b06739b1abba2f64c66e135d82"
+  },
+  {
+   "asset_guid": "4F7C3F9A-479441C6-FFFB1D97-EC09FEBC",
+   "node_guid": "3222E939-40047F1F-44135AAD-C678A433",
+   "flow": "BPF_DHS_SuiHanDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mfzf.击杀.寒岁"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MieFaZhiFa/BPF_DHS_SuiHanDeath.uasset",
+   "source_sha256": "09294f91f4659fd9c5113b884da62fa5f714797b265e99cb416b20e22fdea5de"
+  },
+  {
+   "asset_guid": "509E8645-4087B439-C0B0AA97-2912500B",
+   "node_guid": "82F0DCD1-455BFF29-CA901995-C29815EB",
+   "flow": "BPF_HuoDaoDuiZhuang_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.杀气塔.击杀火刀队长"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/PangZhen/BPF_HuoDaoDuiZhuang_Death.uasset",
+   "source_sha256": "708aed2064f21e6434db02f1f150884b7b1931fed747b6c3aabdbfbd5e617067"
+  },
+  {
+   "asset_guid": "50B1F871-4CB9BE1D-6D73E99F-3F0EE1FE",
+   "node_guid": "3342655C-4A139EBA-1695B284-8365C373",
+   "flow": "BPF_CanGangDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ddsd.击杀.残钢"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_CanGangDeath.uasset",
+   "source_sha256": "61572ddf75b027ea5751026bf6984f291916d37df6e1bdd71492e923b45f458b"
+  },
+  {
+   "asset_guid": "5A172E51-4BC46B4C-5E808EB1-51B421BF",
+   "node_guid": "51D31A15-4E36DF28-465A9B9C-20F88F78",
+   "flow": "BPF_HuangXingZiDeath_2",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ddsd.击杀.荒行子2"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DDSD/BPF_HuangXingZiDeath_2.uasset",
+   "source_sha256": "d1da101eecfb1c870061dea3f0775fa916cdeaad8b2f6fe29f8ff1ebcb92cdd6"
+  },
+  {
+   "asset_guid": "5A83E3BE-414C93BF-B735CDBD-CF9D4737",
+   "node_guid": "F9F1E548-418C647C-8F3FA29A-E3895D0C",
+   "flow": "BPF_LeiDangOrYuer_Dead",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "qsd.击杀.雷当二阶段"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/QingSheDao/BPF_LeiDangOrYuer_Dead.uasset",
+   "source_sha256": "3a578fc476edfb1a7b470949a7fc460d94429f6403d9ebb24f374aeee8f22970"
+  },
+  {
+   "asset_guid": "7063E375-415A5C69-6970D989-1F523EB0",
+   "node_guid": "7BFFC23E-4B79CAA7-475B989B-0A91A905",
+   "flow": "BPF_YuMianDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ddsd.击杀.玉面"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DDSD/BPF_YuMianDeath.uasset",
+   "source_sha256": "db6af1531a7b7e3774416fd2ba7b22c268e3d580378c11873c3d190d5250774f"
+  },
+  {
+   "asset_guid": "74781983-4E8C2A3A-76D84D8A-5B9A0C7C",
+   "node_guid": "391DC048-42BD5F26-E3F73A87-3CBF3ACA",
+   "flow": "BPF_YanQianSuiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mgxl.击杀.烟千岁"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MeiGuXiLou/BPF_YanQianSuiDeath.uasset",
+   "source_sha256": "35c12506a793684c3e92d19f18ac5e6272abadae3b2a132697d4373208d75ccb"
+  },
+  {
+   "asset_guid": "8B216648-40A2A39A-29B315BD-E0D7A40B",
+   "node_guid": "006E3AAB-4F7DD09E-3DC52390-2E1A0348",
+   "flow": "BPF_WanJunKeDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.万钧客"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/ZhengDaoDaYing/BPF_WanJunKeDeath.uasset",
+   "source_sha256": "5e0fe6c54e914e5b09f33199a27ed49f9ecbcf4f37cc64edfa9b3e041e662091"
+  },
+  {
+   "asset_guid": "8C7D4C50-4CCBB460-F5DA089C-C09B0850",
+   "node_guid": "576B01F4-46D95E1D-DF46EC8C-3A4FF019",
+   "flow": "BPF_YouLong_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.游龙帮主"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MeiGuHu/BPF_YouLong_Death.uasset",
+   "source_sha256": "18fa1fe82a78d89ae0d44378fef300cc566f66700b5f11fbdce89b9af0f54411"
+  },
+  {
+   "asset_guid": "8DAB7C80-43CF55E2-32675587-4E4D9C22",
+   "node_guid": "8DC77433-4205D5BE-FB73B4A5-50871BBF",
+   "flow": "BPF_JianChiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "fjzl.击杀.剑痴"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/FuJiZhiLin/BPF_JianChiDeath.uasset",
+   "source_sha256": "bfa5b0b20ef43aa72d61e2a87c7e1a04be0ccfac3335fafbbb6204cb77d95f6c"
+  },
+  {
+   "asset_guid": "97B7A3BC-42FCBA1F-5091A389-04BEFF88",
+   "node_guid": "DC7FCEC1-45858F2E-F03B648E-C45D90DB",
+   "flow": "BPF_DuYanGongKe_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "smrds.击杀.独眼弓客"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/ShouMengRenDouShi/BPF_DuYanGongKe_Death.uasset",
+   "source_sha256": "b7a78a81542c51b438a0bda813f80c9f5add150724b33be8529d6ec5483cb20c"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "14427ACE-49FD0A70-562F9596-7CE7B39E",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "1912366D-41AFB12E-C9BF90BE-41307C6D",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "40017A95-4B415945-2BBB8490-0B6C980A",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "402EC9D4-47A1D89B-A0743EBF-BB98DCD0",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "C17DE261-40319173-E5BC8191-D2789D00",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "node_guid": "CDEFBC9F-46EC3A22-F2020484-A241569B",
+   "flow": "BPF_MengHua_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuanHunYa/BPF_MengHua_Death.uasset",
+   "source_sha256": "c2dca756e4537ba7b1509d0d69da5b068568b7dd6bccb3cb86230988ab2d4691"
+  },
+  {
+   "asset_guid": "A8BD1ACC-40538EB3-1AC03CBC-5A1D34CA",
+   "node_guid": "F9A21D48-49C4A673-149DF7B0-7255CEB4",
+   "flow": "BPF_YDZZ_LeiTingDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mfzf.击杀.雷婷"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/MieFaZhiFa/BPF_YDZZ_LeiTingDeath.uasset",
+   "source_sha256": "1ae0236b39db109a6993df1fcd758e534e8bfb0f14c7b8f16c7fa6993bd40aad"
+  },
+  {
+   "asset_guid": "AFBEF5E6-4E8B5E1B-06FB2893-7B49173B",
+   "node_guid": "9DE80398-4CDCE024-8257809E-04DEE6FB",
+   "flow": "BPF_XuKong_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "jhsy.镜花水月.结局虚空死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/JingHuaShuiYue/BPF_XuKong_Death.uasset",
+   "source_sha256": "184bc08eb298705beb79e3652c5d32e693c7eb6cce0c240c4881facffc683209"
+  },
+  {
+   "asset_guid": "AFBEF5E6-4E8B5E1B-06FB2893-7B49173B",
+   "node_guid": "E99EFA76-48481C59-9E5E3C8E-6531CFD1",
+   "flow": "BPF_XuKong_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "jhsy.镜花水月.结局虚空死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/JingHuaShuiYue/BPF_XuKong_Death.uasset",
+   "source_sha256": "184bc08eb298705beb79e3652c5d32e693c7eb6cce0c240c4881facffc683209"
+  },
+  {
+   "asset_guid": "AFBEF5E6-4E8B5E1B-06FB2893-7B49173B",
+   "node_guid": "EFFF8951-458D3E5B-F2F33FAA-243A6C2D",
+   "flow": "BPF_XuKong_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "jhsy.镜花水月.结局虚空死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/JingHuaShuiYue/BPF_XuKong_Death.uasset",
+   "source_sha256": "184bc08eb298705beb79e3652c5d32e693c7eb6cce0c240c4881facffc683209"
+  },
+  {
+   "asset_guid": "B18F041E-4F0697F1-B2E37687-16429650",
+   "node_guid": "C3BE45F0-45916452-B98DE08B-70983DA5",
+   "flow": "BPF_RenOuCanHaiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.人偶残骸"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/LuJiaCun/BPF_RenOuCanHaiDeath.uasset",
+   "source_sha256": "750290f7598b92b0d6be15b9aa0daf31acd32aae39c33efef0bed5a6622aa9bf"
+  },
+  {
+   "asset_guid": "C182A569-4BB6069D-134374BA-443DA6B7",
+   "node_guid": "9B4B0C35-44263443-9377C4BA-AD0F96FA",
+   "flow": "BPF_YuZanDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.玉瓒"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/ZhengDaoDaYing/BPF_YuZanDeath.uasset",
+   "source_sha256": "d1d1690c8b66c4b3cd6d59809131a795e202411c4333a17b955613c5b6d23650"
+  },
+  {
+   "asset_guid": "C5B8B2C1-4FE13635-8726AEA1-31E46E0E",
+   "node_guid": "E723D858-44262CF5-26DDA4B1-9F10A432",
+   "flow": "BPF_XinNiang_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "xg.击杀.新娘阿花"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_XinNiang_Death.uasset",
+   "source_sha256": "e16e9888fbcd92d6b2c9948471e1a5c7a78082f1c12729a6be5f2f5c30c65588"
+  },
+  {
+   "asset_guid": "C69A751C-4DF398E5-9C7A6997-B2A1E2E4",
+   "node_guid": "98B0F2BE-4D8228FE-9144F1B9-D2228E04",
+   "flow": "BPF_ChangHongDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.击杀.长鸿P2"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/ZhengDaoDaYing/BPF_ChangHongDeath.uasset",
+   "source_sha256": "f471844131fa2094c018037555867cb78df08778b165fc9ee2008978502dc7be"
+  },
+  {
+   "asset_guid": "C7A6360E-489D2C3D-F0937A9D-FE66A0FD",
+   "node_guid": "251D47D9-40A2424F-91078EB2-BE2900F3",
+   "flow": "BPF_WuLengShuangDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "bsmw.击杀.乌冷霜"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuLiZhiXian/BaiShanMiWen/BPF_WuLengShuangDeath.uasset",
+   "source_sha256": "9919a07ac5814b0c5f27f3e84eb0db13e8e750b81a097a0ed8edbf582143bcfb"
+  },
+  {
+   "asset_guid": "C7A6360E-489D2C3D-F0937A9D-FE66A0FD",
+   "node_guid": "C504975C-40F32F11-58E67BBB-9EB6D095",
+   "flow": "BPF_WuLengShuangDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "bsmw.击杀.乌冷霜",
+    "bsmw.白山派女弟子.第一次对话后"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuLiZhiXian/BaiShanMiWen/BPF_WuLengShuangDeath.uasset",
+   "source_sha256": "9919a07ac5814b0c5f27f3e84eb0db13e8e750b81a097a0ed8edbf582143bcfb"
+  },
+  {
+   "asset_guid": "D584CB26-4F1E4320-F4C87DBA-BCFAE367",
+   "node_guid": "58247BF2-49552415-A3C2BFBF-96131328",
+   "flow": "BPF_ShuangJianBiFengDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.双锏毕锋"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/JiGuanChuan/BPF_ShuangJianBiFengDeath.uasset",
+   "source_sha256": "0daa68eda5cf16208a73765d24ed4b85dcbf24cab77817d99570b8b728b0e6ea"
+  },
+  {
+   "asset_guid": "E5D8B5BE-4F964F33-4E0EE19B-9A22F0F3",
+   "node_guid": "9E33F3E0-4975E90A-3102F49E-3E96A5B3",
+   "flow": "BPF_XiPiaoGuaiWu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "pz.击杀.戏票怪物"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiMengShanZhuang/BPF_XiPiaoGuaiWu_Death.uasset",
+   "source_sha256": "8fc0a74c4673bb6029805a8257a444edc82360dea71453f96931e72f76e053f5"
+  },
+  {
+   "asset_guid": "E98229F1-41BEDBE7-7BCC71B9-A16BFE66",
+   "node_guid": "D62AA0ED-4CE54AB5-DBB849BF-B9D04B94",
+   "flow": "BPF_QuanChiDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "fjzl.击杀.拳痴"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/FuJiZhiLin/BPF_QuanChiDeath.uasset",
+   "source_sha256": "91af82e3b843d731fb48b640ecc8a6abbc3a61a226e3813b0ed8bea3e0229c08"
+  },
+  {
+   "asset_guid": "EBDBD7CF-48B08F9D-F8580A97-491E2082",
+   "node_guid": "5E6BE972-481AD092-04B2BF81-F8602DCF",
+   "flow": "BPF_ZhiGaoZheDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "mgh.击杀.至高者"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/HuXinMiMi/BPF_ZhiGaoZheDeath.uasset",
+   "source_sha256": "0ad3c195be5fe6ca1290264c36dc7c61efc8ded624aabab716c1397dda5d05ad"
+  },
+  {
+   "asset_guid": "EC1F74D7-42F49E7C-1020ACA1-F5E1046C",
+   "node_guid": "14B85987-4312EC07-7D86BFB0-D9732C36",
+   "flow": "BPF_JianOuQiangOu_Death",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "bsmw.剑偶.死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuLiZhiXian/BaiShanMiWen/BPF_JianOuQiangOu_Death.uasset",
+   "source_sha256": "8c313ecb8211581ea4e643129464a22b266aa31aa5f652315f020fc27fe7615c"
+  },
+  {
+   "asset_guid": "FADA191B-447534CB-7EA976B5-BC48745D",
+   "node_guid": "D8649F76-401023C9-A868AD87-D5BA50DA",
+   "flow": "BPF_FuLaoDaDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "xg.击杀.斧老大"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/XiGu/BPF_FuLaoDaDeath.uasset",
+   "source_sha256": "d49a05ea895753c0cb44f7b9659856d52de7b35b39ef6f2d53a9d1f782df27c6"
+  },
+  {
+   "asset_guid": "FF3D8B13-4FFB6788-B526B5BE-6AB31380",
+   "node_guid": "F277FABD-461E4955-65CFC99D-682A758E",
+   "flow": "BPF_JianOuQiangOu_AfterDeath",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "bsmw.剑偶.死亡"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuLiZhiXian/BaiShanMiWen/BPF_JianOuQiangOu_AfterDeath.uasset",
+   "source_sha256": "f62546db3d83210031fb8bdd2e6327214f1dba650c59f47b8a40830f3bc631a4"
+  },
+  {
+   "asset_guid": "50F842E8-4DB59F05-4B57E094-CC5F3625",
+   "node_guid": "C97954E3-485F6E02-3AADC3B1-C02A7AE1",
+   "flow": "BPF_ZhuoBiDead",
+   "node_type": "SetExcuteType_C",
+   "tags": [
+    "ljc.拙壁.击杀拙壁"
+   ],
+   "source_package": "ProjectPBZ/Content/PBZContent/Blueprint/FlowGraph/QuestFlowGraph/DuLiZhiXian/BaiShanMiWen/BPF_ZhuoBiDead.uasset (CUE4Parse JSON export sha256)",
+   "source_sha256": "6b7d9ddb982bf0863721144577bd8fbd152213d81c57934b33b35016a743b0a7"
+  }
+ ],
+ "branch_decisions": [
+  {
+   "flow": "BPF_HengDaoKeChuChang",
+   "asset_guid": "487E0631-46860997-76A6F5A4-51E63030",
+   "tags": [
+    "ddsd.击杀.横刀客"
+   ],
+   "verdict": "not_selected",
+   "watch": "5510278B-451C51F9-6D5F66BD-CACE8279",
+   "roots": [
+    {
+     "guid": "8E00F7DE-40A71E87-603E4CB6-576CA290",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuangXingZi_Bell",
+   "asset_guid": "502D6DD6-4500F4B6-71607C93-ABF3EC0D",
+   "tags": [
+    "ddsd.荒行子.返回宗祠"
+   ],
+   "verdict": "not_selected",
+   "watch": "A95BC33A-43CF27E1-A06576B9-510D9E72",
+   "roots": [
+    {
+     "guid": "ACF2705A-452895AC-7F44D1A3-D5BF6298",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuangXingZi_idle",
+   "asset_guid": "25D4F852-4B9D0FC1-75A17795-5DCCE232",
+   "tags": [
+    "ddsd.荒行子.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "6E3DA7B1-447D31AB-3941FFAF-6E7F16FC",
+   "roots": [
+    {
+     "guid": "FC412C8F-43D3C0CA-C166FCA2-81449BE4",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuangXingZiDeath_2",
+   "asset_guid": "5A172E51-4BC46B4C-5E808EB1-51B421BF",
+   "tags": [
+    "ddsd.荒行子.返回宗祠"
+   ],
+   "verdict": "not_selected",
+   "watch": "DFE026F4-45ADCF16-7EB6B2A5-0AC1DA80",
+   "roots": []
+  },
+  {
+   "flow": "BPF_HuangXingZiDeath_2",
+   "asset_guid": "5A172E51-4BC46B4C-5E808EB1-51B421BF",
+   "tags": [
+    "ddsd.击杀.荒行子2"
+   ],
+   "verdict": "terminal",
+   "watch": "8F85E2AE-4C824EC8-C81EAE98-CDD63E4D",
+   "roots": [
+    {
+     "guid": "51D31A15-4E36DF28-465A9B9C-20F88F78",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "51D31A15-4E36DF28-465A9B9C-20F88F78"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_HuangXingZiDeath",
+   "asset_guid": "341AC05B-43932C06-D582A98A-6CC58020",
+   "tags": [
+    "ddsd.击杀.荒行子1",
+    "ddsd.击杀.玉面",
+    "ddsd.玉面.完成任务"
+   ],
+   "verdict": "transition",
+   "watch": "5BAC2199-4AAA0CD6-EB8BC796-B8D77D92",
+   "roots": [
+    {
+     "guid": "D2D1193A-4426FF40-60AB1D8E-ED2053AC",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuangXingZiDeath",
+   "asset_guid": "341AC05B-43932C06-D582A98A-6CC58020",
+   "tags": [
+    "ddsd.击杀.荒行子1"
+   ],
+   "verdict": "transition",
+   "watch": "CC987423-4682042B-0FDA0586-740CD554",
+   "roots": []
+  },
+  {
+   "flow": "BPF_HuangXingZiFeidie",
+   "asset_guid": "04F916F6-4FB92716-05982189-AD7E14A2",
+   "tags": [
+    "ddsd.荒行子.二阶段"
+   ],
+   "verdict": "not_selected",
+   "watch": "00085696-49AA67AF-57E51C94-719E04A5",
+   "roots": [
+    {
+     "guid": "8063250A-40ECEB2A-F9AD97A3-90C85753",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuangXingZiFeidie",
+   "asset_guid": "04F916F6-4FB92716-05982189-AD7E14A2",
+   "tags": [
+    "ddsd.击杀.荒行子2"
+   ],
+   "verdict": "not_selected",
+   "watch": "D6655361-4159BA28-D0C92D93-AEEA2127",
+   "roots": [
+    {
+     "guid": "07F5C590-4025ABDA-86B784B9-7822F04E",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LiZheChuChang—Preload",
+   "asset_guid": "E1B64FE1-4706F236-2FDF27A1-7B31F970",
+   "tags": [
+    "ddsd.力者.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "C6E223E2-49D756A7-5FC5A3AA-625A7E03",
+   "roots": [
+    {
+     "guid": "9F24BDFB-4A484C27-D9B77EB3-83C46AA0",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LiZheChuChang",
+   "asset_guid": "216B5963-49E0DB7C-CA6AEBA4-5DA9D383",
+   "tags": [
+    "ddsd.力者.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "B37AE057-44DFF5F4-93BC4EB7-B381BDFB",
+   "roots": [
+    {
+     "guid": "E29C135E-4B990C3C-350A0CA7-A1E6015C",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LiZheChuChangView",
+   "asset_guid": "A2A928AB-4E868BEB-BF690991-6EA6A07A",
+   "tags": [
+    "ddsd.力者.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "663A2C41-49625755-3B2ECDA5-B2333B58",
+   "roots": [
+    {
+     "guid": "60F6B197-40679343-C3019EB6-06C0AEED",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_TeleToHuangXingZiFeidie",
+   "asset_guid": "18C01AFC-48A6D9F2-D87C1E9C-D9D38CF5",
+   "tags": [
+    "ddsd.荒行子.二阶段"
+   ],
+   "verdict": "not_selected",
+   "watch": "7DD62A91-4925FB21-324B9282-AD388CD6",
+   "roots": [
+    {
+     "guid": "737EB0D1-48064224-225988BC-58F8A472",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_TeleToHuangXingZiFeidie",
+   "asset_guid": "18C01AFC-48A6D9F2-D87C1E9C-D9D38CF5",
+   "tags": [
+    "ddsd.击杀.荒行子2"
+   ],
+   "verdict": "not_selected",
+   "watch": "4AC789FB-4F2DF449-3A87E487-34F7AD9C",
+   "roots": [
+    {
+     "guid": "F275B1C0-48EA451D-9DAF7BB7-EBC023A8",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_TeleToHuangXingZiFeidie",
+   "asset_guid": "18C01AFC-48A6D9F2-D87C1E9C-D9D38CF5",
+   "tags": [
+    "ddsd.击杀.荒行子1",
+    "ddsd.荒行子.二阶段"
+   ],
+   "verdict": "not_selected",
+   "watch": "2AB85670-4572092B-FE4EA7A0-33FD8F01",
+   "roots": [
+    {
+     "guid": "13BC5E15-47646D26-FA778FB9-F4E184A5",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YuMianChuChang",
+   "asset_guid": "3091603D-42FB2037-4E86EC9D-98772F52",
+   "tags": [
+    "ddsd.玉面.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "2B400ADD-427F03DF-344FCEAF-D8E2E7EB",
+   "roots": [
+    {
+     "guid": "B660845A-45488EB0-254555B7-F9E19864",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YuMianDeath",
+   "asset_guid": "7063E375-415A5C69-6970D989-1F523EB0",
+   "tags": [
+    "ddsd.玉面.退场"
+   ],
+   "verdict": "not_selected",
+   "watch": "91BDBA0E-46E58F98-874489A7-3259A9B1",
+   "roots": [
+    {
+     "guid": "E4AA1A39-43A0FD8F-DB245DA8-1B9B4781",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YuMianDeath",
+   "asset_guid": "7063E375-415A5C69-6970D989-1F523EB0",
+   "tags": [
+    "ddsd.击杀.玉面"
+   ],
+   "verdict": "terminal",
+   "watch": "29AC24C7-4EDC6EF1-A1027DB9-FC5F4BF1",
+   "roots": [
+    {
+     "guid": "7BFFC23E-4B79CAA7-475B989B-0A91A905",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "7BFFC23E-4B79CAA7-475B989B-0A91A905"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MuXiaoKui_Trigger",
+   "asset_guid": "983637CD-4746BE2B-47B6C587-5C3D943D",
+   "tags": [
+    "achievment.霜雪正堪行.完成"
+   ],
+   "verdict": "not_selected",
+   "watch": "4AB42D8C-4459A72F-1007A9B9-C7717412",
+   "roots": [
+    {
+     "guid": "77925493-4F193B90-E1CB7191-4DCAF215",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKui",
+   "asset_guid": "CB42EED6-4DD8AB17-0D8845BD-1DF7BB11",
+   "tags": [
+    "dhs.沐小葵.触发对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "D8C87370-49FA7F52-C51628B1-D24F3A7A",
+   "roots": []
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.Boss战.变身"
+   ],
+   "verdict": "not_selected",
+   "watch": "B68ED581-45837DCE-EA952489-7374379B",
+   "roots": [
+    {
+     "guid": "1A9D4D7C-4E909A0F-001D409A-E94C51A1",
+     "type": "ListenPlayerInput_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.击杀.左殇义体二阶段"
+   ],
+   "verdict": "not_selected",
+   "watch": "365DD8A7-47AF5B77-A851A882-AE1EF734",
+   "roots": [
+    {
+     "guid": "63F51EF1-4A1A3663-30F6A892-C3BD1356",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.字幕.出现3"
+   ],
+   "verdict": "not_selected",
+   "watch": "7507A73B-4B24F57A-D8222592-C441EB49",
+   "roots": [
+    {
+     "guid": "A81780A0-475A3747-429050B4-4C9D1DFC",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.字幕.出现2"
+   ],
+   "verdict": "not_selected",
+   "watch": "A4D98F8F-4E774591-CF4565B4-3F70B1D3",
+   "roots": [
+    {
+     "guid": "071AF796-4DD4F78A-B52679B2-2C930ED1",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.Boss战.变身"
+   ],
+   "verdict": "not_selected",
+   "watch": "F899D1F9-4EEF184C-7D909485-A4F72ECD",
+   "roots": [
+    {
+     "guid": "896524EB-4D1214F0-E72A95A3-C507E5F3",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_BigBoss_ZuoShang_Death",
+   "asset_guid": "2C0F2AD0-4938A733-5C18298F-EFBA4A7A",
+   "tags": [
+    "dhs.击杀.左殇义体"
+   ],
+   "verdict": "not_selected",
+   "watch": "ECF72A41-4E19DB23-DE4A73B1-EDA1F22F",
+   "roots": [
+    {
+     "guid": "807E20BA-4477265D-181FF0AC-23DC18CF",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DecisiveNPC_Baichilian1",
+   "asset_guid": "71A15497-45F0A95E-6FC923B2-B62F2695",
+   "tags": [
+    "dhy.迎宾路.第三组表演开始",
+    "dhs.决战前Npc.弦者"
+   ],
+   "verdict": "not_selected",
+   "watch": "2C5AF263-47CCC2D5-D5E5798E-F546749C",
+   "roots": [
+    {
+     "guid": "5507F750-40E7E3B2-7847C380-D3107B58",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DecisiveNPC_Baichilian1",
+   "asset_guid": "71A15497-45F0A95E-6FC923B2-B62F2695",
+   "tags": [
+    "dhy.迎宾路.第三组喊话完成",
+    "dhy.迎宾路.第四组表演开始"
+   ],
+   "verdict": "not_selected",
+   "watch": "4AE6587E-48F5EA1C-A739378B-D1FA208C",
+   "roots": [
+    {
+     "guid": "3188842B-401220B3-6940C2B4-EF64AC82",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DHY_MenghuaVisible",
+   "asset_guid": "08D4D55F-4756980D-2405EE8F-9122D299",
+   "tags": [
+    "dhy.结局.开始结算"
+   ],
+   "verdict": "not_selected",
+   "watch": "AEF4D21F-4AD74DD9-3F6FFB99-1B5CBF30",
+   "roots": [
+    {
+     "guid": "607486C2-4BED13A7-24D775AE-7E3EEA13",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DHY_MenghuaVisible",
+   "asset_guid": "08D4D55F-4756980D-2405EE8F-9122D299",
+   "tags": [
+    "dhy.冷荼入战seq.未完成湖心秘密"
+   ],
+   "verdict": "not_selected",
+   "watch": "54DBF0F3-4E0A5F2D-839651AD-96240B66",
+   "roots": [
+    {
+     "guid": "60A54D37-41681890-CA10CF96-BD611E09",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DHY_MenghuaVisible",
+   "asset_guid": "08D4D55F-4756980D-2405EE8F-9122D299",
+   "tags": [
+    "dhy.冷荼入战seq.完成湖心秘密"
+   ],
+   "verdict": "not_selected",
+   "watch": "D0D17A8B-42AA575C-E6A10E8F-BF342234",
+   "roots": [
+    {
+     "guid": "30BFE539-45F887D5-A3D5D096-270A111F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DHY_MenghuaVisible",
+   "asset_guid": "08D4D55F-4756980D-2405EE8F-9122D299",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "verdict": "not_selected",
+   "watch": "DFFD5C3F-40B8696A-B5C8B9B4-946783D6",
+   "roots": [
+    {
+     "guid": "5318E1DF-4D0F22B9-4D2C6483-E9DCD628",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LengTu_ChuChang",
+   "asset_guid": "1593C9AD-43872C3B-4E6B0EB3-A891F9AA",
+   "tags": [
+    "dhy.结局条件.湖心秘密"
+   ],
+   "verdict": "not_selected",
+   "watch": "5BE63DAB-49E737BB-6DF14F83-C5291CDD",
+   "roots": [
+    {
+     "guid": "ABAD0222-45F94E7D-CA70AEAE-F28DEDF2",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LengTu_ChuChang",
+   "asset_guid": "1593C9AD-43872C3B-4E6B0EB3-A891F9AA",
+   "tags": [
+    "dhy.结局条件.血脉觉醒",
+    "dhy.结局条件.湖心秘密"
+   ],
+   "verdict": "not_selected",
+   "watch": "DC3E0CB3-4A7D03B8-44B0FEBE-FBEBFAE4",
+   "roots": [
+    {
+     "guid": "91D79487-42230678-D3994586-CB34CA3D",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LengTu_ChuChang",
+   "asset_guid": "1593C9AD-43872C3B-4E6B0EB3-A891F9AA",
+   "tags": [
+    "dhy.结局.开始结算"
+   ],
+   "verdict": "not_selected",
+   "watch": "AD667397-45192EFA-8A5E108B-EFD49C64",
+   "roots": [
+    {
+     "guid": "8FAF273B-4DAE13F0-4F9FCFA7-C92BB9BB",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LengTu1Visible",
+   "asset_guid": "9C0704DD-4221C504-8950FCB9-1F4BADFE",
+   "tags": [
+    "dhy.结局.结算完成"
+   ],
+   "verdict": "not_selected",
+   "watch": "0F323720-48C39D83-19CC84B2-7AE42C42",
+   "roots": [
+    {
+     "guid": "374AE68F-48599149-CF4BDE8B-42A00E7B",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhy.结局.影境覆灭"
+   ],
+   "verdict": "not_selected",
+   "watch": "A9F0D267-4063715F-944215A4-CCB0D785",
+   "roots": [
+    {
+     "guid": "3460CAFB-442BEFE6-441F028C-E5899C08",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "verdict": "terminal",
+   "watch": "A39905A0-4DA45827-8CFEFD81-02F3BE12",
+   "roots": [
+    {
+     "guid": "C17DE261-40319173-E5BC8191-D2789D00",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "C17DE261-40319173-E5BC8191-D2789D00"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhy.结局.真龙之躯"
+   ],
+   "verdict": "not_selected",
+   "watch": "B3524396-407368A6-645890A3-6ABE912C",
+   "roots": [
+    {
+     "guid": "B3DE90A2-4D8F627B-502FC299-980D2F66",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "verdict": "terminal",
+   "watch": "B5978D55-4D7AB372-4554A793-6D1BF086",
+   "roots": [
+    {
+     "guid": "CDEFBC9F-46EC3A22-F2020484-A241569B",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "CDEFBC9F-46EC3A22-F2020484-A241569B"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.字幕.出现1"
+   ],
+   "verdict": "not_selected",
+   "watch": "46C2816F-42AF710E-02FB9FB8-18C4118E",
+   "roots": [
+    {
+     "guid": "8193A35A-4A3A1649-F634ADBE-0475FCDC",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "verdict": "terminal",
+   "watch": "41FEB8D3-48B44E08-0E803FA9-5DBA00BF",
+   "roots": [
+    {
+     "guid": "1912366D-41AFB12E-C9BF90BE-41307C6D",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "1912366D-41AFB12E-C9BF90BE-41307C6D"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhy.结局.龙魔决战完美"
+   ],
+   "verdict": "not_selected",
+   "watch": "4096F6DF-4BD84B57-F563428C-1E8B90F1",
+   "roots": [
+    {
+     "guid": "304FEED0-476B06F9-080976B7-CE5435C0",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.冷荼"
+   ],
+   "verdict": "terminal",
+   "watch": "E5DCE217-48811ADC-6E47A1AE-B1267B03",
+   "roots": [
+    {
+     "guid": "402EC9D4-47A1D89B-A0743EBF-BB98DCD0",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "402EC9D4-47A1D89B-A0743EBF-BB98DCD0"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "verdict": "terminal",
+   "watch": "EEC4A03B-4F3A3147-43B54897-5B61DF66",
+   "roots": [
+    {
+     "guid": "14427ACE-49FD0A70-562F9596-7CE7B39E",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "14427ACE-49FD0A70-562F9596-7CE7B39E"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MengHua_Death",
+   "asset_guid": "98976D76-4D04B922-40C5FBA4-878EA9CC",
+   "tags": [
+    "dhs.击杀.梦华"
+   ],
+   "verdict": "terminal",
+   "watch": "D424A917-48249830-60B9EA9B-D986D0A1",
+   "roots": [
+    {
+     "guid": "40017A95-4B415945-2BBB8490-0B6C980A",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "40017A95-4B415945-2BBB8490-0B6C980A"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_TeleportToZuoShang",
+   "asset_guid": "FA58E2EA-4E528408-31480DBD-B3A78244",
+   "tags": [
+    "dhy.左殇.seqs022后"
+   ],
+   "verdict": "not_selected",
+   "watch": "A7AB06A1-46652B84-D7719598-8244E4A0",
+   "roots": [
+    {
+     "guid": "88FF302F-416CA581-09D8C992-A810ACB7",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShang_TheEnd_Chuchang",
+   "asset_guid": "EC57BE17-40765314-CC4284B6-BB6EC2F9",
+   "tags": [
+    "dhy.左殇.seqs023后"
+   ],
+   "verdict": "not_selected",
+   "watch": "978CD11E-4E3719E4-50FCF7B3-E0627BE3",
+   "roots": []
+  },
+  {
+   "flow": "BPF_ZuoShang_TheEnd_Chuchang",
+   "asset_guid": "EC57BE17-40765314-CC4284B6-BB6EC2F9",
+   "tags": [
+    "dhy.左殇.seqs023后"
+   ],
+   "verdict": "not_selected",
+   "watch": "A7A9DB72-4594B988-045ABFB1-96498711",
+   "roots": [
+    {
+     "guid": "3E9FFC86-483740B3-B1C0ED8A-88A5B505",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShang_TheEnd_Chuchang",
+   "asset_guid": "EC57BE17-40765314-CC4284B6-BB6EC2F9",
+   "tags": [
+    "dhy.左殇.seqs023+后"
+   ],
+   "verdict": "not_selected",
+   "watch": "970FA709-4C360034-1821EFA0-BA7E87E5",
+   "roots": [
+    {
+     "guid": "D2233C42-45AC5AB5-7C529AB0-5FA6CEE0",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangBell_visible",
+   "asset_guid": "8EF72FF3-486928E0-A2F75AAE-AF71750A",
+   "tags": [
+    "dhy.左殇.seqs022后"
+   ],
+   "verdict": "not_selected",
+   "watch": "75A44AEF-4644ED9B-D66CD49B-B6EDE564",
+   "roots": [
+    {
+     "guid": "8288BD5D-48390830-78E581A0-D80830CE",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangBell_visible",
+   "asset_guid": "8EF72FF3-486928E0-A2F75AAE-AF71750A",
+   "tags": [
+    "dhy.左殇.seqs022后"
+   ],
+   "verdict": "not_selected",
+   "watch": "A1AF799F-409F6B7D-BB4FEB8D-9E20624E",
+   "roots": [
+    {
+     "guid": "7D9842D7-48A5D003-5293F991-810B0A38",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangBell_visible",
+   "asset_guid": "8EF72FF3-486928E0-A2F75AAE-AF71750A",
+   "tags": [
+    "dhs.击杀.左殇义体"
+   ],
+   "verdict": "not_selected",
+   "watch": "FB6149AA-4E2A30B9-6CDBAF8A-C59C66CB",
+   "roots": [
+    {
+     "guid": "9F4C10B8-4E22DC6E-9C802389-1BE81695",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangDoor_visible",
+   "asset_guid": "076FB6AD-4A53161C-B038C68B-664D9702",
+   "tags": [
+    "dhy.左殇.seqs022后"
+   ],
+   "verdict": "not_selected",
+   "watch": "C1CDD73B-480876FD-BF909D92-23D007E1",
+   "roots": [
+    {
+     "guid": "2F9629D2-478DFBE4-75D1F0AF-4388412B",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangDoor_visible",
+   "asset_guid": "076FB6AD-4A53161C-B038C68B-664D9702",
+   "tags": [
+    "dhs.梦华.seq148后"
+   ],
+   "verdict": "not_selected",
+   "watch": "FDEEFD46-4F89F0E4-3D22CC91-DE6D2F5C",
+   "roots": [
+    {
+     "guid": "CCEC4BA5-4EB9826F-0E036198-26A6769F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangDoor_visible",
+   "asset_guid": "076FB6AD-4A53161C-B038C68B-664D9702",
+   "tags": [
+    "dhs.击杀.左殇义体二阶段"
+   ],
+   "verdict": "not_selected",
+   "watch": "7DF10768-451A9F7B-5A8B9AAD-9677DF5A",
+   "roots": [
+    {
+     "guid": "1A448C3E-49E590B3-B05C1EAD-CC80C19D",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangDoor_visible",
+   "asset_guid": "076FB6AD-4A53161C-B038C68B-664D9702",
+   "tags": [
+    "jhsy.镜花水月.结局传送进入"
+   ],
+   "verdict": "not_selected",
+   "watch": "ABACA5EE-4347A8D9-B2145ABB-BA312DE3",
+   "roots": [
+    {
+     "guid": "25895CFF-4D46F3AA-5E78D1A9-B20CD2F5",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianOuQiangOu_AfterDeath",
+   "asset_guid": "FF3D8B13-4FFB6788-B526B5BE-6AB31380",
+   "tags": [
+    "bsmw.剑偶.死亡"
+   ],
+   "verdict": "terminal",
+   "watch": "39DE3E28-43D75CA5-C1ACCEBD-3DC55C61",
+   "roots": [
+    {
+     "guid": "F277FABD-461E4955-65CFC99D-682A758E",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "F277FABD-461E4955-65CFC99D-682A758E"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_JianOuQiangOu_Death",
+   "asset_guid": "EC1F74D7-42F49E7C-1020ACA1-F5E1046C",
+   "tags": [
+    "quest.幻术琵琶.收集琴头",
+    "quest.幻术琵琶.收集琴弦",
+    "quest.幻术琵琶.收集背板"
+   ],
+   "verdict": "not_selected",
+   "watch": "749FB68E-4718B25C-5D838BB8-54457AC5",
+   "roots": [
+    {
+     "guid": "531FA4BB-4E06CAC6-2D3FF5AA-FE729D08",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianOuQiangOu_Death",
+   "asset_guid": "EC1F74D7-42F49E7C-1020ACA1-F5E1046C",
+   "tags": [
+    "bsmw.剑偶.死亡"
+   ],
+   "verdict": "terminal",
+   "watch": "6C7C09AD-42B3F7A9-92BD25BF-A8D71AF6",
+   "roots": [
+    {
+     "guid": "14B85987-4312EC07-7D86BFB0-D9732C36",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "14B85987-4312EC07-7D86BFB0-D9732C36"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuLengShuangDeath",
+   "asset_guid": "C7A6360E-489D2C3D-F0937A9D-FE66A0FD",
+   "tags": [
+    "bsmw.击杀.乌冷霜",
+    "bsmw.白山派女弟子.第一次对话后"
+   ],
+   "verdict": "terminal",
+   "watch": "AB5FAD8E-472B987A-797E7587-D3543D65",
+   "roots": [
+    {
+     "guid": "C504975C-40F32F11-58E67BBB-9EB6D095",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "C504975C-40F32F11-58E67BBB-9EB6D095"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuLengShuangDeath",
+   "asset_guid": "C7A6360E-489D2C3D-F0937A9D-FE66A0FD",
+   "tags": [
+    "bsmw.击杀.乌冷霜"
+   ],
+   "verdict": "terminal",
+   "watch": "1EECBFA1-49DC8748-780848BE-2D2AE30F",
+   "roots": [
+    {
+     "guid": "251D47D9-40A2424F-91078EB2-BE2900F3",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "251D47D9-40A2424F-91078EB2-BE2900F3"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_JianChiDeath",
+   "asset_guid": "8DAB7C80-43CF55E2-32675587-4E4D9C22",
+   "tags": [
+    "fjzl.击杀.剑痴"
+   ],
+   "verdict": "terminal",
+   "watch": "F8432980-49C18510-595B8CB6-09AE978C",
+   "roots": [
+    {
+     "guid": "8DC77433-4205D5BE-FB73B4A5-50871BBF",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "8DC77433-4205D5BE-FB73B4A5-50871BBF"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MuXiaoKui1_Interact",
+   "asset_guid": "83A9AB74-4C4C8167-EEADCB8D-58031F69",
+   "tags": [
+    "xssl.沐小葵.第一次对话之后"
+   ],
+   "verdict": "not_selected",
+   "watch": "9F26A858-4DEA9E52-9F0D20A9-0AE48784",
+   "roots": [
+    {
+     "guid": "53245E00-4C4BF1F4-70F3BE8F-599008F8",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKui1",
+   "asset_guid": "437E4F2D-41CF8152-505B75A6-D4A2952A",
+   "tags": [
+    "xssl.沐小葵.第一次对话之后"
+   ],
+   "verdict": "not_selected",
+   "watch": "736F845A-473BED94-18B040BE-CADA3780",
+   "roots": [
+    {
+     "guid": "FDF313D0-48C38EF6-DA3F06B9-670008B1",
+     "type": "ListenMonsterEvent_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKui1",
+   "asset_guid": "437E4F2D-41CF8152-505B75A6-D4A2952A",
+   "tags": [
+    "xssl.沐小葵.第一次对话之后"
+   ],
+   "verdict": "not_selected",
+   "watch": "5FD89146-4930EEC7-7CFDE597-64427F9E",
+   "roots": [
+    {
+     "guid": "8A169FF1-41976594-7FE9FC98-EF841D2B",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_NongSheDeath",
+   "asset_guid": "4CD89F3E-41EF7C33-61F2D4A7-2ACA7CC2",
+   "tags": [
+    "fjzl.击杀.弄蛇"
+   ],
+   "verdict": "terminal",
+   "watch": "2EC92822-45CF4519-37528BA8-0CAF6B15",
+   "roots": [
+    {
+     "guid": "2A8E460A-47BE3E06-2EF235B6-47405B14",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "2A8E460A-47BE3E06-2EF235B6-47405B14"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_NongSheDeath",
+   "asset_guid": "4CD89F3E-41EF7C33-61F2D4A7-2ACA7CC2",
+   "tags": [
+    "fjzl.击杀.弄蛇P2"
+   ],
+   "verdict": "transition",
+   "watch": "3B5B2DFB-4CCFB3D0-283B14A7-BDD82732",
+   "roots": [
+    {
+     "guid": "BDEA4A0C-4170D102-F8ED0F86-1262DF76",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_QuanChiChuChang",
+   "asset_guid": "D907F912-4B5E1D92-0972D4AF-37434FD0",
+   "tags": [
+    "fjzl.乱世.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "B0CD93D9-40C7FB54-517694B0-CC461C7B",
+   "roots": [
+    {
+     "guid": "F5E666FA-4B2BF654-28F4A7BE-02853101",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_QuanChiDeath",
+   "asset_guid": "E98229F1-41BEDBE7-7BCC71B9-A16BFE66",
+   "tags": [
+    "fjzl.击杀.拳痴"
+   ],
+   "verdict": "terminal",
+   "watch": "2C7156CC-4B51E495-45DBD096-3DC081A5",
+   "roots": [
+    {
+     "guid": "D62AA0ED-4CE54AB5-DBB849BF-B9D04B94",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "D62AA0ED-4CE54AB5-DBB849BF-B9D04B94"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_SanTouMoOuChuChang",
+   "asset_guid": "1CB7313D-4F8EC360-B1EB779F-0A42012F",
+   "tags": [
+    "xg.三头娃娃.挑战成功",
+    "fjzl.风雪数据层.激活"
+   ],
+   "verdict": "not_selected",
+   "watch": "6A6BE3D6-46892679-FC737FB1-9C033B4F",
+   "roots": [
+    {
+     "guid": "F6BBF7EC-4111EB86-4AD607AF-1825EEE3",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_SanTouMoOuDeath",
+   "asset_guid": "8CEF7BFB-46DCB6E9-71FECBB8-F5F39AD3",
+   "tags": [
+    "fjzl.三头魔偶.死亡"
+   ],
+   "verdict": "transition",
+   "watch": "AF87B8DC-499F7256-99816394-B5A1ECAF",
+   "roots": [
+    {
+     "guid": "1D462709-43E7B189-4E9DE0B5-B086B5EB",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_SanTouMoOuDeath",
+   "asset_guid": "8CEF7BFB-46DCB6E9-71FECBB8-F5F39AD3",
+   "tags": [
+    "fjzl.三头魔偶.p2"
+   ],
+   "verdict": "transition",
+   "watch": "2C210354-46D1717C-7EB0499D-32719B11",
+   "roots": [
+    {
+     "guid": "7F2970B8-4E7596BA-64DAA8AC-C410A834",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_SanTouMoOuDeath",
+   "asset_guid": "8CEF7BFB-46DCB6E9-71FECBB8-F5F39AD3",
+   "tags": [
+    "fjzl.三头魔偶.p3"
+   ],
+   "verdict": "not_selected",
+   "watch": "143606F5-4732610A-D7A195A8-F58E37DA",
+   "roots": [
+    {
+     "guid": "D83873FF-40E31CEF-A0EC22BD-5811D61C",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDang_Npc_JYX",
+   "asset_guid": "9DC34E7D-44E19915-0043D6A9-2816048A",
+   "tags": [
+    "quest.任务中断.进入青蛇屋外围"
+   ],
+   "verdict": "not_selected",
+   "watch": "B6A27828-4EFBACEA-2E57D998-83DB0022",
+   "roots": [
+    {
+     "guid": "DCF73B06-4B5B48BD-E2FF1990-D9B8063E",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDang_Npc_JYX",
+   "asset_guid": "9DC34E7D-44E19915-0043D6A9-2816048A",
+   "tags": [
+    "pz.景炀轩.雷当第一次对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "F759D2D4-41AD36C6-5E73DFB1-02880D32",
+   "roots": [
+    {
+     "guid": "06E0B9F0-448AC971-A70EF7B6-2D5FE6C3",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DuoLuoJiangJun_Death",
+   "asset_guid": "35E84737-4120D33C-537C47B2-87FBCBC7",
+   "tags": [
+    "pz.击杀.堕落将军"
+   ],
+   "verdict": "terminal",
+   "watch": "29C6E335-4A738135-1B289D86-3AE60017",
+   "roots": [
+    {
+     "guid": "3704DDCA-4F2A5494-34ABD0BE-BA0CF176",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "3704DDCA-4F2A5494-34ABD0BE-BA0CF176"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_Wushi_Bell",
+   "asset_guid": "9A37A431-479F0FB7-FE55BDBA-8E8355C0",
+   "tags": [
+    "jyzh.左殇冷荼初遇.显示"
+   ],
+   "verdict": "not_selected",
+   "watch": "4A0C8936-4F985CA3-9870EF9C-51FAAA7E",
+   "roots": [
+    {
+     "guid": "460BDAFB-46ADCCA8-03BB81B1-1991DACE",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_Wushi_Bell",
+   "asset_guid": "9A37A431-479F0FB7-FE55BDBA-8E8355C0",
+   "tags": [
+    "jyzh.左殇冷荼初遇.显示"
+   ],
+   "verdict": "not_selected",
+   "watch": "00325503-4A26A00E-FD8F36B4-83EDC9CF",
+   "roots": [
+    {
+     "guid": "0FCF2F7C-4C73905C-3DCFF084-61D78DB1",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_Wushi_Bell",
+   "asset_guid": "9A37A431-479F0FB7-FE55BDBA-8E8355C0",
+   "tags": [
+    "jyzh.左殇冷荼初遇.显示"
+   ],
+   "verdict": "not_selected",
+   "watch": "76D84345-4C33655B-851513BF-DDA49376",
+   "roots": [
+    {
+     "guid": "8509F17B-40DBDCF0-7C580387-07830915",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_XiaoWuShi_Death",
+   "asset_guid": "B35FF5F6-44C8FB51-6048F2AB-F3F2F37B",
+   "tags": [
+    "pz.舞狮.小舞狮已死"
+   ],
+   "verdict": "not_selected",
+   "watch": "92F605CB-48B3F791-E26002BF-D34696FE",
+   "roots": [
+    {
+     "guid": "3E334754-467C9F39-42525DBA-3F7D2677",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YouLong_No2_Death",
+   "asset_guid": "2907262D-483561D1-A2C44190-A110A5F6",
+   "tags": [
+    "pz.击杀.游龙二帮主"
+   ],
+   "verdict": "terminal",
+   "watch": "242FAEDB-451DB5BF-2F236A88-5C17B83F",
+   "roots": [
+    {
+     "guid": "994932B8-418364F0-EA85AAAF-40ECFC32",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "994932B8-418364F0-EA85AAAF-40ECFC32"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_AnBianMuXiaoKui",
+   "asset_guid": "512956DF-4C60F7C5-843CE790-893B7F7C",
+   "tags": [
+    "ljc.沐小葵.沐小葵出场镜头开始"
+   ],
+   "verdict": "not_selected",
+   "watch": "C090C51B-44A4D1F0-20FEED92-10668823",
+   "roots": [
+    {
+     "guid": "627C6902-4C0E80E0-688506BA-C458CECD",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKui_OnTheBoat",
+   "asset_guid": "78F5F5E1-446420FF-E0A89296-18BC57AB",
+   "tags": [
+    "ljc.沐小葵.显示船上小葵"
+   ],
+   "verdict": "not_selected",
+   "watch": "B77A0B4A-4A71877E-777502B2-CF5EAF76",
+   "roots": [
+    {
+     "guid": "DF1856CC-4C0884B2-DA9938A0-867A2FC3",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKui_OnTheBoat",
+   "asset_guid": "78F5F5E1-446420FF-E0A89296-18BC57AB",
+   "tags": [
+    "ljc.沐小葵.玉妖铁鬼死亡",
+    "ljc.沐小葵.满足额外剧情条件"
+   ],
+   "verdict": "not_selected",
+   "watch": "69986E97-41B2B1CE-EB574F8C-97830048",
+   "roots": [
+    {
+     "guid": "B1F1B429-4FBE756E-FA3A029B-E10F4BFA",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "tags": [
+    "ljc.沐小葵.最终形态击杀",
+    "ljc.沐小葵.满足额外剧情条件"
+   ],
+   "verdict": "terminal",
+   "watch": "2E691A85-4CBB0187-8BE45188-792A6525",
+   "roots": [
+    {
+     "guid": "373FF6EF-420EE840-AC9F45B6-02D7ABFE",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "373FF6EF-420EE840-AC9F45B6-02D7ABFE"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "tags": [
+    "hp.击杀.沐小葵"
+   ],
+   "verdict": "transition",
+   "watch": "1FEBF732-4EC29F7F-FD3C3A83-D5DDAC4B",
+   "roots": [
+    {
+     "guid": "97EAE3E5-43AA6380-28BFCCA4-FA862993",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "tags": [
+    "ljc.沐小葵.血量降低到25",
+    "ljc.沐小葵.满足额外剧情条件"
+   ],
+   "verdict": "not_selected",
+   "watch": "C23C79A8-40DF9002-64651C89-37F6B84A",
+   "roots": [
+    {
+     "guid": "62205523-4BCA3029-93E1CB81-4D62250F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "tags": [
+    "ljc.沐小葵.玉妖铁鬼死亡",
+    "ljc.沐小葵.满足额外剧情条件"
+   ],
+   "verdict": "terminal",
+   "watch": "3947E95F-4CE79C1E-0C7B109D-098695D3",
+   "roots": [
+    {
+     "guid": "6DB86C26-4B1D7159-836E2A8D-34B3DFE3",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "6DB86C26-4B1D7159-836E2A8D-34B3DFE3"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MuXiaoKuiDeath",
+   "asset_guid": "0F1DD2A9-4B925553-761C6F9F-2E2C9EDB",
+   "tags": [
+    "hp.击杀.沐小葵二阶段"
+   ],
+   "verdict": "terminal",
+   "watch": "7D45BE98-40779A75-F26AA3B2-3B50CA0D",
+   "roots": [
+    {
+     "guid": "F17C3EAE-45A3DE95-632140B6-EF499717",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "F17C3EAE-45A3DE95-632140B6-EF499717"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MuXiaoKuiSiDai",
+   "asset_guid": "2F08B4FF-4DC852DB-D8DDCB93-D2B09DC8",
+   "tags": [
+    "ljc.沐小葵.获得丝带1",
+    "ljc.沐小葵.获得丝带2",
+    "ljc.沐小葵.获得丝带3",
+    "ljc.沐小葵.获得丝带5"
+   ],
+   "verdict": "not_selected",
+   "watch": "0F3E7B26-44A18EC2-7DA4AD93-E827BB80",
+   "roots": [
+    {
+     "guid": "B93F65E3-45F85153-AE543CA0-EF670807",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DangHuiChuChang",
+   "asset_guid": "AC4A1B43-469C5985-89B332BC-E54A2228",
+   "tags": [
+    "ljc.弃尸坑道.出场seq播放结束"
+   ],
+   "verdict": "not_selected",
+   "watch": "B4DF8486-4A7E1FAC-C55C87AB-9B5698F1",
+   "roots": [
+    {
+     "guid": "321FD0D7-4244716F-A99F4C94-61B5121E",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DangHuiDeath",
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "tags": [
+    "ljc.击杀.荡秽"
+   ],
+   "verdict": "terminal",
+   "watch": "D05055E9-45BB66D9-BD30A19B-0CC44A9B",
+   "roots": [
+    {
+     "guid": "4F1875FD-450841CA-DFD491BA-43C2CF18",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "4F1875FD-450841CA-DFD491BA-43C2CF18"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_DangHuiDeath",
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "tags": [
+    "ljc.击杀.荡秽对话结束"
+   ],
+   "verdict": "terminal",
+   "watch": "0DB93222-4EB8E63A-59E0FC84-2980A2D5",
+   "roots": [
+    {
+     "guid": "107D02BC-48976EA8-F186C18A-21B720C5",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "107D02BC-48976EA8-F186C18A-21B720C5"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_DangHuiDeath",
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "tags": [
+    "ljc.击杀.荡秽对话"
+   ],
+   "verdict": "terminal",
+   "watch": "AC0E27EA-4A85F448-336174BC-46C611C8",
+   "roots": [
+    {
+     "guid": "17AFD18A-4178A27E-7539D493-70ABC972",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "17AFD18A-4178A27E-7539D493-70ABC972"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_DangHuiDeath",
+   "asset_guid": "4D24A09A-417A6D67-7C0ED7A1-925E2DD8",
+   "tags": [
+    "ljc.击杀.荡秽对话"
+   ],
+   "verdict": "terminal",
+   "watch": "36EE3817-442A8A36-FB31338E-43624CEA",
+   "roots": [
+    {
+     "guid": "C5AB1E1E-44373620-068D6C9C-BF5D8B2C",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "C5AB1E1E-44373620-068D6C9C-BF5D8B2C"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_FengXueDaoKe_Death",
+   "asset_guid": "40513B8A-42CAA2B0-D1CABFB8-8C09612D",
+   "tags": [
+    "dhs.击杀.风雪刀客"
+   ],
+   "verdict": "terminal",
+   "watch": "8BF2C1E0-4496D793-AAC37EAA-08C664DD",
+   "roots": [
+    {
+     "guid": "2C5F5D74-4F54FDB8-796A36AE-18769D7A",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "2C5F5D74-4F54FDB8-796A36AE-18769D7A"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_ZhiGaoZhe_ChuChang",
+   "asset_guid": "1BA47278-4F8977C4-4C03E7B2-7C5BE41F",
+   "tags": [
+    "mgh.至高者.开场"
+   ],
+   "verdict": "not_selected",
+   "watch": "75758CB2-41FD7813-9193F1A5-AE39FC44",
+   "roots": [
+    {
+     "guid": "0A0E162C-46996CA1-77FF7787-3B9FAFA7",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZhiGaoZheDeath",
+   "asset_guid": "EBDBD7CF-48B08F9D-F8580A97-491E2082",
+   "tags": [
+    "mgh.击杀.至高者"
+   ],
+   "verdict": "terminal",
+   "watch": "7211C510-4A64CDDF-D914FF92-FD21A8DD",
+   "roots": [
+    {
+     "guid": "5E6BE972-481AD092-04B2BF81-F8602DCF",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "5E6BE972-481AD092-04B2BF81-F8602DCF"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_ShuangJianBiFengDeath",
+   "asset_guid": "D584CB26-4F1E4320-F4C87DBA-BCFAE367",
+   "tags": [
+    "pz.击杀.双锏毕锋"
+   ],
+   "verdict": "terminal",
+   "watch": "67CEB799-445514D6-AF948B80-211869E3",
+   "roots": [
+    {
+     "guid": "58247BF2-49552415-A3C2BFBF-96131328",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "58247BF2-49552415-A3C2BFBF-96131328"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_XuKong_Death",
+   "asset_guid": "AFBEF5E6-4E8B5E1B-06FB2893-7B49173B",
+   "tags": [
+    "jhsy.镜花水月.结局传送进入",
+    "dhy.结局.影境覆灭"
+   ],
+   "verdict": "not_selected",
+   "watch": "850FBDF7-4D59D4C0-7ABDE8A0-DCBB3BBF",
+   "roots": [
+    {
+     "guid": "1D944350-428C444B-4462A88E-12479227",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_XuKong_Death",
+   "asset_guid": "AFBEF5E6-4E8B5E1B-06FB2893-7B49173B",
+   "tags": [
+    "jhsy.镜花水月.结局虚空死亡"
+   ],
+   "verdict": "terminal",
+   "watch": "7F5A4A6A-47B24472-D6C58194-EC60D738",
+   "roots": [
+    {
+     "guid": "0A506278-490D7019-1A60C39E-3291F624",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ],
+   "blueprint_frontier": [
+    "E99EFA76-48481C59-9E5E3C8E-6531CFD1",
+    "9DE80398-4CDCE024-8257809E-04DEE6FB",
+    "EFFF8951-458D3E5B-F2F33FAA-243A6C2D"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_RenOuCanHaiDeath",
+   "asset_guid": "B18F041E-4F0697F1-B2E37687-16429650",
+   "tags": [
+    "ljc.击杀.人偶残骸"
+   ],
+   "verdict": "terminal",
+   "watch": "F0EE9F0F-423D458C-EFA004A6-007C45AF",
+   "roots": [
+    {
+     "guid": "C3BE45F0-45916452-B98DE08B-70983DA5",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "C3BE45F0-45916452-B98DE08B-70983DA5"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_LiftSwitch_MuXiaoKui",
+   "asset_guid": "88509BE6-4C8D376C-A52CA699-7B9F9F89",
+   "tags": [
+    "ljc.梦差密室.开始电梯下降"
+   ],
+   "verdict": "not_selected",
+   "watch": "1C7308D4-4DC06377-C9732B87-A8DF848A",
+   "roots": [
+    {
+     "guid": "4A6F4054-496C757A-6B7FB487-A939488E",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LiftSwitch_MuXiaoKui",
+   "asset_guid": "88509BE6-4C8D376C-A52CA699-7B9F9F89",
+   "tags": [
+    "ljc.沐小葵.电梯垮塌可被激活"
+   ],
+   "verdict": "not_selected",
+   "watch": "C2BC27B6-4BC56EDE-540BE990-71388D25",
+   "roots": [
+    {
+     "guid": "DE77624C-4B1194F0-8A939294-8E952443",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HongYiGuiChai_ChuChang",
+   "asset_guid": "90CDA5E6-4F5D241B-E89B7F90-DAAEBA02",
+   "tags": [
+    "pz.击杀.红衣鬼差P2"
+   ],
+   "verdict": "not_selected",
+   "watch": "15E9E971-4E72E544-CB71EB9D-65A9097F",
+   "roots": [
+    {
+     "guid": "4AA00D9B-44DEB552-D0378B83-96813726",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HongYiGuiChai_Death",
+   "asset_guid": "1D6432D2-4AD9D5FB-1EDF6E9E-4D58FCDC",
+   "tags": [
+    "pz.击杀.红衣鬼差P2"
+   ],
+   "verdict": "terminal",
+   "watch": "B5945CC4-4C606338-0EC5BEA6-958F4E20",
+   "roots": [
+    {
+     "guid": "C8513018-4134B378-752F4B9C-6362B954",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "C8513018-4134B378-752F4B9C-6362B954"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_HongYiGuiChai_Death",
+   "asset_guid": "1D6432D2-4AD9D5FB-1EDF6E9E-4D58FCDC",
+   "tags": [
+    "pz.击杀.红衣鬼差P1"
+   ],
+   "verdict": "transition",
+   "watch": "7B574C8D-4FE19F68-B7FEAFAE-A72431F7",
+   "roots": [
+    {
+     "guid": "18D0291A-4F968C2E-8EBE8CA7-91DD7D48",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HongYiGuiChai_Death",
+   "asset_guid": "1D6432D2-4AD9D5FB-1EDF6E9E-4D58FCDC",
+   "tags": [
+    "pz.火流星.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "A5D63336-42AB680E-91A28CA6-318159CC",
+   "roots": [
+    {
+     "guid": "C97240E6-4BDFCC12-3F9B04B3-41FD6138",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YouLong_Death",
+   "asset_guid": "8C7D4C50-4CCBB460-F5DA089C-C09B0850",
+   "tags": [
+    "pz.击杀.游龙帮主"
+   ],
+   "verdict": "terminal",
+   "watch": "8654333A-4F6D44D1-5B5298AE-041DED8C",
+   "roots": [
+    {
+     "guid": "576B01F4-46D95E1D-DF46EC8C-3A4FF019",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "576B01F4-46D95E1D-DF46EC8C-3A4FF019"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_YanQianSuiDeath",
+   "asset_guid": "74781983-4E8C2A3A-76D84D8A-5B9A0C7C",
+   "tags": [
+    "mgxl.击杀.烟千岁"
+   ],
+   "verdict": "terminal",
+   "watch": "B6D9E7FC-4C1C8448-1949BCB5-5650E7A4",
+   "roots": [
+    {
+     "guid": "391DC048-42BD5F26-E3F73A87-3CBF3ACA",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "391DC048-42BD5F26-E3F73A87-3CBF3ACA"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_DHS_SuiHanDeath",
+   "asset_guid": "4F7C3F9A-479441C6-FFFB1D97-EC09FEBC",
+   "tags": [
+    "mfzf.击杀.寒岁"
+   ],
+   "verdict": "terminal",
+   "watch": "E9542662-41663CEC-232CCC8A-02A7DC12",
+   "roots": [
+    {
+     "guid": "3222E939-40047F1F-44135AAD-C678A433",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "3222E939-40047F1F-44135AAD-C678A433"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_LJC_YanRuChuChang",
+   "asset_guid": "4910C436-4A1EDAF0-6A036C8D-42FB67E2",
+   "tags": [
+    "mfzf.陆家村.稻草人1"
+   ],
+   "verdict": "not_selected",
+   "watch": "49E1258C-4EFEA744-ADDC4EB5-C6152543",
+   "roots": [
+    {
+     "guid": "A630DF7D-4304E9BD-464B2D98-2F836840",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LJC_YanRuDeath",
+   "asset_guid": "43B2824F-46872C0A-BBD46295-B239DD6B",
+   "tags": [
+    "mfzf.击杀.炎茹"
+   ],
+   "verdict": "terminal",
+   "watch": "A8D1787A-4CF13D90-3FC076A8-CC47D1EE",
+   "roots": [
+    {
+     "guid": "095B46F1-44E9DD07-2D5F50B8-08AEC15C",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "095B46F1-44E9DD07-2D5F50B8-08AEC15C"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_MGH_GuheDeath",
+   "asset_guid": "4DA1AA3D-4D8EC587-8A029C84-B153C1DF",
+   "tags": [
+    "mfzf.击杀.蛊鹤"
+   ],
+   "verdict": "terminal",
+   "watch": "CBB736FC-47342AAE-466A5686-9A63461E",
+   "roots": [
+    {
+     "guid": "D0C747B1-4375C9FD-EB8D6CB4-20850096",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "D0C747B1-4375C9FD-EB8D6CB4-20850096"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_YDZZ_LeiTingChuChang",
+   "asset_guid": "BFFD0700-4BDFD5D5-B4D2B88E-F8753C2A",
+   "tags": [
+    "mfzf.隐遁沼泽.稻草人1"
+   ],
+   "verdict": "not_selected",
+   "watch": "B765F25A-4D4BC2B3-8048FFB6-F41B8E62",
+   "roots": [
+    {
+     "guid": "5EE729A3-47BAFE81-9911DAA5-6755072F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_YDZZ_LeiTingDeath",
+   "asset_guid": "A8BD1ACC-40538EB3-1AC03CBC-5A1D34CA",
+   "tags": [
+    "mfzf.击杀.雷婷"
+   ],
+   "verdict": "terminal",
+   "watch": "414CBE23-406B88B0-381E7A8D-48BA4A60",
+   "roots": [
+    {
+     "guid": "F9A21D48-49C4A673-149DF7B0-7255CEB4",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "F9A21D48-49C4A673-149DF7B0-7255CEB4"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_GuWanYueChuChang",
+   "asset_guid": "BC066332-4E1E53E4-AA2011B1-4A4CEA92",
+   "tags": [
+    "pz.击杀.骨婉约"
+   ],
+   "verdict": "not_selected",
+   "watch": "B3E92864-459FF066-E226F18D-46FD4598",
+   "roots": [
+    {
+     "guid": "16591A66-4A44B9FA-274A2191-B8BDE1CA",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_HuoDaoDuiZhuang_Death",
+   "asset_guid": "509E8645-4087B439-C0B0AA97-2912500B",
+   "tags": [
+    "pz.杀气塔.击杀火刀队长"
+   ],
+   "verdict": "terminal",
+   "watch": "FF55FB07-4FDC5C6D-74AB6396-842C8A43",
+   "roots": [
+    {
+     "guid": "82F0DCD1-455BFF29-CA901995-C29815EB",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "82F0DCD1-455BFF29-CA901995-C29815EB"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuShiDaMen",
+   "asset_guid": "6BC724AC-41302FC5-BB6D77A0-02860469",
+   "tags": [
+    "pz.舞狮.获得舞狮馆钥匙"
+   ],
+   "verdict": "not_selected",
+   "watch": "3F5953F2-4F9D70B0-7A6D34AB-462E0B64",
+   "roots": [
+    {
+     "guid": "9A56D4AD-43756D5F-3A168D8E-14E0CD46",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShiDeath_MemoryEnd",
+   "asset_guid": "62DA4836-44FD1346-176EE396-475444A7",
+   "tags": [
+    "jyzh.左殇冷荼初遇.结束"
+   ],
+   "verdict": "not_selected",
+   "watch": "D9784D56-4B0BD25C-4BB129B5-CBFBB3AA",
+   "roots": [
+    {
+     "guid": "ECDF7034-473D9645-D493E49C-2CCC67D3",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShiDeath_MemoryEnd",
+   "asset_guid": "62DA4836-44FD1346-176EE396-475444A7",
+   "tags": [
+    "jyzh.左殇冷荼初遇.显示"
+   ],
+   "verdict": "not_selected",
+   "watch": "1C54938F-49403EA9-09991C8C-F7BC731B",
+   "roots": [
+    {
+     "guid": "F0EFCB34-430B7C8F-0AFCEFBB-4694D4B8",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShiDeath_MemoryStart",
+   "asset_guid": "BC239D2B-46025C93-2A4C738D-1B149C6F",
+   "tags": [
+    "jyzh.左殇冷荼初遇.开始"
+   ],
+   "verdict": "not_selected",
+   "watch": "C51060B9-4513B906-B409C58D-6B6EFF82",
+   "roots": [
+    {
+     "guid": "CF0D3F10-4897098C-3EC9D4B4-E8B262B5",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangShuFang_Seq_Bell",
+   "asset_guid": "5F46A282-4C5027A3-DF9D17AD-423AE61F",
+   "tags": [
+    "pz.庞镇.到达"
+   ],
+   "verdict": "not_selected",
+   "watch": "55118054-414D4DDD-898C97A4-DEAFF5E3",
+   "roots": [
+    {
+     "guid": "A4368A74-4DD19C00-C461E884-DA67812D",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangShuFang_Seq_Bell",
+   "asset_guid": "5F46A282-4C5027A3-DF9D17AD-423AE61F",
+   "tags": [
+    "pz.庞镇.到达"
+   ],
+   "verdict": "not_selected",
+   "watch": "57F38248-4E67054C-9AACE1AF-E0AD50A4",
+   "roots": [
+    {
+     "guid": "87C1B3B5-44B4E79B-24138189-B1C9FC2A",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZuoShangShuFang_Seq",
+   "asset_guid": "356E36DE-49CEC4FF-2790AD94-8FCAD1CB",
+   "tags": [
+    "ljc.飞贼密道.传送至庞镇"
+   ],
+   "verdict": "not_selected",
+   "watch": "041BEC4E-470ED67F-86CF94AC-C83C4E72",
+   "roots": [
+    {
+     "guid": "5481E954-45EC39CB-D41AC7A2-C8B83D4D",
+     "type": "FlowNode_ExecutionSequence"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_ChuChang",
+   "asset_guid": "D5F936E6-4417530D-38847DBA-AADB028E",
+   "tags": [
+    "qsd.圣躯心池.分身对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "E7D3C86F-4F9CFFB2-3D0DC2B1-9B974CB2",
+   "roots": [
+    {
+     "guid": "116A0E41-4F8BA0FD-B626EFAD-DCA3F26A",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_Dead",
+   "asset_guid": "5A83E3BE-414C93BF-B735CDBD-CF9D4737",
+   "tags": [
+    "qsd.击杀.雷当二阶段"
+   ],
+   "verdict": "terminal",
+   "watch": "62C5649E-46CD158C-2FFA12B0-0B90DF00",
+   "roots": [
+    {
+     "guid": "F9F1E548-418C647C-8F3FA29A-E3895D0C",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "F9F1E548-418C647C-8F3FA29A-E3895D0C"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_Dead",
+   "asset_guid": "5A83E3BE-414C93BF-B735CDBD-CF9D4737",
+   "tags": [
+    "qsd.击杀.雷当"
+   ],
+   "verdict": "transition",
+   "watch": "C34F7619-4AAC0E38-1FB03397-921B6BB7",
+   "roots": [
+    {
+     "guid": "571B9EEC-4514BDB2-803903B4-818A6C1F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_Dead",
+   "asset_guid": "5A83E3BE-414C93BF-B735CDBD-CF9D4737",
+   "tags": [
+    "qsd.Boss战.记忆之花对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "58CDE8B1-48A101D9-40CBE49D-18F0AC46",
+   "roots": [
+    {
+     "guid": "346B4028-4BB0F43A-C04FB197-9BED4295",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_LeiDang",
+   "asset_guid": "0CFE2ACD-468660EE-C0FA98B5-DBD076A4",
+   "tags": [
+    "XMSZ.圣躯心池.Seqs019开始再次隐藏雷当玉儿站桩"
+   ],
+   "verdict": "not_selected",
+   "watch": "99D34D8A-40A6E164-E8B359A2-377DBA1B",
+   "roots": [
+    {
+     "guid": "6B6800D7-47A07A63-68542796-95E13961",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_LeiDang",
+   "asset_guid": "0CFE2ACD-468660EE-C0FA98B5-DBD076A4",
+   "tags": [
+    "XMSZ.圣躯心池.显示雷当站桩对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "CDE783F1-42C9DB0B-01A09283-26A032DE",
+   "roots": [
+    {
+     "guid": "F23D8EE6-444D07D5-742E4985-032A4F6C",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_LeiDang",
+   "asset_guid": "0CFE2ACD-468660EE-C0FA98B5-DBD076A4",
+   "tags": [
+    "XMSZ.圣躯心池.Seq123-3开始隐藏雷当站桩"
+   ],
+   "verdict": "not_selected",
+   "watch": "E3A33283-4FBDF6AA-8FECF68D-C1806DF0",
+   "roots": [
+    {
+     "guid": "4A5AE254-4F39AA10-890B60B0-80F09E5F",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_YuEr_Normal",
+   "asset_guid": "AC089C8E-43B942BA-482C9E98-8BD2FFA1",
+   "tags": [
+    "qsd.Boss战.结束"
+   ],
+   "verdict": "not_selected",
+   "watch": "50B9ED2A-465AEDFF-33C403B9-1B7A1C74",
+   "roots": [
+    {
+     "guid": "3D090538-428589E0-103D2A9A-9F20E4B2",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_YuEr_Normal",
+   "asset_guid": "AC089C8E-43B942BA-482C9E98-8BD2FFA1",
+   "tags": [
+    "XMSZ.圣躯心池.显示雷当站桩对话"
+   ],
+   "verdict": "not_selected",
+   "watch": "0EA19291-40396F22-8D6FA0B7-1C723205",
+   "roots": [
+    {
+     "guid": "D6C46B6D-44C5D7B6-A9B07491-F89556CC",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LeiDangOrYuer_YuEr",
+   "asset_guid": "714A7987-452CEC15-97C24E90-C34849D8",
+   "tags": [
+    "XMSZ.圣躯心池.Seqs019开始再次隐藏雷当玉儿站桩"
+   ],
+   "verdict": "not_selected",
+   "watch": "1EB69781-49FFCED3-C3FA62A3-C9CD4054",
+   "roots": [
+    {
+     "guid": "1F42C929-463380E8-95FF21BB-32284CC4",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_DuYanGongKe_Death",
+   "asset_guid": "97B7A3BC-42FCBA1F-5091A389-04BEFF88",
+   "tags": [
+    "smrds.击杀.独眼弓客"
+   ],
+   "verdict": "terminal",
+   "watch": "F4E46A9E-435E093E-A09A2886-07D495E8",
+   "roots": [
+    {
+     "guid": "DC7FCEC1-45858F2E-F03B648E-C45D90DB",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "DC7FCEC1-45858F2E-F03B648E-C45D90DB"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_CanGangDeath",
+   "asset_guid": "50B1F871-4CB9BE1D-6D73E99F-3F0EE1FE",
+   "tags": [
+    "ddsd.击杀.残钢"
+   ],
+   "verdict": "terminal",
+   "watch": "A76601E5-44618AFB-9C7BD4B2-1B1943C5",
+   "roots": [
+    {
+     "guid": "3342655C-4A139EBA-1695B284-8365C373",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "3342655C-4A139EBA-1695B284-8365C373"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_FuLaoDaChuChang",
+   "asset_guid": "5B71B5FA-44B46BA5-007FB09C-AA7BD2A6",
+   "tags": [
+    "xg.斧老大.出场"
+   ],
+   "verdict": "not_selected",
+   "watch": "7DBF53A2-4A11073D-5CA9AEA4-CB05363B",
+   "roots": [
+    {
+     "guid": "932AF2A5-47ABF337-A13C9581-41D5B6CA",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_FuLaoDaDeath",
+   "asset_guid": "FADA191B-447534CB-7EA976B5-BC48745D",
+   "tags": [
+    "xg.击杀.斧老大"
+   ],
+   "verdict": "terminal",
+   "watch": "B79F3535-47A847BC-C4349EAE-1E90F8A9",
+   "roots": [
+    {
+     "guid": "D8649F76-401023C9-A868AD87-D5BA50DA",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "D8649F76-401023C9-A868AD87-D5BA50DA"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_RedRopeDeath",
+   "asset_guid": "386CF26C-4008D752-0DF4C9B8-E8DB421A",
+   "tags": [
+    "xg.小支线.红丝暴徒已死"
+   ],
+   "verdict": "not_selected",
+   "watch": "7DA6D092-4747B8C3-AC29A182-B56294AC",
+   "roots": [
+    {
+     "guid": "FBA460EA-45AE1673-94B967A1-8D413F69",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_XinNiang_Death",
+   "asset_guid": "C5B8B2C1-4FE13635-8726AEA1-31E46E0E",
+   "tags": [
+    "xg.击杀.新娘阿花"
+   ],
+   "verdict": "terminal",
+   "watch": "9949ECEA-444FE101-928EF88C-9B67A8D5",
+   "roots": [
+    {
+     "guid": "E723D858-44262CF5-26DDA4B1-9F10A432",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "E723D858-44262CF5-26DDA4B1-9F10A432"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_YuGongKeYingDi_Death",
+   "asset_guid": "2EA217FF-4FDA7B16-9C4E7F84-EAF95E24",
+   "tags": [
+    "xg.羽弓客营地.战斗结束"
+   ],
+   "verdict": "not_selected",
+   "watch": "8E3635F9-42E8AAE3-170CEF99-070AACF3",
+   "roots": [
+    {
+     "guid": "CBD2E1F7-4D7F47A5-B469F992-5ADE5FF8",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZhuiMingDeath",
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "tags": [
+    "xg.击杀.追命"
+   ],
+   "verdict": "transition",
+   "watch": "52CE8DC1-43A3C73A-D1902DAD-A123B368",
+   "roots": [
+    {
+     "guid": "2B132618-485DE089-BF7126A0-2A912116",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ZhuiMingDeath",
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "tags": [
+    "xg.击杀.追命二阶段"
+   ],
+   "verdict": "terminal",
+   "watch": "F2447AF8-4305EB2A-4D45E585-53918A33",
+   "roots": [
+    {
+     "guid": "F02D06C4-443A7BDA-4D031BA8-5C0D61A8",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "F02D06C4-443A7BDA-4D031BA8-5C0D61A8"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_ZhuiMingDeath",
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "tags": [
+    "xg.击杀.追命二阶段"
+   ],
+   "verdict": "terminal",
+   "watch": "17D58030-444E8449-56F9D18D-02A7C024",
+   "roots": [
+    {
+     "guid": "1F82042B-4CBDA1E4-2C984DB9-A23E2DB0",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "1F82042B-4CBDA1E4-2C984DB9-A23E2DB0"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_ZhuiMingDeath",
+   "asset_guid": "32AA6160-46A5EBD3-548DFE97-0D2C616A",
+   "tags": [
+    "xg.击杀.追命二阶段",
+    "xg.杀气塔前.获得羽弓"
+   ],
+   "verdict": "terminal",
+   "watch": "00CDC26F-4B8853C4-6688D8BB-8A588C73",
+   "roots": [
+    {
+     "guid": "86D3DB2B-41C20EDF-823B4CA2-59646D02",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "86D3DB2B-41C20EDF-823B4CA2-59646D02"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuShi_NPC",
+   "asset_guid": "E36F2E22-48B9915C-A929AFA1-F09C6DD6",
+   "tags": [
+    "pz.舞狮.点睛"
+   ],
+   "verdict": "not_selected",
+   "watch": "FA78FF0B-41B96D78-4D34AFB4-5BB32160",
+   "roots": [
+    {
+     "guid": "F51C22AB-481800B9-78B0A188-E744455A",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShi_Visible",
+   "asset_guid": "50A0128C-4D46DDBB-C0B6FAB0-E6583859",
+   "tags": [
+    "pz.舞狮.点睛"
+   ],
+   "verdict": "not_selected",
+   "watch": "74541086-48A266D9-431A5594-22D18AB4",
+   "roots": [
+    {
+     "guid": "9683A563-416A8761-C2736C9A-D22E8D47",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "tags": [
+    "pz.击杀.舞狮尊主烈焰"
+   ],
+   "verdict": "terminal",
+   "watch": "32B6B2ED-4CC864DA-E1AB3496-9BC29F54",
+   "roots": [
+    {
+     "guid": "2E8813B7-42E68329-14580BBA-67214859",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "2E8813B7-42E68329-14580BBA-67214859"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "tags": [
+    "pz.舞狮.结算完成"
+   ],
+   "verdict": "terminal",
+   "watch": "98B8CE4F-42FDE1D7-83CAA096-42A790C1",
+   "roots": [
+    {
+     "guid": "A7D81A9A-427AAE31-82D268BD-43588EDD",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "A7D81A9A-427AAE31-82D268BD-43588EDD"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "tags": [
+    "pz.舞狮.完成任务"
+   ],
+   "verdict": "terminal",
+   "watch": "CD366473-4DB130EC-7BB12BA6-3A65F5E6",
+   "roots": [
+    {
+     "guid": "31E55039-4C565048-56117CA6-B59AEF3D",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "31E55039-4C565048-56117CA6-B59AEF3D"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "tags": [
+    "pz.击杀.舞狮尊主烈焰P1"
+   ],
+   "verdict": "transition",
+   "watch": "2C4B19B6-473EFF38-98A97EBE-E168B3A3",
+   "roots": [
+    {
+     "guid": "B9644A37-4945B81B-555AA5A1-9E8D65DB",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WuShiZunZhu_Death",
+   "asset_guid": "20A8DFD3-4298D9DD-29FB3990-2D342EED",
+   "tags": [
+    "pz.舞狮.结算完成"
+   ],
+   "verdict": "terminal",
+   "watch": "EF624F9D-416968C8-21536786-C28ECDF6",
+   "roots": [
+    {
+     "guid": "27FF88B5-4B3945A4-0DAC5E8A-A8B814B3",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "27FF88B5-4B3945A4-0DAC5E8A-A8B814B3"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_XiPiaoGuaiWu_Death",
+   "asset_guid": "E5D8B5BE-4F964F33-4E0EE19B-9A22F0F3",
+   "tags": [
+    "pz.击杀.戏票怪物P1"
+   ],
+   "verdict": "transition",
+   "watch": "FEE2C463-41E2814E-973B8FBA-0D07C149",
+   "roots": [
+    {
+     "guid": "DB58AB5E-4D3F6A4E-44C85487-B7D11ADB",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_XiPiaoGuaiWu_Death",
+   "asset_guid": "E5D8B5BE-4F964F33-4E0EE19B-9A22F0F3",
+   "tags": [
+    "pz.击杀.戏票怪物"
+   ],
+   "verdict": "terminal",
+   "watch": "C9C3EBB5-43FA1C7F-A2ABE980-210CCED8",
+   "roots": [
+    {
+     "guid": "9E33F3E0-4975E90A-3102F49E-3E96A5B3",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "9E33F3E0-4975E90A-3102F49E-3E96A5B3"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_XMSZ_MemoryFlower_YuCong_3",
+   "asset_guid": "825D9D32-437F6864-F1D840A8-DED80224",
+   "tags": [
+    "qsd.Boss战.获得虎炮"
+   ],
+   "verdict": "not_selected",
+   "watch": "1B0CF073-4F7C464B-404363AE-0A0DCA67",
+   "roots": [
+    {
+     "guid": "ED99F49F-4EECC78C-6D473380-0B242188",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LuJieYuan_LiZhe",
+   "asset_guid": "FB3A52AE-4ED22BEF-BAC8C5A1-2DA4C5CE",
+   "tags": [
+    "dhy.Seq116处决力者.播放结束",
+    "pz2.陆解元.帮忙"
+   ],
+   "verdict": "not_selected",
+   "watch": "2C38171D-42A86982-70038FBC-747C8DBB",
+   "roots": [
+    {
+     "guid": "8B664F1F-435FF48A-789E6592-B318275D",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LuJieYuan_LiZhe",
+   "asset_guid": "FB3A52AE-4ED22BEF-BAC8C5A1-2DA4C5CE",
+   "tags": [
+    "pz2.陆解元.对话后死亡",
+    "dhy.Seq116处决力者.播放结束"
+   ],
+   "verdict": "not_selected",
+   "watch": "B45F751B-455CF31C-48558FA8-F5DBDC84",
+   "roots": [
+    {
+     "guid": "946A9AAE-4BB17BA3-A45238BD-3129E590",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_LuJieYuan_LiZhe",
+   "asset_guid": "FB3A52AE-4ED22BEF-BAC8C5A1-2DA4C5CE",
+   "tags": [
+    "pz2.陆解元.帮忙"
+   ],
+   "verdict": "not_selected",
+   "watch": "038185AC-4743C69D-88638497-F29B300F",
+   "roots": [
+    {
+     "guid": "9A5B4CF3-4803EBB6-EE2C30A3-19761C71",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_ChangHongDeath",
+   "asset_guid": "C69A751C-4DF398E5-9C7A6997-B2A1E2E4",
+   "tags": [
+    "ljc.击杀.长鸿P2"
+   ],
+   "verdict": "terminal",
+   "watch": "EB6CE8F5-4F6D4FF7-84DFFC85-A1A1BB5B",
+   "roots": [
+    {
+     "guid": "98B0F2BE-4D8228FE-9144F1B9-D2228E04",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "98B0F2BE-4D8228FE-9144F1B9-D2228E04"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_ChangHongDeath",
+   "asset_guid": "C69A751C-4DF398E5-9C7A6997-B2A1E2E4",
+   "tags": [
+    "ljc.击杀.长鸿P1"
+   ],
+   "verdict": "transition",
+   "watch": "5CB08146-4CD9C170-D95036B7-28F4463A",
+   "roots": [
+    {
+     "guid": "60C8AB6A-4A3DDE2E-C484198B-37893B5A",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhen_DaSao",
+   "asset_guid": "8171AE69-4CA63823-C566F686-1D30936F",
+   "tags": [
+    "zddy.剑阵.显示记忆之花"
+   ],
+   "verdict": "not_selected",
+   "watch": "6333CEAF-45B9515E-5F2715A5-42696627",
+   "roots": [
+    {
+     "guid": "2B098078-474BF1C6-0901A48F-83EE64F1",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhen_DaShiXiong",
+   "asset_guid": "57980A44-49414B02-AF43DEB7-BE7E9C43",
+   "tags": [
+    "zddy.剑阵.显示记忆之花"
+   ],
+   "verdict": "not_selected",
+   "watch": "3F2C1FDF-40AEFF83-808A078B-6467BA01",
+   "roots": [
+    {
+     "guid": "B323105C-4419D5AF-C8833382-654B3D41",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhen_Memory_0",
+   "asset_guid": "26E4A9EC-42113E91-098CB29F-3EE61054",
+   "tags": [
+    "zddy.剑阵.显示记忆之花"
+   ],
+   "verdict": "not_selected",
+   "watch": "61443CAE-47534AAD-32C1259C-0DBDB5DA",
+   "roots": [
+    {
+     "guid": "6B7BAA29-4D1162B4-E78DDA80-5D61CB90",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhen_Memory_1",
+   "asset_guid": "442B40B1-4968E954-A154D788-60AF6A34",
+   "tags": [
+    "zddy.剑阵.显示记忆之花"
+   ],
+   "verdict": "not_selected",
+   "watch": "A17D155F-408791BD-7B329FB4-A178D2DA",
+   "roots": [
+    {
+     "guid": "EAD72A51-46950B07-FB102583-73301056",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhenDemoMapGuide",
+   "asset_guid": "8AAE9CFB-4CE8E704-ABE7EF85-92EE2DB5",
+   "tags": [
+    "DEMO.JianZhen"
+   ],
+   "verdict": "not_selected",
+   "watch": "248AF7F8-438B0047-10D6BC91-5CBA59AA",
+   "roots": [
+    {
+     "guid": "9D72EB49-444EBC99-1D8DC491-A6C19EA8",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhenDemoStartCamera",
+   "asset_guid": "CA2ACC6A-41B00E2D-665604A2-F12E58DE",
+   "tags": [
+    "DEMO.JianZhen"
+   ],
+   "verdict": "not_selected",
+   "watch": "CB849FED-4AA8DFFF-0F3081B1-A909A592",
+   "roots": [
+    {
+     "guid": "A59AF53D-44BF6614-93B9ED9B-7F861E37",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_JianZhenDemoStartQuest",
+   "asset_guid": "768B2FB9-4AD19883-D564DBB1-76FF8BF4",
+   "tags": [
+    "DEMO.JianZhen"
+   ],
+   "verdict": "not_selected",
+   "watch": "5D56E547-45328C55-3CDDBB9F-1E4802EE",
+   "roots": [
+    {
+     "guid": "388727BB-4904E058-ED3B4A85-E01EBACF",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_WanJunKeDeath",
+   "asset_guid": "8B216648-40A2A39A-29B315BD-E0D7A40B",
+   "tags": [
+    "ljc.击杀.万钧客"
+   ],
+   "verdict": "terminal",
+   "watch": "27A0B61F-497A7C39-90431683-4F1D41AE",
+   "roots": [
+    {
+     "guid": "006E3AAB-4F7DD09E-3DC52390-2E1A0348",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "006E3AAB-4F7DD09E-3DC52390-2E1A0348"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_WanJunKeDeathAfterCamera",
+   "asset_guid": "08570014-4E64ABFA-342C5BB5-9E2F42FB",
+   "tags": [
+    "zddy.运镜.获得金瓜后"
+   ],
+   "verdict": "not_selected",
+   "watch": "EDA12357-43019D66-21ECCFAF-37EF0019",
+   "roots": [
+    {
+     "guid": "90A80960-419FB990-8F679D8E-CC2A59F5",
+     "type": "SetExcuteType_C"
+    }
+   ]
+  },
+  {
+   "flow": "BPF_XiaoXueDeath",
+   "asset_guid": "1FDEF10C-4B7BA700-B94D889A-DE1FEA9E",
+   "tags": [
+    "ljc.击杀.小雪"
+   ],
+   "verdict": "terminal",
+   "watch": "71AC88A4-4D03C143-61C2459B-9FCDEFFC",
+   "roots": [
+    {
+     "guid": "E97E7D76-404CCECF-40C63C96-381A24E0",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "E97E7D76-404CCECF-40C63C96-381A24E0"
+   ],
+   "native_before_frontier": []
+  },
+  {
+   "flow": "BPF_YuZanDeath",
+   "asset_guid": "C182A569-4BB6069D-134374BA-443DA6B7",
+   "tags": [
+    "ljc.击杀.玉瓒"
+   ],
+   "verdict": "terminal",
+   "watch": "8BAA4E58-4497A9B1-23BA5D88-85C8AD3D",
+   "roots": [
+    {
+     "guid": "9B4B0C35-44263443-9377C4BA-AD0F96FA",
+     "type": "SetExcuteType_C"
+    }
+   ],
+   "blueprint_frontier": [
+    "9B4B0C35-44263443-9377C4BA-AD0F96FA"
+   ],
+   "native_before_frontier": []
+  }
+ ],
+ "limitations": [
+  "No inferred terminal rule for ambiguous final-boss forms. Native-only effects before a Blueprint frontier remain explicitly listed."
+ ]
+}

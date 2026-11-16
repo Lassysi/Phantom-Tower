@@ -1,0 +1,267 @@
+{
+  "schema": 1,
+  "source": "shared/bells.json approach transforms; arena centers unverified",
+  "generated": "2026-10-30",
+  "items": [
+    {
+      "id": "arena_z1_1",
+      "zone": 1,
+      "name": "溪谷平原入口附近（候选）",
+      "map": "XiGu",
+      "level": "PBZ_Xigu_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_NLES_004",
+      "approach": {
+        "x": -59819.7,
+        "y": 235453.0,
+        "z": -20537.5,
+        "yaw": -145.0
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_NLES_004",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z1_2",
+      "zone": 1,
+      "name": "市集附近（候选）",
+      "map": "PangZhen",
+      "level": "PBZ_Pangzhen_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_SZ_003",
+      "approach": {
+        "x": -180995.4,
+        "y": 125153.4,
+        "z": -5989.7,
+        "yaw": -73.9
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_SZ_003",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z2_1",
+      "zone": 2,
+      "name": "荒废官道附近（候选）",
+      "map": "FuJiZhiLin",
+      "level": "PBZ_Fujizhilin_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_LZSJ_002",
+      "approach": {
+        "x": -98799.1,
+        "y": 190461.2,
+        "z": -417.6,
+        "yaw": -159.4
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_LZSJ_002",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z2_2",
+      "zone": 2,
+      "name": "水行帮船坞附近（候选）",
+      "map": "MeiGuHu",
+      "level": "PBZ_Pangzhen_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_MGH_007",
+      "approach": {
+        "x": -107734.9,
+        "y": 6086.8,
+        "z": 1029.1,
+        "yaw": -109.6
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_MGH_007",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z3_1",
+      "zone": 3,
+      "name": "校场附近（候选）",
+      "map": "ZhengDaoDaYing",
+      "level": "PBZ_Zhengdaodaying_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_YXZR_009",
+      "approach": {
+        "x": 32391.0,
+        "y": 59799.7,
+        "z": 8301.4,
+        "yaw": -105.5
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_YXZR_009",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z3_2",
+      "zone": 3,
+      "name": "人偶试验场附近（候选）",
+      "map": "LuJiaCun",
+      "level": "PBZ_Zhengdaodaying_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_SXC_02_03",
+      "approach": {
+        "x": -63789.2,
+        "y": 86415.0,
+        "z": -5689.3,
+        "yaw": -63.5
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_SXC_02_03",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z4_1",
+      "zone": 4,
+      "name": "横刀平台附近（候选）",
+      "map": "DengDingShanDao",
+      "level": "PBZ_DengDingShanDao_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_DDSD_005",
+      "approach": {
+        "x": -61979.7,
+        "y": -56140.1,
+        "z": 18412.7,
+        "yaw": 95.6
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_DDSD_005",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z4_2",
+      "zone": 4,
+      "name": "演武场附近（候选）",
+      "map": "XiMeng",
+      "level": "PBZ_Ximeng_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_XM_012",
+      "approach": {
+        "x": -184959.2,
+        "y": 98208.5,
+        "z": 3269.4,
+        "yaw": -120.0
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_XM_012",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z5_1",
+      "zone": 5,
+      "name": "最后的正道营地附近（候选）",
+      "map": "DuanHunYa",
+      "level": "PBZ_Duanhun_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_DH_002",
+      "approach": {
+        "x": -200684.2,
+        "y": -83128.1,
+        "z": 36559.5,
+        "yaw": -133.6
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_DH_002",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    },
+    {
+      "id": "arena_z5_2",
+      "zone": 5,
+      "name": "巨物盘踞处附近（候选）",
+      "map": "DuanHunYa",
+      "level": "PBZ_Duanhun_WP",
+      "center": null,
+      "radius": null,
+      "yaw": null,
+      "nearest_bell": null,
+      "approach_bell": "Bell_DH_003",
+      "approach": {
+        "x": -197866.4,
+        "y": -103404.2,
+        "z": 32203.1,
+        "yaw": 60.0
+      },
+      "approach_evidence": "static",
+      "enabled": false,
+      "verification": "ARENA-GENERIC in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "shared/bells.json#Bell_DH_003",
+        "notes/tower-floors.md#二、五区总览"
+      ]
+    }
+  ]
+}

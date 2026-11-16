@@ -1,0 +1,22 @@
+ABI 4 compatibility update — 2026-10-31
+- Loader hello/module checks now require ABI 4; ABI 3 is rejected before loading.
+- New packages require a matching frozen ABI 4 engine; the old ABI 3 release is retired.
+- 加载器握手改为 ABI 4；正式打包须提供新冻结版本，拒绝旧 ABI 3。
+
+0.2.0 — 2026-10-30
+- 原生中英加载器：游戏识别、管道进程核对、ABI 3 握手、模块复用/加载。
+- 保持运行库初始化等待与单次注入；不卸载、不热换、不控制塔内玩法。
+- 仅打包 Claude 冻结的同批引擎，输出自包含 EXE 与文件夹 ZIP，附完整 SHA-256。
+- 外部覆盖层原型已隔离到暂停分支，不包含在本包中。
+- 当前冻结引擎仍未包含后续原生 UI；加载器仅有离线验收，不宣称完整实机可玩。
+
+0.2.0 — 2026-10-30
+- Native bilingual loader with game discovery, pipe-owner validation, ABI 3 handshake,
+  and compatible runtime/module reuse.
+- Waits for initialization; injects at most once per process instance. No runtime
+  unload, hot replacement or tower gameplay controls.
+- Packages only a matching frozen Claude engine pair, as self-contained EXE and
+  folder ZIP with SHA-256 checksums.
+- The paused external-overlay prototype is excluded from this package.
+- The frozen engine predates native-UI work. Loader acceptance is offline only;
+  this is not a claim that the complete mod has been validated in the live game.

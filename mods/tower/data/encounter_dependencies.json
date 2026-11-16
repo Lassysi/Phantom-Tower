@@ -1,0 +1,1071 @@
+{
+  "schema": 1,
+  "evidence": "static: native Actor Config.Passive Abilities -> CDO.SummonInfos.SummonsClass",
+  "scope": "only live admitted combat roots, exact class relationships; never global exemptions, never phase/victory targets",
+  "edges": [
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_CanQu_BiHai_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_CallSummonBiHai",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_CallSummonBiHai.json",
+          "sha256": "3cc9b9d57d096b5a10034a8f8a410caae750cb47a14ee48bc15e0478d1987eec"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoJinRen_Fist_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_03",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_03.json",
+          "sha256": "6f82dee28c12124c7d0c69c747094c4b93aacf29ad01dc41fa4d39949611e9d4"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoJinRen_JiuHuanDao_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_03",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_03.json",
+          "sha256": "6f82dee28c12124c7d0c69c747094c4b93aacf29ad01dc41fa4d39949611e9d4"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoJinRen_TongGun_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_03",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_03.json",
+          "sha256": "6f82dee28c12124c7d0c69c747094c4b93aacf29ad01dc41fa4d39949611e9d4"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoTieRen_Fist_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_02",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_02.json",
+          "sha256": "5a9053753db696337cd45413e3f3a1af8d714b0c75a5ec48d92ab387f7500a15"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoTieRen_JiuHuanDao_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_02",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_02.json",
+          "sha256": "5a9053753db696337cd45413e3f3a1af8d714b0c75a5ec48d92ab387f7500a15"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_CanQu_BiHai_C",
+      "target": "BP_Monster_HuoTongRen_Fist_ForBiHai_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/Ability/Passive/GA_CanQu_BiHai_SummonPassive_01",
+      "sources": [
+        {
+          "file": "BP_Monster_CanQu_BiHai.json",
+          "sha256": "54f78cbdb66ee645891a5764d69363520cee150826e516a437e64668e5c47bbc"
+        },
+        {
+          "file": "ActorC_CanQu_BiHai.json",
+          "sha256": "68ef3811755aa6e5aeae5386541192baf8e8d1de7f2173c93af6a217615bc341"
+        },
+        {
+          "file": "GA_CanQu_BiHai_SummonPassive_01.json",
+          "sha256": "32f5b94ab92deb5b1351fb38d68a0c6bc74e750e450e88672f2c062537812f5d"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_ChangHong_P2_C",
+      "target": "BP_Monster_ChangHong_Spear_SummonForP2_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/Passive/GA_ChangHong_P2_SummonPassive",
+      "sources": [
+        {
+          "file": "BP_Monster_ChangHong_P2.json",
+          "sha256": "8609c38570aded7a0ad7dc1c061e045e44dee9e6a8560fec499c8c28926e50b1"
+        },
+        {
+          "file": "ActorC_ChangHong_P2_Spear.json",
+          "sha256": "7838fa19581a5f01d89d4ad3fe000e203ad665421805701d34b4b76e2400e6ef"
+        },
+        {
+          "file": "GA_ChangHong_P2_SummonPassive.json",
+          "sha256": "2740337e57236d3986bd756da183a27d5a97871bf3049a023d34f83104ba9de4"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_ChiLian_P2_C",
+      "target": "BP_Monster_XianZhe_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/Ability/GA_SummonPassive_ChiLian_XianZhe",
+      "sources": [
+        {
+          "file": "BP_Monster_ChiLian_P2.json",
+          "sha256": "32d523b9733410dadc0278796ea465116f5506af8d1bedabfe974c1bdcbd8de3"
+        },
+        {
+          "file": "ActorC_ChiLian_P2.json",
+          "sha256": "029c1b1e74fa32f771e5fe0ce633e7432db7b3fd508a68c0fb6e4f2be8a4741d"
+        },
+        {
+          "file": "GA_SummonPassive_ChiLian_XianZhe.json",
+          "sha256": "dfc83dd0a5922c692710f3e1ea1f2c55cd6b498eb2ca9fbc10a8fd0b7d200a42"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_Danghui_StuntDouble_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_03",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_03.json",
+          "sha256": "d54af6a99b184d02ae227def2abbd4f80e993632fd2abb1afe2028133ddd46cf"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_FemaleDoll_Sword_ForDangHuiSummon_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonAttack",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonAttack.json",
+          "sha256": "84f9d61a2d6efc0311f7c08f0079e18b3bf270f876c7993ef883c48cf6862276"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_FemaleDoll_Sword_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P2_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P2_Hard.json",
+          "sha256": "3384e8aab741b9a7b6eba38e1941fd5648136ed73dc8cf8442641bb76b999c82"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_FemaleDoll_Weaponless_ForDangHuiSummon_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonAttack",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonAttack.json",
+          "sha256": "84f9d61a2d6efc0311f7c08f0079e18b3bf270f876c7993ef883c48cf6862276"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_FemaleDoll_Weaponless_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P2_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P2_Hard.json",
+          "sha256": "3384e8aab741b9a7b6eba38e1941fd5648136ed73dc8cf8442641bb76b999c82"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_MaleDoll_Cannon_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P2_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P2_Hard.json",
+          "sha256": "3384e8aab741b9a7b6eba38e1941fd5648136ed73dc8cf8442641bb76b999c82"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_MaleDoll_QiangDun_ForDangHuiSummon_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonAttack",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonAttack.json",
+          "sha256": "84f9d61a2d6efc0311f7c08f0079e18b3bf270f876c7993ef883c48cf6862276"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_MaleDoll_QiangDun_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_02",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_02.json",
+          "sha256": "d43a7c53e1ac1cb755d2ba4dd34c2ef565ac5c6454e44d3bc30becc3e275a71e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_MaleDoll_Weaponless_ForDangHuiSummon_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonAttack",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonAttack.json",
+          "sha256": "84f9d61a2d6efc0311f7c08f0079e18b3bf270f876c7993ef883c48cf6862276"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_MaleDoll_Weaponless_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_02",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_02.json",
+          "sha256": "d43a7c53e1ac1cb755d2ba4dd34c2ef565ac5c6454e44d3bc30becc3e275a71e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_Vessel_Giant_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P1_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P1_Hard.json",
+          "sha256": "73ee5a7868ff45e49d25ba64254460f0146a89b0fc88116bf20cd57b2922842e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_Vessel_Vagrant_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P1_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P1_Hard.json",
+          "sha256": "73ee5a7868ff45e49d25ba64254460f0146a89b0fc88116bf20cd57b2922842e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Danghui_C",
+      "target": "BP_Monster_Vessel_Woman_ForDangHui_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/DangHui/Ability/Passive/GA_DangHui_SummonPassive_P1_Hard",
+      "sources": [
+        {
+          "file": "BP_Monster_Danghui.json",
+          "sha256": "b7f6d3e80c014471b32939785bdc2036b55ba35e9e69f0d4961c978543b3d2e3"
+        },
+        {
+          "file": "ActorC_DangHui.json",
+          "sha256": "85ac58e76a32ecdb7b91eb615dd7226ea536ce2e5ec39390cd84652186060138"
+        },
+        {
+          "file": "GA_DangHui_SummonPassive_P1_Hard.json",
+          "sha256": "73ee5a7868ff45e49d25ba64254460f0146a89b0fc88116bf20cd57b2922842e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_FemaleVessel_YuZan_C",
+      "target": "BP_Monster_MaleThug_Sword_Blue_Summon_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/Ability/PiPa/Abilities/Unuse/GA_YuZan_Passive_Summon_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_FemaleVessel_YuZan.json",
+          "sha256": "328a88466565f47f2b7823136feddd059035278fb2edd90eea9c8ac5002f4cc9"
+        },
+        {
+          "file": "ActorC_YuZan_PiPa.json",
+          "sha256": "5c56078cedf78ede90b4df0dd0f113ad6eeae52d5ca92e9fac90c1bccdc93710"
+        },
+        {
+          "file": "GA_YuZan_Passive_Summon_P2.json",
+          "sha256": "9800823e6a031e07581711521db9fd4a20c96f33f394e5fd6456821e0cb399ac"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_GuiChai_Red_C",
+      "target": "BP_Monster_GuiChai_Black_TwinBlade_Summon_01_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/Ability/GA_GuiChai_Red_Passive_Summon",
+      "sources": [
+        {
+          "file": "BP_Monster_GuiChai_Red.json",
+          "sha256": "930d1a16fe7effa3e24a711a9f169dcd8be3ff2c2e4fca2667508f3cee0205e9"
+        },
+        {
+          "file": "ActorC_GuiChai_Red.json",
+          "sha256": "28519b2f1628efeb7de7248e91e3bd93f6f97ac0a8823f682b39f0f93ece1d1e"
+        },
+        {
+          "file": "GA_GuiChai_Red_Passive_Summon.json",
+          "sha256": "b96d5a81b698ece6fc49aea20cb20b8a697696ef281b68eb624c06556cbae51e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_GuiChai_Red_C",
+      "target": "BP_Monster_GuiChai_Black_TwinBlade_Summon_02_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/Ability/GA_GuiChai_Red_Passive_Summon",
+      "sources": [
+        {
+          "file": "BP_Monster_GuiChai_Red.json",
+          "sha256": "930d1a16fe7effa3e24a711a9f169dcd8be3ff2c2e4fca2667508f3cee0205e9"
+        },
+        {
+          "file": "ActorC_GuiChai_Red.json",
+          "sha256": "28519b2f1628efeb7de7248e91e3bd93f6f97ac0a8823f682b39f0f93ece1d1e"
+        },
+        {
+          "file": "GA_GuiChai_Red_Passive_Summon.json",
+          "sha256": "b96d5a81b698ece6fc49aea20cb20b8a697696ef281b68eb624c06556cbae51e"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_EMei_Sword_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P2_HuaShan",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P2_HuaShan.json",
+          "sha256": "ae56ab176b7e47cb353ef49223f50ebe4f520a1cbdf589e219700e094879388b"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleDoll_GeNv_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleDoll_Golden_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P4_FemaleDolls",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P4_FemaleDolls.json",
+          "sha256": "ddbe62cf934fad754ffc1e6671e7d418e3c58eb6a7b518d18d5a846f24c7abfa"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleDoll_Sword_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleDoll_TieChiSan_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P4_FemaleDolls",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P4_FemaleDolls.json",
+          "sha256": "ddbe62cf934fad754ffc1e6671e7d418e3c58eb6a7b518d18d5a846f24c7abfa"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleDoll_Weaponless_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FemaleVessel_YuDing_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P3_Vessels",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P3_Vessels.json",
+          "sha256": "2a764a6bd03562194c34e7264bf82bdf2436f9113ee804907028dde9fb81ea27"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_FengXueDaoKe_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P3_FengXueDaoKe",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P3_FengXueDaoKe.json",
+          "sha256": "4f5abfb1e74cfa475db825c507c794bd91abf87131c81a7708d124469e9726a9"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P2_GuiChai",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P2_GuiChai.json",
+          "sha256": "9825711e34c9e0568e06b0448fd31025feb3b91de1348485ad8f349df7404d46"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P2_GuiChai",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P2_GuiChai.json",
+          "sha256": "9825711e34c9e0568e06b0448fd31025feb3b91de1348485ad8f349df7404d46"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_HuaShan_Blue_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P2_HuaShan",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P2_HuaShan.json",
+          "sha256": "ae56ab176b7e47cb353ef49223f50ebe4f520a1cbdf589e219700e094879388b"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_LeiDang_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P5_LeiDang",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P5_LeiDang.json",
+          "sha256": "70d0b13217bdeba92ff936d64504683c292acfd046dd3f7d57d23db189a2b9cc"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_LionDancer_P2_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P4_LionDancer",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P4_LionDancer.json",
+          "sha256": "316459c7f553ddd22a8aa3d4158bd25018f744891d1aa445bbe0ca50d1b68dae"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_MaleDoll_Cannon_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_MaleDoll_Half_Up_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_MaleDoll_QiangDun_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_MaleDoll_Weaponless_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_General.json",
+          "sha256": "b19bf0d24fb618cf90aa0029fe90b6459b3a4650ad23b6e39b69a648f356f605"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_PengMeng_Axe_NPC_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P1_PengMeng",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P1_PengMeng.json",
+          "sha256": "0f507f286d35f9defd5f8a0c9a07f53b03996eae4db342a3e88e6e332bbd8002"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_Scavenger_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P1_Scavenger",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P1_Scavenger.json",
+          "sha256": "c6fc6a00ab56e318ef8978afd055e145916ca399e0496456b19a9ca0338fcf77"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LengTu_C",
+      "target": "BP_Monster_YuBi_LengTu_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/Ability/Passive/GA_LengTu_SummonPassive_P3_Vessels",
+      "sources": [
+        {
+          "file": "BP_Monster_LengTu.json",
+          "sha256": "9dd7678b85a0abc654c40da931f10c6939bf46c516ab18900982537254cb7506"
+        },
+        {
+          "file": "ActorC_Lengtu.json",
+          "sha256": "b3c68d4114cb5368aa3640a59901d1ca56648306e48c4d5249093701a7423eb3"
+        },
+        {
+          "file": "GA_LengTu_SummonPassive_P3_Vessels.json",
+          "sha256": "2a764a6bd03562194c34e7264bf82bdf2436f9113ee804907028dde9fb81ea27"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_LionDancer_P2_C",
+      "target": "BP_Monster_DaTouWaWa_HouHouHou_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/LionDancer_P2/Ability/GA_SummonPassive_LionDancer_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_LionDancer_P2.json",
+          "sha256": "016b30e37c7aae0a65a9c5e25e772e2d73bdafe978c81626d19a11114ebc717d"
+        },
+        {
+          "file": "ActorC_LionDancer_P2.json",
+          "sha256": "d64eea70aca0ff7ddac0b80c4aaa521127f0d74557d8094f18d7bf93e9f54579"
+        },
+        {
+          "file": "GA_SummonPassive_LionDancer_P2.json",
+          "sha256": "4a6a848ed6194b5c521ad1fae847be2cdf9ee98458bcffebbfed130ec69993f0"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_MBossVariants_C",
+      "target": "BP_Monster_MBossVariants_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/013_MBossVariants/Abilities/GA_SummonPassive_MBoss_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_MBossVariants.json",
+          "sha256": "838eb98a15d0b0e2f407a1957579090297c14c6cae4e90dd596fa10f0ce3c6e1"
+        },
+        {
+          "file": "ActorC_MBossVariants.json",
+          "sha256": "842e013c4382d3274eeb80a25b59c69f1acf6d3006e0b3f54b44decff7793405"
+        },
+        {
+          "file": "GA_SummonPassive_MBoss_P2.json",
+          "sha256": "2b4f89555a48022e4dc22676c66c60d66b5bffc9db24e0bf58b85496631fc702"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_MengHua_C",
+      "target": "BP_Monster_XuKong_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/Ability/Passive/GA_MengHua_SummonPassive",
+      "sources": [
+        {
+          "file": "BP_Monster_MengHua.json",
+          "sha256": "fca9d525cad1834fd58ab8bc3dd9e1caefef854f83ece5cb85c3022d6f23dedd"
+        },
+        {
+          "file": "ActorC_MengHua.json",
+          "sha256": "19b48f461e4c09b522a4c7af704c87700c31623aa89f89ffcb5f0d38b8fe9c0f"
+        },
+        {
+          "file": "GA_MengHua_SummonPassive.json",
+          "sha256": "ef86557fff481457ce1fe787e1ac79959015eb8d9ad83f97fd77c3a5681e0add"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_MuXiaoKui_P2_C",
+      "target": "BP_Monster_TieGui_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/Ability/Abilities/GA_SummonPassive_MuXiaoKui_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_MuXiaoKui_P2.json",
+          "sha256": "83e4c73a80399e68d3b4a3462f889c271552925bd0628485e27716cdbbfd48c7"
+        },
+        {
+          "file": "ActorC_MuXiaoKui_P2.json",
+          "sha256": "dfb76f5f7208b42d9a4692aef2cee3a49619e25af4cda7abe1eeab3f9ac28bb3"
+        },
+        {
+          "file": "GA_SummonPassive_MuXiaoKui_P2.json",
+          "sha256": "50a14e47fb69e6246581a6e6cff312601684ae0b1c55fb35d4bf428e8ef7654f"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_MuXiaoKui_P2_C",
+      "target": "BP_Monster_Yuu_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/Ability/Abilities/GA_SummonPassive_MuXiaoKui_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_MuXiaoKui_P2.json",
+          "sha256": "83e4c73a80399e68d3b4a3462f889c271552925bd0628485e27716cdbbfd48c7"
+        },
+        {
+          "file": "ActorC_MuXiaoKui_P2.json",
+          "sha256": "dfb76f5f7208b42d9a4692aef2cee3a49619e25af4cda7abe1eeab3f9ac28bb3"
+        },
+        {
+          "file": "GA_SummonPassive_MuXiaoKui_P2.json",
+          "sha256": "50a14e47fb69e6246581a6e6cff312601684ae0b1c55fb35d4bf428e8ef7654f"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_Scavenger_C",
+      "target": "BP_Monster_QiShu_Bing_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/QiShu/Ability/Abilities/Bing/GA_SummonPassive_QiShu_Bing",
+      "sources": [
+        {
+          "file": "BP_Monster_Scavenger.json",
+          "sha256": "c92546122f116f52004b617d9b7b904377142e3d57362f44f7fa3a22ff039344"
+        },
+        {
+          "file": "ActorC_Scavenger.json",
+          "sha256": "a9a3ef142861cb2bfe41144d06caf817f87cb7836cc34ff8ef0282e2d1d1a83b"
+        },
+        {
+          "file": "GA_SummonPassive_QiShu_Bing.json",
+          "sha256": "a411ca122df8286551c0f873e391e60ea886138f897845804a6f2dab76b4c7b4"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "target": "BP_Monster_YingMei_RedSummonSelf_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/YingMei/Ability/YingMei_RedShadowBoneBlade/Passive/GA_YingMei_RedShadowBoneBlade_SummonPassive",
+      "sources": [
+        {
+          "file": "BP_Monster_YingMei_RedShadowBoneBlade.json",
+          "sha256": "9d6417c7dd3cad3c2bd18157157980e809f65146907010671a6ecdd3f88fb616"
+        },
+        {
+          "file": "ActorC_YingMei_RedShadowBoneBlade.json",
+          "sha256": "749d46c4b19e5fec49081396fd8dcf2e7e62c965ac8e34cd0072a8902e1767e3"
+        },
+        {
+          "file": "GA_YingMei_RedShadowBoneBlade_SummonPassive.json",
+          "sha256": "5a9163e82460a38c7dadb288be53970f8cfd2d1c407f6a7a546cbedf85a893a9"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_YouLong_Harpoon_C",
+      "target": "BP_Monster_BaiheDisciple_FishingNet_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/056_YouLong/Ability/GA_YouLong_SummonPassive_General",
+      "sources": [
+        {
+          "file": "BP_Monster_YouLong_Harpoon.json",
+          "sha256": "d88e44952fb83901efb34e2f0aa3fa50d22905b1753fadca97090922ff66331b"
+        },
+        {
+          "file": "ActorC_YouLong_Harpoon.json",
+          "sha256": "96e7acc212506acdc0eb930c889ca389c94573df02fc5e1a8feb1abc522bd657"
+        },
+        {
+          "file": "GA_YouLong_SummonPassive_General.json",
+          "sha256": "cb60729de8c0b5cd024f5dc6afaed5263d2c1e9bddd6a9940462a488392f96cf"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_YuBi_C",
+      "target": "BP_Monster_YuBi_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/YuBi/Ability/Passive/GA_YuBi_Stand_SummonPassive",
+      "sources": [
+        {
+          "file": "BP_Monster_YuBi.json",
+          "sha256": "ccf32d3abe8d5fe6248a264c3d340b25d840ad42a450938a443dde282a880aba"
+        },
+        {
+          "file": "ActorC_YuBi.json",
+          "sha256": "d4531e64d6bde0abee861659089d106630e6455419d579128ee694ffbf441652"
+        },
+        {
+          "file": "GA_YuBi_Stand_SummonPassive.json",
+          "sha256": "79c5b0d4f6d6d41b214c3ea65b4954fe3bfa5b71e7766a66d372ab39c42faa2c"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_YuBi_LengTu_C",
+      "target": "BP_Monster_YuBi_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/YuBi/Ability/Passive/GA_YuBi_Stand_SummonPassive",
+      "sources": [
+        {
+          "file": "BP_Monster_YuBi_LengTu.json",
+          "sha256": "e950e4b772179a10179a5146abcbbeda6cc19004b7804a03516feeb81871e4d1"
+        },
+        {
+          "file": "ActorC_YuBi_LengTu.json",
+          "sha256": "efe25b47df80b7717aead1eff2998dcdb32b91c4e26bc1452964ebb75dee679a"
+        },
+        {
+          "file": "GA_YuBi_Stand_SummonPassive.json",
+          "sha256": "79c5b0d4f6d6d41b214c3ea65b4954fe3bfa5b71e7766a66d372ab39c42faa2c"
+        }
+      ]
+    },
+    {
+      "owner": "BP_Monster_ZuoShang_P2_C",
+      "target": "BP_Monster_ZuoShang_P2_Stand_C",
+      "ability": "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/Ability/GA_SummonPassive_ZuoShang_P2",
+      "sources": [
+        {
+          "file": "BP_Monster_ZuoShang_P2.json",
+          "sha256": "37cb272135f732c7847f08ec9893f25cf737f0efa0635c503e31f750d1e4f008"
+        },
+        {
+          "file": "ActorC_ZuoShang_P2.json",
+          "sha256": "c99258bf52ff08b8abfb5f7d0eb48f81cdac13131e4334fb7d9da3aecdde4089"
+        },
+        {
+          "file": "GA_SummonPassive_ZuoShang_P2.json",
+          "sha256": "b6e2cb6e017f71b097a49cd57fee09dfb166b60cb9e319213cf4ce54b99ebea6"
+        }
+      ]
+    }
+  ]
+}

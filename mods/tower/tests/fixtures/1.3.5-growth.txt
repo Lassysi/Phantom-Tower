@@ -1,0 +1,16 @@
+g.points=7,8,0,0,0,1
+g.weapons=Tang:0:1:0;Double:0:1:0;UnnamedBow:1:1:0
+g.nodes=
+g.medicines=Hulu;NingFengDan
+g.accessories=
+gr.med=
+gr.acc=
+gr.bonus=0
+gr.bless=0,0,0,0,0,0,0,0,0,0
+gr.offer=0 8,-1,0,1 8,-1,0,1 8,-1,0,1
+gr.rng=0
+gr.seen=
+gr.shop=shop -1 0 0 0 0 0 prep2 0 0 quick -1 -1 -1 0
+gr.attr=0,0,0,0
+gr.v14=-1 0 0
+gr.last=0 

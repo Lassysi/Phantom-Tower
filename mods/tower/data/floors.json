@@ -1,0 +1,4697 @@
+{
+  "schema": 1,
+  "source": "notes/tower-floors.md section 3; conflicts retained as disabled encounters",
+  "generated": "2026-10-31",
+  "items": [
+    {
+      "id": "floor_01",
+      "floor": 1,
+      "zone": 1,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_01_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_01_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_01_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_02",
+      "floor": 2,
+      "zone": 1,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_02_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_02_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_02_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_03",
+      "floor": 3,
+      "zone": 1,
+      "type": "1v2",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_03_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_03_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "boss_count": 2,
+        "hp_per_boss": 0.65,
+        "damage_per_boss": 0.75,
+        "minimum_card_rarity": 1
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_04",
+      "floor": 4,
+      "zone": 1,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_04_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_04_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_05",
+      "floor": 5,
+      "zone": 1,
+      "type": "team",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_05_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_05_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          2
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_06",
+      "floor": 6,
+      "zone": 1,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_06_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": false,
+          "blocked_reasons": [
+            "scene_dependent_boss_outside_landmark_floor"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_06_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_07",
+      "floor": 7,
+      "zone": 1,
+      "type": "seasoning",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_07_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+            "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C"
+          ],
+          "mode": "group",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "exception": "approved_gold_mask_pair",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "group_size": 2,
+        "group_identity_exception": "gold_mask_guard",
+        "requires_engine": [
+          "group"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_08",
+      "floor": 8,
+      "zone": 1,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_08_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": false,
+          "blocked_reasons": [
+            "scene_dependent_boss_outside_landmark_floor"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_09",
+      "floor": 9,
+      "zone": 1,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+        "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+        "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+        "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+        "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_09_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_7",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_8",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_9",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_10",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_09_door_11",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          1,
+          1
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_10",
+      "floor": 10,
+      "zone": 1,
+      "type": "zone_boss",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C",
+        "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_10_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_10_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "native_arena_for_class_B": true,
+        "minimum_card_rarity": 2,
+        "capture_guaranteed": true,
+        "exclude_identity_if_already_seen_this_zone": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_11",
+      "floor": 11,
+      "zone": 2,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+        "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_11_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_11_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_11_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_12",
+      "floor": 12,
+      "zone": 2,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_12_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_12_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_13",
+      "floor": 13,
+      "zone": 2,
+      "type": "1v2",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_13_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+            "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_13_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+            "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "boss_count": 2,
+        "hp_per_boss": 0.65,
+        "damage_per_boss": 0.75,
+        "minimum_card_rarity": 1
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_14",
+      "floor": 14,
+      "zone": 2,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_14_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_14_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_15",
+      "floor": 15,
+      "zone": 2,
+      "type": "team",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+        "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_15_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_7",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_8",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_15_door_9",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          2
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_16",
+      "floor": 16,
+      "zone": 2,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_16_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_16_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_17",
+      "floor": 17,
+      "zone": 2,
+      "type": "spectate",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_17_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1
+          ],
+          "enabled": false,
+          "blocked_reasons": [
+            "nonnative_multi_requires_class_A"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_17_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+            "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "weapon_drops": false,
+        "hidden_power_jitter": 0.15,
+        "max_bet_fraction": 0.5,
+        "advance_on_either_result": true,
+        "requires_engine": [
+          "spectator_safety",
+          "betting"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_18",
+      "floor": 18,
+      "zone": 2,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_18_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_19",
+      "floor": 19,
+      "zone": 2,
+      "type": "team",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+        "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+        "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+        "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_19_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_7",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_8",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_19_door_9",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          2
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ],
+        "betrayal": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_20",
+      "floor": 20,
+      "zone": 2,
+      "type": "zone_boss",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C",
+        "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_20_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_20_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "native_arena_for_class_B": true,
+        "minimum_card_rarity": 2,
+        "capture_guaranteed": true,
+        "exclude_identity_if_already_seen_this_zone": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_21",
+      "floor": 21,
+      "zone": 3,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_21_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_21_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_21_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_22",
+      "floor": 22,
+      "zone": 3,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+        "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_22_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_22_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_23",
+      "floor": 23,
+      "zone": 3,
+      "type": "1v2",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_23_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "boss_count": 2,
+        "hp_per_boss": 0.65,
+        "damage_per_boss": 0.75,
+        "minimum_card_rarity": 1
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_24",
+      "floor": 24,
+      "zone": 3,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+        "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_24_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_24_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_25",
+      "floor": 25,
+      "zone": 3,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+        "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+        "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+        "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+        "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_25_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_7",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_8",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_9",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_10",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_11",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_25_door_12",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          3,
+          3
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_26",
+      "floor": 26,
+      "zone": 3,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_26_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_26_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_27",
+      "floor": 27,
+      "zone": 3,
+      "type": "seasoning",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+        "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_27_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+            "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+            "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+          ],
+          "mode": "sequential",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "heal_between_stages": false,
+        "max_simultaneous_bosses": 1,
+        "requires_engine": [
+          "sequential"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_28",
+      "floor": 28,
+      "zone": 3,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_28_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": false,
+          "blocked_reasons": [
+            "scene_dependent_boss_outside_landmark_floor"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_29",
+      "floor": 29,
+      "zone": 3,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+        "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+        "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+        "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+        "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+        "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+        "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+        "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+        "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+        "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_29_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_7",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_8",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_9",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_10",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_11",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_29_door_12",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          1
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ],
+        "challenger_count": 5,
+        "sequential_challengers": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_30",
+      "floor": 30,
+      "zone": 3,
+      "type": "zone_boss",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C",
+        "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_30_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_30_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "native_arena_for_class_B": true,
+        "minimum_card_rarity": 2,
+        "capture_guaranteed": true,
+        "exclude_identity_if_already_seen_this_zone": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_31",
+      "floor": 31,
+      "zone": 4,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_31_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_31_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_31_door_3",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_32",
+      "floor": 32,
+      "zone": 4,
+      "type": "1v1",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_32_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_32_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_33",
+      "floor": 33,
+      "zone": 4,
+      "type": "1v2",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_33_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_33_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+            "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "boss_count": 2,
+        "hp_per_boss": 0.65,
+        "damage_per_boss": 0.75,
+        "minimum_card_rarity": 1
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_34",
+      "floor": 34,
+      "zone": 4,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_34_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_34_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi_LengTu.BP_Monster_YuBi_LengTu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_35",
+      "floor": 35,
+      "zone": 4,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_35_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_35_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_35_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_35_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_35_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_35_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_36",
+      "floor": 36,
+      "zone": 4,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C",
+        "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_36_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao_LengTu.BP_Monster_GuiChai_Yellow_MoDao_LengTu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_36_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue_LengTu.BP_Monster_GuiChai_Cyan_ShuangYue_LengTu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_37",
+      "floor": 37,
+      "zone": 4,
+      "type": "spectate",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_37_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+            "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "weapon_drops": false,
+        "hidden_power_jitter": 0.15,
+        "max_bet_fraction": 0.5,
+        "advance_on_either_result": true,
+        "requires_engine": [
+          "spectator_safety",
+          "betting"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_38",
+      "floor": 38,
+      "zone": 4,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_38_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_39",
+      "floor": 39,
+      "zone": 4,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+        "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_39_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_39_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_39_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_39_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_39_door_5",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_39_door_6",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            2,
+            2
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          2,
+          2
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_40",
+      "floor": 40,
+      "zone": 4,
+      "type": "zone_boss",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_40_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_40_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "native_arena_for_class_B": true,
+        "minimum_card_rarity": 2,
+        "capture_guaranteed": true,
+        "exclude_identity_if_already_seen_this_zone": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_41",
+      "floor": 41,
+      "zone": 5,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+        "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_41_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_41_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_42",
+      "floor": 42,
+      "zone": 5,
+      "type": "1v1",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_42_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": false,
+          "blocked_reasons": [
+            "scene_dependent_boss_outside_landmark_floor"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_43",
+      "floor": 43,
+      "zone": 5,
+      "type": "1v2",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+        "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+        "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_43_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+            "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_43_door_2",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+            "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "boss_count": 2,
+        "hp_per_boss": 0.65,
+        "damage_per_boss": 0.75,
+        "minimum_card_rarity": 1
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_44",
+      "floor": 44,
+      "zone": 5,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_44_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_45",
+      "floor": 45,
+      "zone": 5,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+        "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C",
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_45_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_45_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_45_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_45_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          3,
+          3
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_46",
+      "floor": 46,
+      "zone": 5,
+      "type": "1v1",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer.BP_Monster_LionDancer_C",
+        "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_46_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer.BP_Monster_LionDancer_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_46_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_47",
+      "floor": 47,
+      "zone": 5,
+      "type": "seasoning",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+        "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C",
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_47_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_47_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_47_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_47_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "variants": [
+          "two_hit_duel",
+          "bullet_time",
+          "execution_only"
+        ],
+        "requires_engine": [
+          "rule_floor"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_48",
+      "floor": 48,
+      "zone": 5,
+      "type": "1v1",
+      "candidates": [
+        "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C",
+        "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_48_door_1",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": false,
+          "blocked_reasons": [
+            "scene_dependent_boss_outside_landmark_floor"
+          ],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_48_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C"
+          ],
+          "mode": "simultaneous",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy"
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_49",
+      "floor": 49,
+      "zone": 5,
+      "type": "team",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+        "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C",
+        "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_49_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_49_door_2",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/000_Hun/BP_Monster_Hun.BP_Monster_Hun_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_49_door_3",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        },
+        {
+          "id": "floor_49_door_4",
+          "bosses": [
+            "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C"
+          ],
+          "mode": "simultaneous",
+          "teams": [
+            3,
+            3
+          ],
+          "enabled": true,
+          "blocked_reasons": [],
+          "selection": "sample_distinct_identities_at_runtime",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "allowed_class": [
+          "A"
+        ],
+        "teams": [
+          3,
+          3
+        ],
+        "minimum_card_rarity": 1,
+        "soul_capture_opportunity": true,
+        "requires_engine": [
+          "teams",
+          "soul_contract"
+        ],
+        "enemy_affix": true
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    },
+    {
+      "id": "floor_50",
+      "floor": 50,
+      "zone": 5,
+      "type": "tower_lord",
+      "candidates": [
+        "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_UltimateBoss.BP_Monster_UltimateBoss_C",
+        "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang_Ending.BP_Monster_ZuoShang_Ending_C"
+      ],
+      "encounters": [
+        {
+          "id": "floor_50_door_1",
+          "bosses": [
+            "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_UltimateBoss.BP_Monster_UltimateBoss_C",
+            "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang_Ending.BP_Monster_ZuoShang_Ending_C"
+          ],
+          "mode": "sequential",
+          "teams": null,
+          "enabled": true,
+          "blocked_reasons": [],
+          "final_phase": "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/BP_Monster_ZuoShang_P2.BP_Monster_ZuoShang_P2_C",
+          "evidence": "unverified",
+          "source": [
+            "notes/tower-floors.md#三、逐层表"
+          ]
+        }
+      ],
+      "rules": {
+        "doors": 2,
+        "max_summoners_per_encounter": 1,
+        "identity_max_per_run": 2,
+        "repeat_identity_requires_variant_or_affix": true,
+        "no_same_identity_within_zone": true,
+        "spawn_requires_audit": true,
+        "ordinary_mobs_allowed": false,
+        "non_boss_enemy_kind": "elite",
+        "non_boss_named_only": true,
+        "non_boss_default_count": 4,
+        "non_boss_max_simultaneous": 5,
+        "native_ambient_mobs": "isolate_before_entry",
+        "spawn_owner": "tower",
+        "native_boss_autospawn": false,
+        "load_scene_before_spawn": true,
+        "scene_dependencies": "validate_and_bind_per_boss",
+        "campaign_callbacks": "isolate",
+        "content_policy_source": "notes/tower-venue-test.md#content-policy",
+        "stage_count": 3,
+        "heal_between_stages": false,
+        "max_simultaneous_bosses": 1,
+        "requires_engine": [
+          "sequential",
+          "native_arena",
+          "phase2"
+        ]
+      },
+      "enabled": false,
+      "verification": "FLOOR-INTEGRATION in notes/codex-tower-zones.md",
+      "evidence": "unverified",
+      "source": [
+        "notes/tower-floors.md#三、逐层表"
+      ]
+    }
+  ]
+}

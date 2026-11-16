@@ -1,0 +1,17 @@
+backups/
+build/
+outputs/
+*.pak
+*.utoc
+*.ucas
+bin/
+obj/
+notes/dump/
+src/ui/host/data/
+tools/vendor/
+notes/stage0/aes-key.txt
+__pycache__/
+
+# release output and generated reports
+dist/
+tools/enemies/report.json

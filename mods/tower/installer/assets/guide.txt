@@ -1,0 +1,129 @@
+【打开影塔 ★ 先看这里】
+· 进入游戏世界后按键盘 Insert 键打开影塔界面。
+· 界面关掉了、点错了、找不到了：再按一次 Insert 就能重新打开，随时可以。
+· 手柄：同时按下左右摇杆（L3 + R3）打开 / 关闭。
+· N 网手动包不带改键工具，请使用 Insert 或手柄 L3 + R3。
+· 也可以在钟（休息点）菜单里选「影塔·百战」。
+· 首次启动按 Windows 显示语言选择中文或 English，也可在影塔菜单的语言选项手动切换；之后记住你的选择。部分游戏原生界面或异常信息可能仍显示原语言。
+
+【手柄操作】
+· 十字键 / 左摇杆：选择；A（PS ✕）：确认；B（PS ○）：返回。
+· 支持 Xbox（XInput）手柄；没有 XInput 手柄时也能识别 PS4（DS4）手柄。实体手柄、PS5 手柄仍在测试中，按键没反应请反馈，可以先用键盘鼠标操作影塔界面。
+
+【升级、修行、铸魂 ★ 很多人卡在这里】
+影塔里不用游戏原本的尘和材料，改用影塔自己的点数：
+· 淬炼点 → 兵器升级：1 点升 1 级。
+· 修为点 → 能力修行：1 点升 1 级。
+· 每层不固定给点数：淬炼点、修为点来自 Boss 后的奖励页和驿站（每次驿站可各买一次：淬炼点 +3、修为点 +1）。
+· 铸魂令 → 兵器铸魂：1 枚铸魂一把兵器。
+在钟菜单打开原生的升级 / 修行 / 铸魂界面，界面上提示"材料不足""需要收集记忆之花""未达到修行条件"之类，都可以忽略——只要影塔点数够，长按按钮就能升级 / 铸魂，扣的是影塔点数。
+· 能力树最后一列（锋芒 / 凝神 / 易筋）：每通过 15 个 Boss 得 1 个轮回点，可解锁其中一个，前提是同一行前面的能力已全部点满；第 29 / 59 / 89 层各得一个，第 89 层三个全开。解锁后照常用修为点升级。
+· 兵器可以免费降级回退。兵器升级界面里有「最大升级」按钮，一次升到「当前等级 + 淬炼点数」（不超过上限）。
+· 兵器技能召出的分身 / 召唤物（如绝影「化影」）照常保留。黑魔伤的「血脉重生」在影塔里不生效，倒下按复活符 → 重生符的顺序处理。
+
+【独立存档】
+影塔用的是一份独立存档，从新角色起步。
+原存档的进度、装备、尘都不会被改动，退出影塔后自动回到原来的进度。
+爬塔进度单独保存，可以随时「保存并退出」，下次接着打。
+
+【2.1 层数与驿站】
+· 奇数层挑战 Boss，偶数层清小怪波次，波次结束后进入驿站；通关第 100 层后进入无尽模式。
+· Boss 分组随机出场，最后的左殇固定。购买透视眼后可预告下一场 Boss。
+· 3.0.0 及以后版本的爬塔局更新后可以继续；3.0.0 之前的爬塔局无法继续，需从第 1 层开新局。更新前备份旧版文件和 %LOCALAPPDATA%\PBZTower；回退旧版并不简单。游戏原存档与影塔局分开。
+
+【分享种子】
+· 安装器点击「种子」可导出最近保存的普通完整局种子 JSON；只分享种子与规则，不包含装备、层数或个人存档。
+· 关闭游戏后在安装器导入 JSON，再进入游戏选择「开始新局」→「开始种子局」；按文件里的难度从第 1 层开始。开局前会备份现有普通塔档。
+· 种子需要相同游戏版本、Mod 版本和规则。同样的选择与战斗结果通常得到相同预定内容；刷怪失败后的自动换怪或换场等情况可能造成差异。旧版局的种子按当前版本规则重开，内容可能不同。
+
+【某一层出问题怎么办】
+· Boss 不出现、不出招、卡在地里或剧情不触发：按 Insert →「本层问题」→ 阅读说明并确认跳过。跳过 Boss 不发其兵器和三选一奖励；跳过小怪不发该波魂玉。
+· 入场或遭遇异常时可以先重试；遇到无法解决的问题，再由玩家确认跳过。
+· 如果提示里写了"检测到其他 Mod"，说明游戏目录里装了别的 Mod，可能有冲突，可以先移出它们再试。
+
+【MOD 道具】
+在「整备 → MOD背包」里开层前预装，开战时生效：
+· 定身符：开战后定住敌人 4 秒
+· 缓时符：开战后 10 秒内敌人动作放慢 40%
+· 破甲符：本层敌人受到的伤害 +30%
+· 铁甲符：本层受到的伤害 -20%
+· 锐锋符：本层攻击力、破防能力 +15%
+· 破势符：本层削减敌人杀气 +30%
+· 聚煞丹：本层杀气恢复 +40%
+· 吸血符：驿站稀有出售，预装后下一层额外获得 10% 生命吸取，可与本局属性叠加；结算按观察到的敌人生命下降计算。
+· 复活符：倒下后原地满血、满杀气、补满药复活一次，起身无敌 4 秒，自动生效
+· 重生符：没有复活符时倒下，可退后 10 层继续，不用重开（第 11 层以内倒下从第 1 层继续）
+· 刷新令：在三选一界面重抽一次
+· 透视眼：驿站随机出售；购买一次，本局小怪层通关后预告下一场 Boss，无需预装。
+
+【注意】
+· 仅限单人游戏。
+· 暂停游戏或打开菜单时，本层计时也会暂停。
+· 安装、更新、卸载前先退出游戏。
+
+==============================
+Phantom Tower — English guide
+==============================
+
+[Opening the tower ★ read this first]
+· Once you are in the game world, press Insert on the keyboard to open the tower menu.
+· Closed it, clicked the wrong thing or lost it? Press Insert again at any time to reopen it.
+· Gamepad: click both sticks (L3 + R3) to open / close.
+· The Nexus manual package does not include a key-remapping tool. Use Insert or L3 + R3.
+· You can also pick "Phantom Tower" (影塔·百战) in the bell (rest point) menu.
+· On first launch the menu follows your Windows display language (Chinese or English). Use the language row to switch; your choice is remembered. Some native game screens or unusual error messages may remain in their original language.
+
+[Gamepad]
+· D-pad / left stick: select; A (PS ✕): confirm; B (PS ○): back.
+· Xbox (XInput) controllers are supported; PS4 (DS4) controllers are detected when no XInput controller is connected. Physical controllers and PS5 are still being tested — if buttons do nothing, use keyboard and mouse for the tower menu and please report it.
+
+[Upgrades, cultivation and soul forging ★ common question]
+The tower does not use the game's dust and materials. It uses its own points:
+· Tempering Points → weapon upgrades: 1 point = 1 level.
+· Cultivation Points → ability tree: 1 point = 1 level.
+· Points come from boss rewards and shops; each shop sells 3 Tempering Points once and 1 Cultivation Point once.
+· Soul Tokens → Soul Forge: 1 token forges one weapon.
+Open the game's own upgrade / cultivation / soul forge screens from the bell menu. Ignore warnings such as "not enough materials", "collect Memory Flowers" or "requirements not met" — as long as you have enough tower points, HOLD the button to upgrade / forge, and tower points are spent.
+· Last column of the ability tree: one cycle point every 15 bosses (shown floors 29 / 59 / 89) unlocks one ability once the rest of that row is maxed. Level it with Cultivation Points as usual.
+· Weapons can be downgraded for free. The "Max Upgrade" button on the weapon upgrade screen raises a weapon by as many levels as you have Tempering Points (up to its cap).
+· Clones and summons from weapon skills (e.g. JueYing's "Shadow Form" clone) stay on the field. INFERNAL ROUGE's "Blood Rebirth" does not work inside the tower; when you fall, a Revival Talisman is used first, then a Rebirth Talisman.
+
+[Separate save]
+The tower uses its own separate save and starts from a fresh character.
+Your own save — progress, gear, dust — is never changed; leaving the tower returns you to it automatically.
+Tower progress is saved on its own: use "Save and Exit" any time and continue later.
+
+[2.1 floors and rest stops]
+· Odd floors are bosses; even floors are enemy waves followed by a shop. After Floor 100 the climb continues in Endless mode.
+· Boss encounters are shuffled in groups; the final Zuo Shang stays fixed. Foresight reveals the next boss.
+· Runs from 3.0.0 or later continue after updating; runs from versions before 3.0.0 cannot continue, so start a new run at floor 1. Before updating, back up your old mod files and %LOCALAPPDATA%\PBZTower; downgrading is not straightforward. Your original game save is separate.
+
+[Sharing a seed]
+· In the installer choose Seeds to export the latest saved full-run seed as JSON. The file contains a recipe, not gear, floor progress, or your personal save.
+· Close the game, import the JSON in the installer, then select New Run → Start Seed Run in game. The imported difficulty is used and the run begins at floor 1; your previous ordinary tower run is backed up first.
+· Matching game, mod and rules versions are required. Similar choices and outcomes normally produce the same planned content, but runtime monster or arena fallback can change it. Seeds from older runs use current rules when restarted.
+
+[If a floor breaks]
+· If a boss is missing or stuck, or an encounter fails to start, press Insert → "Floor Issue", read the explanation and confirm. Skipped bosses do not grant boss weapons or choice rewards; skipped waves do not grant wave jade.
+· When an entry or encounter fails, you can retry first; confirm a skip yourself if the issue cannot be resolved.
+· If the message says other mods were detected, another mod is installed in the game folder and may conflict; try moving it out.
+
+[Mod items]
+Equip them in "Preparation → Mod Inventory" before a floor; they take effect when the fight starts:
+· Binding Talisman: freezes enemies for 4 seconds after the fight starts
+· Slowing Talisman: enemies move 40% slower for 10 seconds after the fight starts
+· Armor Break Talisman: enemies take +30% damage this floor
+· Iron Armor Talisman: you take -20% damage this floor
+· Sharp Edge Talisman: +15% attack and break power this floor
+· Stance Break Talisman: +30% enemy sha-chi reduction this floor
+· Sha-Chi Recovery Pill: +40% sha-chi recovery this floor
+· Lifesteal Talisman: rare shop item; prepare it to gain an extra 10% lifesteal for the next floor, stacking with run bonuses. Healing is based on observed enemy health loss.
+· Revival Talisman: when you fall, revive once on the spot with full health, sha-chi and medicine, plus 4 seconds of invulnerability (automatic)
+· Rebirth Talisman: if you fall without a Revival Talisman, continue 10 displayed floors earlier (within the first 11 floors, continue from floor 1)
+· Reroll Token: reroll the pick-one rewards once
+· Foresight: occasionally sold at rest stops. Buy once to preview the next boss after each wave floor for the rest of the run; no preparation is needed.
+
+[Notes]
+· Single-player only.
+· The floor timer pauses while the game is paused or a menu is open.
+· Close the game before installing, updating or uninstalling.

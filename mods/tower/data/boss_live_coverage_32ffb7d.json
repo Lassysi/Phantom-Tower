@@ -1,0 +1,2628 @@
+{
+  "schema": 1,
+  "game_build": "26266538",
+  "candidate": "32ffb7d",
+  "created_utc": "2026-11-01T14:35:40.905415+00:00",
+  "source": "mods/tower/data/native_arena_links.json + exact candidate gen_native selection",
+  "counts": {
+    "native_classes": 77,
+    "identities": 57,
+    "worlds": 9
+  },
+  "policy": "No automatic admission from static data. Require per-class/per-venue live entry, native bar/lock, attack patterns, phase/lifecycle, normal victory/reward, and clean exit evidence. Synthetic or forced-stage results do not certify a native sequence. Single-class multi-phase variants retained separately.",
+  "first_expansion_batch": [
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+      "name": "琴女烟千岁",
+      "class": "A",
+      "identity": "YanQianSui",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "YanQianSui",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-fbbc8e3b68e00829",
+      "hints": []
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+      "name": "吞噬尸体的小雪",
+      "class": "A",
+      "identity": "XiaoXue",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "XiaoXue_Seq073",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-f145e4c6135d3b6c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "name": "女妖骨婉约",
+      "class": "A",
+      "identity": "GuWanYue",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "GuWanYue_Seq060",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-6b5d9812b2c7b79a",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "name": "十二号·偃月刀偶：“玉鼎”",
+      "class": "A",
+      "identity": "FemaleVessel_YuDing",
+      "scene": false,
+      "level": "PBZ_Ximeng_WP",
+      "spawner": "YuDing_Seq119",
+      "group": "5th_YuDing",
+      "fog": 1,
+      "placement": "native-link-97f50a5d00eb9d8a",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "name": "救苦救难梦华圣母娘娘",
+      "class": "A",
+      "identity": "MengHua",
+      "scene": false,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "MengHua_Seq146-N",
+      "group": "MengHua",
+      "fog": 2,
+      "placement": "native-link-a97627a167a9822c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang.BP_Monster_ZuoShang_C",
+      "name": "“组织”冥主：左殇",
+      "class": "B",
+      "identity": "ZuoShang",
+      "scene": true,
+      "level": "PBZ_WP_ZhuLinGuWu",
+      "spawner": "ZuoShang_Seq004-2",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-27f92a7cf5a0fb51",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "name": "斧老大：彭猛",
+      "class": "A",
+      "identity": "PengMeng_Axe",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "PengMeng_Seq014",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-6c3da7d656f1545e",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "name": "玉面郎君",
+      "class": "A",
+      "identity": "JadeMaskMan",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "JadeIntro_Jade",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-fb0ed82e7987f131",
+      "hints": []
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+      "name": "拳痴：铁狂",
+      "class": "A",
+      "identity": "LuanShi",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "LuanShi_Seq030",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-f457c2300b0f1d96",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/039_GuiChai_White/BP_Monster_GuiChai_White_PangZhenBoss.BP_Monster_GuiChai_White_PangZhenBoss_C",
+      "name": "白衣鬼差（变体）",
+      "class": "A",
+      "identity": "GuiChai_White_PangZhenBoss",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": null,
+      "group": "G1G",
+      "fog": 1,
+      "placement": "native-link-86954df2e00f30b9",
+      "hints": [
+        "unnamed_spawner"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/073_YanQianSui/BP_Monster_YanQianSui.BP_Monster_YanQianSui_C",
+      "name": "琴女烟千岁",
+      "class": "A",
+      "identity": "YanQianSui",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "YanQianSui",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-fbbc8e3b68e00829",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 1,
+      "checks": {
+        "entry": "observed_native_PBZ_Pangzhen_WP",
+        "camera_countdown": "logged_full_seconds_visual_direction_pending",
+        "native_healthbar_lock": "pending",
+        "moves": "Boss_attacks_observed_player_hit_reaction_failed",
+        "phases": "not_accepted",
+        "story_isolation": "pending",
+        "group": "observed_native_MobGroup_0_join_and_release",
+        "victory_reward": "failed_user_reports_no_hit_or_damage_then_unexplained_disappearance",
+        "exit_20s_real_save": "pass_after_player_defeat_21.672s_against_explicit_user_bell_baseline",
+        "native_final_restore": "pass_after_player_defeat"
+      },
+      "current_status": "failed_unhittable_then_unexplained_disappearance_with_reward",
+      "live_evidence": [
+        {
+          "run_id": "7dde75853a92ab79",
+          "entry_txn": 7,
+          "exit_txn": 8,
+          "result": "player_defeated_user_confirmed",
+          "native_world": "PBZ_Pangzhen_WP",
+          "native_group": "MobGroup_0",
+          "notes": "Death result page was swallowed by immediate auto exit. No Boss victory certified.",
+          "evidence": [
+            "step21-new-group1-before-first-fight",
+            "step22-first-new-boss-current.json",
+            "step22-yanqiansui-loss-exit-idle/result.json",
+            "step23-loss-restored-native-comparison.json"
+          ]
+        },
+        {
+          "run_id": "ea06b59e77e9bbc5",
+          "entry_txn": 9,
+          "result": "failed_unhittable_spurious_victory",
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "native_assist_readback": "Player TakenVulnerabilityMultiplier damage types=0; owned Boss same types=10. Does not certify vanilla damage or full phase sequence.",
+          "evidence": [
+            "step24-yanqiansui-speed-live.json",
+            "step25-yanqiansui-unhittable.png",
+            "step25-yanqiansui-unhittable-native.json",
+            "step25-yanqiansui-health-floor.json",
+            "step25-hit-blocker-details.json",
+            "step25-after-hit-blocker-snapshot.json"
+          ],
+          "attackability": "User confirmed never hit or damaged Boss: swings passed through, then Boss suddenly died/disappeared. No diagnostic clear/kill/health/collision/state mutation occurred. A controller hp0/dead event does not certify a natural kill."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Bing.BP_Monster_QiShu_Bing_C",
+      "name": "灭法之法：寒岁",
+      "class": "A",
+      "identity": "QiShu_Bing",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "HanSui",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-0d2580ee8d69f1dc",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Yuu.BP_Monster_Yuu_C",
+      "name": "少主护卫：玉妖",
+      "class": "A",
+      "identity": "Yuu",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "Yuu_Seq046-1",
+      "group": "P3",
+      "fog": 1,
+      "placement": "native-link-64b0a86a75148e01",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/058_MadDoctor/BP_Monster_Maddoctor_Elite.BP_Monster_Maddoctor_Elite_C",
+      "name": "神医：谢秋冬",
+      "class": "A",
+      "identity": "Maddoctor_Elite",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": null,
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-79f844c2c3475661",
+      "hints": [
+        "unnamed_spawner"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_TieGui.BP_Monster_TieGui_C",
+      "name": "少主护卫：铁鬼",
+      "class": "A",
+      "identity": "TieGui",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "TieGui_Seq046-1",
+      "group": "P3",
+      "fog": 1,
+      "placement": "native-link-62d9ea705ac7c553",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_Bing.BP_Monster_YuCong_Bing_C",
+      "name": "“玉琮”：寒冰",
+      "class": "D",
+      "identity": "YuCong",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "YuCong_P3_1",
+      "group": "P3",
+      "fog": 1,
+      "placement": "native-link-e7bae7f971e1f9d6",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_HunDun.BP_Monster_YuCong_HunDun_C",
+      "name": "“玉琮”：混沌",
+      "class": "D",
+      "identity": "YuCong",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "YuCong_P3_2",
+      "group": "P3",
+      "fog": 1,
+      "placement": "native-link-b745bc648700e8f2",
+      "hints": [],
+      "prior_status": "live_fight_pass_story_healthbar_leak_failed",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "observed_native_Fujizhilin",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "failed_non_target_boss_bar_association",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "failed_chilian_actor_attack_and_HUD_intrusion",
+        "group": "pending",
+        "victory_reward": "assisted_victory_auto_exit_observed_not_isolation_pass",
+        "exit_20s_real_save": "pass_txn18_off21.672s",
+        "native_final_restore": "pass_step51_full_native_baseline"
+      },
+      "current_status": "failed_chilian_actor_attack_and_boss_hud_intrusion_reproduced",
+      "live_evidence": [
+        {
+          "run_id": "dc21a0fc67e1914b",
+          "floor": 2,
+          "entry_txn": 17,
+          "exit_txn": 18,
+          "result": "failed_story_isolation",
+          "user_report": "White Chilian appeared, attacked several times, then actor/bar disappeared; Chaos completed. One layer must contain only selected Boss.",
+          "widget_binding_samples": 202,
+          "first_binding_utc": "2026-11-01T15:57:32.901756+00:00",
+          "last_binding_utc": "2026-11-01T15:58:27.263907+00:00",
+          "scope": "Binding observation duration is not continuous on-screen visibility proof; user supplies screen/combat observation.",
+          "evidence": [
+            "step49-chaos-regression-live-trace",
+            "step49-chaos-boss-hud-trace",
+            "step50-chaos-chilian-reproduced",
+            "step50-final-exit-complete-idle/result.json",
+            "step51-final-original-native-comparison.json"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_WuLi.BP_Monster_YuCong_WuLi_C",
+      "name": "“玉琮”：钢刃",
+      "class": "D",
+      "identity": "YuCong",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "YuCong_P3_3",
+      "group": "P3",
+      "fog": 1,
+      "placement": "native-link-1fb9a41a3cb5185b",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_IronMaskMan_Boss.BP_Monster_IronMaskMan_Boss_C",
+      "name": "铁面杀手",
+      "class": "A",
+      "identity": "IronMaskMan_Boss",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "TouTongGe",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-4c936c778a2eb021",
+      "hints": [],
+      "prior_status": "live_single_regression_pass_group_unproven",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/DangHui/BP_Monster_Danghui.BP_Monster_Danghui_C",
+      "name": "操偶师：荡秽",
+      "class": "A",
+      "identity": "Danghui",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "DangHui_Seq040",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-9b7c1caee49fcb41",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/027_XiaoXue/BP_Monster_XiaoXue.BP_Monster_XiaoXue_C",
+      "name": "吞噬尸体的小雪",
+      "class": "A",
+      "identity": "XiaoXue",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "XiaoXue_Seq073",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-f145e4c6135d3b6c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 2,
+      "checks": {
+        "entry": "native_world_reached_but_all_three_tower_spawns_failed",
+        "camera_countdown": "failed_user_reports_story_camera_1_to_2_seconds",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "failed_native_story_camera_and_letter_reward",
+        "group": "not_registered_as_tower_owned",
+        "victory_reward": "failed_user_killed_actual_Boss_but_no_tower_reward",
+        "exit_20s_real_save": "pass_txn10_off21.594s",
+        "native_final_restore": "pass_step29_full_native_baseline_no_letter_leak"
+      },
+      "current_status": "failed_spawn_registration_story_camera_native_letter_no_tower_reward",
+      "live_evidence": [
+        {
+          "run_id": "ea06b59e77e9bbc5",
+          "floor_attempt": 2,
+          "exit_txn": 10,
+          "result": "failed",
+          "native_world": "PBZ_Zhengdaodaying_WP",
+          "tower_owned": 0,
+          "actual_actor_origin": "not_captured_do_not_infer",
+          "user_report": "Killed Boss after brief story camera; received a letter; no tower reward.",
+          "evidence": [
+            "step28-xiaoxue-spawn-failure",
+            "step28-xiaoxue-failure-exit-idle/result.json",
+            "step29-xiaoxue-restored-native-comparison.json"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_JadeMaskMan.BP_Monster_JadeMaskMan_C",
+      "name": "玉面郎君",
+      "class": "A",
+      "identity": "JadeMaskMan",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "JadeIntro_Jade",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-fb0ed82e7987f131",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 8,
+      "checks": {
+        "entry": "native_DengDingShanDao_reached_but_ground_probe_failed",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "not_tested_no_boss_spawned",
+        "exit_20s_real_save": "pass_txn16_off21.640s",
+        "native_final_restore": "pass_step46_full_native_baseline"
+      },
+      "current_status": "failed_no_ground_at_native_spawn_location_no_boss_spawned",
+      "live_evidence": [
+        {
+          "run_id": "d3ce91880af71b98",
+          "floor_attempt": 2,
+          "entry_txn": 15,
+          "result": "failed_spawn",
+          "failures": 9,
+          "rejection": "No ground at all 36 candidate points each attempt",
+          "player_z": 29062,
+          "player_half_height": 96,
+          "target": [
+            -60807,
+            -96850,
+            29090
+          ],
+          "evidence": [
+            "step43-jademask-live-trace",
+            "step44-jademask-no-boss"
+          ],
+          "scope": "No battle/phase certification. Did not disable ground/collision checks to force spawn."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_JianZhen.BP_Monster_EMei_Sword_JianZhen_C",
+      "name": "红衣女剑客",
+      "class": "A",
+      "identity": "EMei_Sword",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "JianZhenNvJianKe",
+      "group": "JianOu",
+      "fog": 1,
+      "placement": "native-link-a4a0f3d9f779bdb2",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/034_EMei/BP_Monster_EMei_Sword_Top.BP_Monster_EMei_Sword_Top_C",
+      "name": "红衣女剑客",
+      "class": "D",
+      "identity": "EMei_Sword",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "NvJianKe",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-6728e7e38471331e",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite_Sword.BP_Monster_MobMan_Elite_Sword_C",
+      "name": "痴狂暴徒：残钢",
+      "class": "A",
+      "identity": "MobMan_Elite_Sword",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "XIGU_1_4_A_EliteSword",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-a9ad33f9a65db4f8",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/061_GuWanYue/BP_Monster_GuWanYue.BP_Monster_GuWanYue_C",
+      "name": "女妖骨婉约",
+      "class": "A",
+      "identity": "GuWanYue",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "GuWanYue_Seq060",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-6b5d9812b2c7b79a",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 3,
+      "checks": {
+        "entry": "observed_native_PBZ_Houjie_WP",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "Boss_visible_healthbar_user_normal_hit_failed",
+        "moves": "failed_user_no_normal_hit_or_perfect_deflect_red_counter_only",
+        "phases": "not_accepted",
+        "story_isolation": "pending",
+        "group": "no_corresponding_native_group_found",
+        "victory_reward": "reward_observed_after_two_red_dodge_counters_battle_not_accepted",
+        "exit_20s_real_save": "pass_group_exit_txn12_off21.688s",
+        "native_final_restore": "pass_step35_full_native_baseline"
+      },
+      "current_status": "failed_normal_hit_and_deflect_model_remnant_red_counter_only",
+      "live_evidence": [
+        {
+          "run_id": "da615c6848fef966",
+          "floor": 1,
+          "entry_txn": 11,
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "user_report": "Cannot normally hit or perfect deflect; extra Boss model remained; killed by two red-dodge counter kicks; reward visible.",
+          "health_trace": [
+            7000,
+            2422,
+            0
+          ],
+          "evidence": [
+            "step31-guwanyue-live-trace",
+            "step32-guwanyue-reward-model-remnant.png"
+          ],
+          "collision_scope": "Other sample with alive in filename actually HP0; not alive collision evidence."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Du.BP_Monster_QiShu_Du_C",
+      "name": "灭法之法：蛊鹤",
+      "class": "A",
+      "identity": "QiShu_Du",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "GuHe",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-59e9f354313f1be5",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_Blue.BP_Monster_HuaShan_Blue_C",
+      "name": "七星剑阵：大师兄",
+      "class": "B",
+      "identity": "HuaShan_Blue",
+      "scene": true,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "Jianou_Seq076",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-7e1487833910c5b2",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_RedTroop_BigBro.BP_Monster_HuaShan_RedTroop_BigBro_C",
+      "name": "悲痛欲绝的阿瑾",
+      "class": "A",
+      "identity": "HuaShan_RedTroop_BigBro",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "XiongZhang",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-e81dd1349905158a",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan.BP_Monster_PowerMan_C",
+      "name": "力者和锯者",
+      "class": "B",
+      "identity": "PowerMan",
+      "scene": true,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "PowerSawMan_Seq113",
+      "group": "LiZhe_P1",
+      "fog": 3,
+      "placement": "native-link-cc1df4b9108bb702",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MobMan_Elite.BP_Monster_MobMan_Elite_C",
+      "name": "癫狂暴徒：铁杀",
+      "class": "A",
+      "identity": "MobMan_Elite",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "MaleThugEliteIntro_MaleThugElite",
+      "group": "Boss",
+      "fog": 1,
+      "placement": "native-link-e9232d22ec10d097",
+      "hints": [
+        "explicit_boss_group"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_Zhuobi.BP_Monster_Zhuobi_C",
+      "name": "守门人拙壁",
+      "class": "A",
+      "identity": "Zhuobi",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": null,
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-bc7df3290463bc66",
+      "hints": [
+        "unnamed_spawner"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_GreatBladeMan.BP_Monster_GreatBladeMan_C",
+      "name": "横刀：毕峰",
+      "class": "A",
+      "identity": "GreatBladeMan",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "BladeManIntro_BladeMan",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-0232abe2ccdc9dcc",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/028_YanYan/BP_Monster_YanYan_Club.BP_Monster_YanYan_Club_C",
+      "name": "疯婆子奎艳艳",
+      "class": "A",
+      "identity": "YanYan_Club",
+      "scene": false,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": null,
+      "group": "Boss",
+      "fog": 1,
+      "placement": "native-link-ce588dc27374d74a",
+      "hints": [
+        "unnamed_spawner",
+        "explicit_boss_group"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/035_HuaShan/BP_Monster_HuaShan_JianOu.BP_Monster_HuaShan_JianOu_C",
+      "name": "大师兄的绝望剑意",
+      "class": "B",
+      "identity": "HuaShan_Blue",
+      "scene": true,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "Jianou_Seq077",
+      "group": "JianOu",
+      "fog": 1,
+      "placement": "native-link-82b878f14c15dee7",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/048_HookMan/BP_Monster_HookMan.BP_Monster_HookMan_C",
+      "name": "“组织”猎杀者：追命",
+      "class": "B",
+      "identity": "HookMan",
+      "scene": true,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "HookManP1_Seq022",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-64cc6d37b6627cc4",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/050_LeiDang_P2/BP_Monster_LeiDang_P2.BP_Monster_LeiDang_P2_C",
+      "name": "雷当：独臂虎",
+      "class": "C",
+      "identity": "LeiDang",
+      "scene": false,
+      "level": "PBZ_Ximeng_WP",
+      "spawner": "LeiDangVariant_Seq123-4",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-f2fdec08173ef75c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/051_HookMan_P2/BP_Monster_HookMan_P2.BP_Monster_HookMan_P2_C",
+      "name": "追命：六绝凶镰",
+      "class": "B",
+      "identity": "HookMan",
+      "scene": true,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "HookManP2_Seq023",
+      "group": "P2",
+      "fog": 0,
+      "placement": "native-link-9613b1fc9dcc3cad",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang.BP_Monster_ZuoShang_C",
+      "name": "“组织”冥主：左殇",
+      "class": "B",
+      "identity": "ZuoShang",
+      "scene": true,
+      "level": "PBZ_WP_ZhuLinGuWu",
+      "spawner": "ZuoShang_Seq004-2",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-27f92a7cf5a0fb51",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 6,
+      "checks": {
+        "entry": "failed_PBZ_WP_ZhuLinGuWu_has_no_usable_bell_route",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pass_txn14_off21.672s",
+        "native_final_restore": "pass_step41_full_native_baseline"
+      },
+      "current_status": "travel_attempt_failed_no_bell_route_combat_not_tested",
+      "live_evidence": [
+        {
+          "run_id": "8f198e629472e30f",
+          "floor_attempt": 2,
+          "result": "travel_rejected_before_spawn",
+          "evidence": [
+            "step40-menghua-remnant-next-no-response"
+          ],
+          "scope": "Plan preparation missed route reachability; combat and phase checks remain untested, classic-arena-and-fog fallback not yet implemented."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/054_ZuoShang/BP_Monster_ZuoShang_Ending.BP_Monster_ZuoShang_Ending_C",
+      "name": "“组织”冥主：左殇",
+      "class": "B",
+      "identity": "ZuoShang",
+      "scene": true,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "ZuoShang_Seqs023+",
+      "group": "P1",
+      "fog": 1,
+      "placement": "native-link-19963658e017e3f9",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/056_YouLong/BP_Monster_YouLong_Harpoon.BP_Monster_YouLong_Harpoon_C",
+      "name": "发狂的水行帮主：游龙",
+      "class": "A",
+      "identity": "YouLong_Harpoon",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "YouLong",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-b8ef998ecbe79848",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/059_DuYan/BP_Monster_DuYanBoss.BP_Monster_DuYanBoss_C",
+      "name": "独眼弓客",
+      "class": "A",
+      "identity": "DuYanBoss",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "ArrowManDuYan_Seq082",
+      "group": null,
+      "fog": 3,
+      "placement": "native-link-5de75365259e94c5",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_ShuangGou.BP_Monster_GuiChai_Yellow_ShuangGou_C",
+      "name": "鬼差高手：勾魂",
+      "class": "A",
+      "identity": "GuiChai_Yellow_ShuangGou",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "Hu_G3_2",
+      "group": "Hu_G3",
+      "fog": 1,
+      "placement": "native-link-e0fbfb90091b2b37",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/063_ChiLian_P1/BP_Monster_ChiLian.BP_Monster_ChiLian_C",
+      "name": "双蛇夫人：白赤练",
+      "class": "C",
+      "identity": "ChiLian",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "ChiLian_Seq034",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-1a9d5812748e506a",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      },
+      "current_status": "foreign_actor_intrusion_observed_not_a_deliberate_chilian_acceptance_test",
+      "foreign_intrusion_evidence": "step50-chaos-chilian-reproduced/chilian-binding-proof.json; do not count as target Boss admission"
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_01.BP_Monster_MoTian_LongZhu_01_C",
+      "name": "金面具黑衣人",
+      "class": "E",
+      "identity": "gold_mask_guard",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "MoTianOld_Seq018-Mask",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-9d5b5053215f15b7",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_02.BP_Monster_MoTian_LongZhu_02_C",
+      "name": "金面具黑衣人",
+      "class": "E",
+      "identity": "gold_mask_guard",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "MoTian3",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-1585fbe823194d89",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_03.BP_Monster_MoTian_LongZhu_03_C",
+      "name": "金面具黑衣人",
+      "class": "E",
+      "identity": "gold_mask_guard",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "MoTian2",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-52639f721b5b1d02",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian_LongZhu_04.BP_Monster_MoTian_LongZhu_04_C",
+      "name": "金面具黑衣人",
+      "class": "E",
+      "identity": "gold_mask_guard",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "MoTian4",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-a9f5b356f75a0aa6",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/068_YuZan/BP_Monster_FemaleVessel_YuZan.BP_Monster_FemaleVessel_YuZan_C",
+      "name": "三号·乐师偶：“玉瓒”",
+      "class": "A",
+      "identity": "FemaleVessel_YuZan",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "FemaleVesselYuZan_Seq043",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-067fe0658861b3b6",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/069_GuiChai_Red/BP_Monster_GuiChai_Red.BP_Monster_GuiChai_Red_C",
+      "name": "鬼差队长：火流星",
+      "class": "B",
+      "identity": "GuiChai_Red",
+      "scene": true,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "GuiChaiRed_Seq051",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-bbb7668e6f6bb0eb",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/072_CanQu_BiYuan/BP_Monster_BiYuan.BP_Monster_BiYuan_C",
+      "name": "天玄派：毕远掌门残躯",
+      "class": "A",
+      "identity": "BiYuan",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "ZhangMeng2a",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-bfd9f63f80a6c01d",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/CanQu_BiHai/BP_Monster_CanQu_BiHai.BP_Monster_CanQu_BiHai_C",
+      "name": "苦叶寺：碧海大师残躯",
+      "class": "A",
+      "identity": "CanQu_BiHai",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "ZhangMeng1a",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-73385263fb87cee4",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/FengXueDaoKe/BP_Monster_FengXueDaoKe.BP_Monster_FengXueDaoKe_C",
+      "name": "风雪刀客",
+      "class": "A",
+      "identity": "FengXueDaoKe",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "FengXueDaoKe_Seq126",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-116c40362d91ece6",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/HuaQianXiao/BP_Monster_HuaQianXIao.BP_Monster_HuaQianXIao_C",
+      "name": "剑痴：花千笑",
+      "class": "B",
+      "identity": "HuaQianXIao",
+      "scene": true,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "HuaQianXiao_Seq027",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-50af9c28fcb28555",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/Luanshi/BP_Monster_LuanShi.BP_Monster_LuanShi_C",
+      "name": "拳痴：铁狂",
+      "class": "A",
+      "identity": "LuanShi",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "LuanShi_Seq030",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-f457c2300b0f1d96",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 9,
+      "checks": {
+        "entry": "observed_native_Fujizhilin",
+        "camera_countdown": "logged_full_countdown",
+        "native_healthbar_lock": "pending",
+        "moves": "pending_specific_user_feedback",
+        "phases": "pending_fast_assisted_sample",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "observed_native_death_and_reward_user_at_reward",
+        "exit_20s_real_save": "pass_txn18_off21.672s",
+        "native_final_restore": "pass_step51_full_native_baseline"
+      },
+      "current_status": "assisted_victory_and_reward_observed_detailed_user_combat_checks_pending",
+      "live_evidence": [
+        {
+          "run_id": "dc21a0fc67e1914b",
+          "floor": 1,
+          "entry_txn": 17,
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "user_report": "Reached reward page; detailed normal hit/deflect/story feedback requested.",
+          "health_changes": [
+            {
+              "utc": "2026-11-01T15:52:48.099822+00:00",
+              "health": 9000
+            },
+            {
+              "utc": "2026-11-01T15:52:50.970191+00:00",
+              "health": 9698.099609375
+            },
+            {
+              "utc": "2026-11-01T15:53:05.564875+00:00",
+              "health": 7866.8994140625
+            },
+            {
+              "utc": "2026-11-01T15:53:11.066380+00:00",
+              "health": 3288.8994140625
+            },
+            {
+              "utc": "2026-11-01T15:53:51.159534+00:00",
+              "health": 0
+            }
+          ],
+          "evidence": [
+            "step47-luanshi-live-trace",
+            "step48-luanshi-reward-state.json"
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Huo.BP_Monster_QiShu_Huo_C",
+      "name": "灭法之法：炎茹",
+      "class": "A",
+      "identity": "QiShu_Huo",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "YanRu",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-f0fbc85a0c05affc",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/QiShu/BP_Monster_QiShu_Lei.BP_Monster_QiShu_Lei_C",
+      "name": "灭法之法：雷婷",
+      "class": "A",
+      "identity": "QiShu_Lei",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "LeiTing",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-203a2de1c77a2fc9",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YingMei/BP_Monster_YingMei_RedShadowBoneBlade.BP_Monster_YingMei_RedShadowBoneBlade_C",
+      "name": "赤影骨刃：囚锋",
+      "class": "A",
+      "identity": "YingMei_RedShadowBoneBlade",
+      "scene": false,
+      "level": "PBZ_Ximeng_WP",
+      "spawner": "RenOuJiao",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-bc7d5323a101049d",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_PowerMan_P2.BP_Monster_PowerMan_P2_C",
+      "name": "力者：石破天惊之态",
+      "class": "B",
+      "identity": "PowerMan",
+      "scene": true,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "PowerManP2_Seq114",
+      "group": "LiZhe_P2",
+      "fog": 3,
+      "placement": "native-link-df55b21b43ee8177",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBoss.BP_Monster_MBoss_C",
+      "name": "昆仑叛教者：荒行子",
+      "class": "B",
+      "identity": "MBoss",
+      "scene": true,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "MBoss_Seq093",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-7e87509299637711",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/008_GreatBladeMan/BP_Monster_HuoDaoDuiZhang.BP_Monster_HuoDaoDuiZhang_C",
+      "name": "火刀：祝原",
+      "class": "A",
+      "identity": "HuoDaoDuiZhang",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "HuoDaoDuiZhang_Seq103",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-9d39c2ed8168c887",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/042_AHua/BP_Monster_AHua_GuiTouDao.BP_Monster_AHua_GuiTouDao_C",
+      "name": "新娘阿花",
+      "class": "A",
+      "identity": "AHua_GuiTouDao",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "AHua_Seq016",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-423b5fd690c8af95",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "live_single_regression_pass_group_unproven",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/047_LeiDang/BP_Monster_LeiDang.BP_Monster_LeiDang_C",
+      "name": "“虎炮”：雷当",
+      "class": "C",
+      "identity": "LeiDang",
+      "scene": false,
+      "level": "PBZ_Ximeng_WP",
+      "spawner": "LeiDang_Seq123-3",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-84c988a50a19c82c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/049_ChangHong/BP_Monster_ChangHong_Spear.BP_Monster_ChangHong_Spear_C",
+      "name": "“雷枪”：长鸿",
+      "class": "F",
+      "identity": "ChangHong_Spear",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "ChangHong_Seq106",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-d2cd66506a69120c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/053_ChangHong_P2/BP_Monster_ChangHong_P2.BP_Monster_ChangHong_P2_C",
+      "name": "长鸿：雷电枪骑",
+      "class": "F",
+      "identity": "ChangHong_Spear",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "ChangHongP2_Seq107",
+      "group": "P2",
+      "fog": 1,
+      "placement": "native-link-e8628b9dce16f5b3",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/060_GuiChai_Yellow/BP_Monster_GuiChai_Yellow_MoDao.BP_Monster_GuiChai_Yellow_MoDao_C",
+      "name": "鬼差高手：斩骑",
+      "class": "A",
+      "identity": "GuiChai_Yellow_MoDao",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "Hu_G3_1",
+      "group": "Hu_G3",
+      "fog": 1,
+      "placement": "native-link-aa1301b79ea47780",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/062_MuXiaoKui/BP_Monster_MuXiaoKui.BP_Monster_MuXiaoKui_C",
+      "name": "“组织”少主：沐小葵",
+      "class": "B",
+      "identity": "MuXiaoKui",
+      "scene": true,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "MuXiaoKui_Seq045",
+      "group": "P1",
+      "fog": 1,
+      "placement": "native-link-b43a892425f0d4d7",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/064_MuXiaoKui_P2/BP_Monster_MuXiaoKui_P2.BP_Monster_MuXiaoKui_P2_C",
+      "name": "沐小葵：铁玉女王",
+      "class": "B",
+      "identity": "MuXiaoKui",
+      "scene": true,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "MuXiaoKuiP2_Seq046new",
+      "group": "P2",
+      "fog": 1,
+      "placement": "native-link-181718490bcc6a43",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/065_ChiLian_P2/BP_Monster_ChiLian_P2.BP_Monster_ChiLian_P2_C",
+      "name": "白赤练：献祭之蛇",
+      "class": "C",
+      "identity": "ChiLian",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "ChiLianP2_Seq035",
+      "group": "P2",
+      "fog": 0,
+      "placement": "native-link-ad3c942b253f9c88",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/070_GuiChai_Cyan/BP_Monster_GuiChai_Cyan_ShuangYue.BP_Monster_GuiChai_Cyan_ShuangYue_C",
+      "name": "鬼差高手：断肠",
+      "class": "A",
+      "identity": "GuiChai_Cyan_ShuangYue",
+      "scene": false,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": null,
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-031177da43ca5525",
+      "hints": [
+        "unnamed_spawner"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/075_GuiChai_Red_P2/BP_Monster_GuiChai_Red_P2.BP_Monster_GuiChai_Red_P2_C",
+      "name": "火流星：磷火意识",
+      "class": "B",
+      "identity": "GuiChai_Red",
+      "scene": true,
+      "level": "PBZ_Pangzhen_WP",
+      "spawner": "GuiChaiRedP2_Seq052",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-a2fbf972d0e78e63",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/076_ZuoShang_P2/BP_Monster_ZuoShang_P2.BP_Monster_ZuoShang_P2_C",
+      "name": "左殇：真龙之躯",
+      "class": "B",
+      "identity": "ZuoShang",
+      "scene": true,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "ZuoShangLongTi_Seq152",
+      "group": "P2",
+      "fog": 1,
+      "placement": "native-link-67fead7a7d0617cc",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/077_LengTu/BP_Monster_LengTu.BP_Monster_LengTu_C",
+      "name": "梦差：冷荼",
+      "class": "D",
+      "identity": "LengTu",
+      "scene": false,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "LengTu_Seq144",
+      "group": "LengTu",
+      "fog": 2,
+      "placement": "native-link-e5fe9780b9a9a969",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/078_MengHua/BP_Monster_MengHua.BP_Monster_MengHua_C",
+      "name": "救苦救难梦华圣母娘娘",
+      "class": "A",
+      "identity": "MengHua",
+      "scene": false,
+      "level": "PBZ_Duanhun_WP",
+      "spawner": "MengHua_Seq146-N",
+      "group": "MengHua",
+      "fog": 2,
+      "placement": "native-link-a97627a167a9822c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 5,
+      "checks": {
+        "entry": "observed_PBZ_Duanhun_WP",
+        "camera_countdown": "full_seconds_logged",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending_fast_kill_only",
+        "story_isolation": "failed_floating_model_remnant_no_CG_not_confirmed_beyond_fast_sample",
+        "group": "observed_MobGroup_3",
+        "victory_reward": "observed_assisted_kill_and_reward_UI_state_match",
+        "exit_20s_real_save": "pass_txn14_off21.672s",
+        "native_final_restore": "pass_step41_full_native_baseline"
+      },
+      "current_status": "fast_kill_reward_observed_but_floating_model_cleanup_failed_full_phases_pending",
+      "live_evidence": [
+        {
+          "run_id": "8f198e629472e30f",
+          "floor": 1,
+          "entry_txn": 13,
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "user_report": "Killed quickly; probably no cutscene, not certain; floating stuck model after reward.",
+          "evidence": [
+            "step37-menghua-live-trace",
+            "step37-menghua-collision-trace",
+            "step38-menghua-reward.png",
+            "step40-menghua-remnant-next-no-response"
+          ],
+          "actor_scope": "Native MengHua NPC remains, screenshot-to-actor exact binding not established."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuBi/BP_Monster_YuBi.BP_Monster_YuBi_C",
+      "name": "廿一号·剑偶：“玉璧”",
+      "class": "A",
+      "identity": "YuBi",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "FemaleVesselYuBi_Seq081-2-1",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-18ab482523d24e57",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong.BP_Monster_YuCong_C",
+      "name": "卅四号·混沌魔偶：“玉琮”",
+      "class": "A",
+      "identity": "YuCong",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "YuCong_Seqs028",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-5d652dc47187b34d",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuCong/BP_Monster_YuCong_FirstTime.BP_Monster_YuCong_FirstTime_C",
+      "name": "三张脸的诡异魔偶",
+      "class": "D",
+      "identity": "YuCong",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "YuCong_Seqs027",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-8a9ae8b1b01aba98",
+      "hints": [
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/YuDing_00/BP_Monster_FemaleVessel_YuDing.BP_Monster_FemaleVessel_YuDing_C",
+      "name": "十二号·偃月刀偶：“玉鼎”",
+      "class": "A",
+      "identity": "FemaleVessel_YuDing",
+      "scene": false,
+      "level": "PBZ_Ximeng_WP",
+      "spawner": "YuDing_Seq119",
+      "group": "5th_YuDing",
+      "fog": 1,
+      "placement": "native-link-97f50a5d00eb9d8a",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 4,
+      "checks": {
+        "entry": "native_Ximeng_reached_wrong_boss_encounter_not_isolated",
+        "camera_countdown": "failed_foreign_boss_attacks_during_countdown_and_CG",
+        "native_healthbar_lock": "tower_bar_over_original_CG_failed",
+        "moves": "not_accepted_due_foreign_encounter",
+        "phases": "not_accepted",
+        "story_isolation": "failed_four_story_sequences_and_foreign_actors",
+        "group": "tower_joined_MobGroup_4_but_other_native_group_active",
+        "victory_reward": "not_completed_aborted_after_failure",
+        "exit_20s_real_save": "pass_txn12_off21.688s",
+        "native_final_restore": "pass_step35_full_native_baseline"
+      },
+      "current_status": "failed_foreign_boss_attacks_during_countdown_story_cg_and_npcs",
+      "live_evidence": [
+        {
+          "run_id": "da615c6848fef966",
+          "floor": 2,
+          "entry_txn": 11,
+          "exit_txn": 12,
+          "result": "failed",
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "alive_actor_collision_samples": 678,
+          "actor_collision_all_true": true,
+          "scope": "Raw RootComponent.RelativeLocation differences; AttachParent not captured, world distance not verified. Object identities and CG intrusion remain valid. Actor collision flag alone does not certify normal blade hit or phase activation.",
+          "evidence": [
+            "step33-yuding-live-trace",
+            "step33-yuding-collision-trace",
+            "step34-yuding-story-intrusion",
+            "step34-yuding-abort-exit-idle/result.json",
+            "step35-yuding-restored-native-comparison.json"
+          ],
+          "relative_coordinate_difference_not_verified_world_distance": {
+            "LeiDang_distance_m": 18.79455,
+            "LeiDang_health": 166590,
+            "tower_YuDing_distance_m": 140.91675,
+            "tower_YuDing_health": 6848.9638671875,
+            "extra_classes": [
+              "FemaleDoll_Weaponless",
+              "FemaleDoll_Sword"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer.BP_Monster_LionDancer_C",
+      "name": "被面具控制的舞狮尊主：烈焰",
+      "class": "C",
+      "identity": "LionDancer",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "LionDanceBattle_Seq062",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-ca555d71a54b6279",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_LionDancer_P2.BP_Monster_LionDancer_P2_C",
+      "name": "舞狮尊主的最后一舞",
+      "class": "C",
+      "identity": "LionDancer",
+      "scene": false,
+      "level": "PBZ_Houjie_WP",
+      "spawner": "LionDancerP2_Seq063",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-8c361dce5c97f78c",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/Game/RenewalContent/Actors/Mobs/Normal/BP_Monster_MBossVariants.BP_Monster_MBossVariants_C",
+      "name": "荒行子：撕裂锯轮",
+      "class": "B",
+      "identity": "MBoss",
+      "scene": true,
+      "level": "PBZ_DengDingShanDao_WP",
+      "spawner": "MBoss02_Seq094",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-83a9b531b684232f",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/043_Scavenger/BP_Monster_Scavenger.BP_Monster_Scavenger_C",
+      "name": "活人偶清道夫",
+      "class": "A",
+      "identity": "Scavenger",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "Scavenger_Seq101",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-cf01eb0171429d70",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/057_WanJun/BP_Monster_WanJun_JinGua.BP_Monster_WanJun_JinGua_C",
+      "name": "巨锤客：万钧",
+      "class": "A",
+      "identity": "WanJun_JinGua",
+      "scene": false,
+      "level": "PBZ_Zhengdaodaying_WP",
+      "spawner": "WanJun_Seq074",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-da18575366f9e6d3",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/067_MoTian/BP_Monster_MoTian.BP_Monster_MoTian_C",
+      "name": "暗魔天堡之主：魔渊",
+      "class": "B",
+      "identity": "MoTian",
+      "scene": true,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "MoTianOld_Seq018",
+      "group": null,
+      "fog": 1,
+      "placement": "native-link-5bf4eb53bcb1326b",
+      "hints": [
+        "cinematic_spawner_name_requires_review",
+        "outside_current_core_ground_scan_height"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/044_PengMeng/BP_Monster_PengMeng_Axe.BP_Monster_PengMeng_Axe_C",
+      "name": "斧老大：彭猛",
+      "class": "A",
+      "identity": "PengMeng_Axe",
+      "scene": false,
+      "level": "PBZ_Xigu_WP",
+      "spawner": "PengMeng_Seq014",
+      "group": null,
+      "fog": 2,
+      "placement": "native-link-6c3da7d656f1545e",
+      "hints": [
+        "cinematic_spawner_name_requires_review"
+      ],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": 7,
+      "checks": {
+        "entry": "observed_native_Xigu",
+        "camera_countdown": "logged_countdown_basic_no_issue_reported",
+        "native_healthbar_lock": "pending",
+        "moves": "basic_combat_user_reports_no_issue_assisted",
+        "phases": "pending_all_phases_not_certified",
+        "story_isolation": "no_intrusion_reported_in_fast_sample",
+        "group": "no_corresponding_native_group_found",
+        "victory_reward": "observed_native_death_and_tower_reward",
+        "exit_20s_real_save": "pass_txn16_off21.640s",
+        "native_final_restore": "pass_step46_full_native_baseline"
+      },
+      "current_status": "assisted_basic_combat_native_venue_pass_boundary_and_full_phases_pending",
+      "live_evidence": [
+        {
+          "run_id": "d3ce91880af71b98",
+          "floor": 1,
+          "entry_txn": 15,
+          "test_assists": {
+            "player.god": true,
+            "combat.dmg_mul": 10
+          },
+          "user_report": "Boss and map no issue; can run far, no fog door; aggro-break fallback unknown.",
+          "evidence": [
+            "step42-pengmeng-live-trace"
+          ],
+          "boundary": "Not accepted, explicit fog/closed arena and leash handling request."
+        }
+      ]
+    },
+    {
+      "path": "/PBZCombatAsset/ActorData/Mobs/045_JingYe/BP_Monster_JingYe.BP_Monster_JingYe_C",
+      "name": "亡命徒：荆野",
+      "class": "F",
+      "identity": "JingYe",
+      "scene": false,
+      "level": "PBZ_Fujizhilin_WP",
+      "spawner": "JingYe",
+      "group": null,
+      "fog": 0,
+      "placement": "native-link-0b5e99d4f619518f",
+      "hints": [],
+      "prior_status": "not_live_tested",
+      "planned_batch1_order": null,
+      "checks": {
+        "entry": "pending",
+        "camera_countdown": "pending",
+        "native_healthbar_lock": "pending",
+        "moves": "pending",
+        "phases": "pending",
+        "story_isolation": "pending",
+        "group": "pending",
+        "victory_reward": "pending",
+        "exit_20s_real_save": "pending",
+        "native_final_restore": "pending"
+      }
+    }
+  ],
+  "acceptance_result": {
+    "candidate": "32ffb7d",
+    "decision": "rejected_not_frozen_packaged_or_published",
+    "new_candidates_planned": 9,
+    "new_candidates_travel_attempted": 9,
+    "planned_worlds_reached": 8,
+    "unreachable": "Tutorial ZuoShang/PBZ_WP_ZhuLinGuWu no bell route; combat untested",
+    "assists": "User-requested god and 10x damage for fast new-content sampling, restored false/1 at finish",
+    "phase_scope": "No blanket full-phase or vanilla-damage certification",
+    "new_admissions": 0,
+    "full_77_class_57_identity_acceptance": false,
+    "original_restore": "Final txn18 full native baseline pass, active original-save 26 MD5+SHA256 pass after at least20s idle; explicit user bell-save baseline versions preserved",
+    "caught_exceptions": 3,
+    "new_audit_crash_files": [],
+    "records": "notes/tower-32ffb7d-validation.md; docs/api-requests.md",
+    "latest_user_requirements": {
+      "repair_scope": "Fix shared bug types across the full Boss/venue lifecycle, not only named test cases. Representative type-based regressions before full content expansion.",
+      "allowed_cinematics": "Necessary phase2/phase3 cinematics of the current target Boss, native flow and skip input preserved.",
+      "excluded_story": "Opening/main/side/post-victory story, unrelated actors/HUD/tasks/native reward UI/letters; temporary phase actors must end with that phase scene.",
+      "countdown_camera": "Player may freely rotate yaw/pitch during 3/2/1; initial face-Boss alignment must not fight manual input.",
+      "performance": "User reports severe loading/preparation/countdown stutter, improves when fighting starts. Not yet quantitatively profiled; measure and fix shared game-thread costs with sampling-off baseline.",
+      "shop": "Large row list, matching right-side buy buttons, >=6 normal rows, prev/next only on overflow, no empty slots/count padding, independent refresh/leave, atomic de-duplicated transactions, explicit results, fix three caught exceptions.",
+      "death_results": "Snapshot floor/equipment/stats at defeat, persistent result screen before explicit exit.",
+      "handoff_prompt": "notes/tower-32ffb7d-validation.md#可直接发送给Claude的集中修复提示词（含用户最终补充）"
+    }
+  }
+}
